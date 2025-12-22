@@ -26,3 +26,4 @@ K:\csharp\dot_net\HelloWorldApp\obj\Debug\net10.0\refint\HelloWorldApp.dll
 K:\csharp\dot_net\HelloWorldApp\obj\Debug\net10.0\HelloWorldApp.pdb
 K:\csharp\dot_net\HelloWorldApp\obj\Debug\net10.0\HelloWorldApp.genruntimeconfig.cache
 K:\csharp\dot_net\HelloWorldApp\obj\Debug\net10.0\ref\HelloWorldApp.dll
+K:\csharp\dot_net\HelloWorldApp\obj\Debug\net10.0\HelloWorldApp.sourcelink.json
