@@ -6,27 +6,27 @@ namespace HelloWorldApp
     class Cal
     {
       
-        // public static void Divide(int a, int b, out int quotient, out int remainder)
-        // {
-        //     quotient = a / b;
-        //     remainder = a % b;
-        // }
-        // public static void Print(in int x)
-        // {
-        //     Console.WriteLine(x);
-        // }
+        public static void Divide(int a, int b, out int quotient, out int remainder)
+        {
+            quotient = a / b;
+            remainder = a % b;
+        }
+        public static void Print(in int x)
+        {
+            Console.WriteLine(x);
+        }
 
-        // public static void Calculator()
-        // {
+        public static void Calculator()
+        {
             
-        //     int add(int a,int b)
-        //     {
-        //         return a+b;
-        //     }
-        //     int sum=add(5,6);
-        //     Console.WriteLine(sum);
+            int add(int a,int b)
+            {
+                return a+b;
+            }
+            int sum=add(5,6);
+            Console.WriteLine(sum);
             
-        // }
+        }
 
         static int num=10;
         public static  void Lambda()

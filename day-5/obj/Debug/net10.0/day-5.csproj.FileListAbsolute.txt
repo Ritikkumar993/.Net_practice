@@ -12,3 +12,4 @@ K:\csharp\dot_net\day-5\obj\Debug\net10.0\refint\day-5.dll
 K:\csharp\dot_net\day-5\obj\Debug\net10.0\day-5.pdb
 K:\csharp\dot_net\day-5\obj\Debug\net10.0\day-5.genruntimeconfig.cache
 K:\csharp\dot_net\day-5\obj\Debug\net10.0\ref\day-5.dll
+K:\csharp\dot_net\Day-5\obj\Debug\net10.0\day-5.sourcelink.json
