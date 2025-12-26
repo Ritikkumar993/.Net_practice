@@ -1,0 +1,15 @@
+K:\csharp\dot_net\Day-7\bin\Debug\net10.0\day-7.exe
+K:\csharp\dot_net\Day-7\bin\Debug\net10.0\day-7.deps.json
+K:\csharp\dot_net\Day-7\bin\Debug\net10.0\day-7.runtimeconfig.json
+K:\csharp\dot_net\Day-7\bin\Debug\net10.0\day-7.dll
+K:\csharp\dot_net\Day-7\bin\Debug\net10.0\day-7.pdb
+K:\csharp\dot_net\Day-7\obj\Debug\net10.0\day-7.GeneratedMSBuildEditorConfig.editorconfig
+K:\csharp\dot_net\Day-7\obj\Debug\net10.0\day-7.AssemblyInfoInputs.cache
+K:\csharp\dot_net\Day-7\obj\Debug\net10.0\day-7.AssemblyInfo.cs
+K:\csharp\dot_net\Day-7\obj\Debug\net10.0\day-7.csproj.CoreCompileInputs.cache
+K:\csharp\dot_net\Day-7\obj\Debug\net10.0\day-7.sourcelink.json
+K:\csharp\dot_net\Day-7\obj\Debug\net10.0\day-7.dll
+K:\csharp\dot_net\Day-7\obj\Debug\net10.0\refint\day-7.dll
+K:\csharp\dot_net\Day-7\obj\Debug\net10.0\day-7.pdb
+K:\csharp\dot_net\Day-7\obj\Debug\net10.0\day-7.genruntimeconfig.cache
+K:\csharp\dot_net\Day-7\obj\Debug\net10.0\ref\day-7.dll
