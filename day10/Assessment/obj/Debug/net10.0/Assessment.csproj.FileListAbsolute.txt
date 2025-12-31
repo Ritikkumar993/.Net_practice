@@ -1,0 +1,15 @@
+K:\csharp\dot_net\Day10\Assessment\obj\Debug\net10.0\Assessment.GeneratedMSBuildEditorConfig.editorconfig
+K:\csharp\dot_net\Day10\Assessment\obj\Debug\net10.0\Assessment.AssemblyInfoInputs.cache
+K:\csharp\dot_net\Day10\Assessment\obj\Debug\net10.0\Assessment.AssemblyInfo.cs
+K:\csharp\dot_net\Day10\Assessment\obj\Debug\net10.0\Assessment.csproj.CoreCompileInputs.cache
+K:\csharp\dot_net\Day10\Assessment\obj\Debug\net10.0\Assessment.sourcelink.json
+K:\csharp\dot_net\Day10\Assessment\bin\Debug\net10.0\Assessment.exe
+K:\csharp\dot_net\Day10\Assessment\bin\Debug\net10.0\Assessment.deps.json
+K:\csharp\dot_net\Day10\Assessment\bin\Debug\net10.0\Assessment.runtimeconfig.json
+K:\csharp\dot_net\Day10\Assessment\bin\Debug\net10.0\Assessment.dll
+K:\csharp\dot_net\Day10\Assessment\bin\Debug\net10.0\Assessment.pdb
+K:\csharp\dot_net\Day10\Assessment\obj\Debug\net10.0\Assessment.dll
+K:\csharp\dot_net\Day10\Assessment\obj\Debug\net10.0\refint\Assessment.dll
+K:\csharp\dot_net\Day10\Assessment\obj\Debug\net10.0\Assessment.pdb
+K:\csharp\dot_net\Day10\Assessment\obj\Debug\net10.0\Assessment.genruntimeconfig.cache
+K:\csharp\dot_net\Day10\Assessment\obj\Debug\net10.0\ref\Assessment.dll
