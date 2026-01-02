@@ -1,6 +1,6 @@
-# capgemini_practice
+# .Net_practice_practice
 
-This repository contains practice code written in C# during Capgemini training sessions.  
+
 It is intended for learning, experimentation, and improving programming skills.
 
 ---
