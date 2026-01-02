@@ -42,8 +42,8 @@ using System.Text.RegularExpressions;
 // string pattern=@"(?<year>\d{4})-(?<month>\d{2})-(?<date>\d{2})";
 
 
-// string sentence="Amount=5000";
-// string pattern=@"Amount=(?<value>\d+)";
+string sentence="Amount=5000";
+string pattern=@"Amount=(?<value>\d+)";
 
 
 // string sentence="apple a123e a!-@e";
@@ -51,7 +51,7 @@ using System.Text.RegularExpressions;
 // string pattern=@"a...e";
 // string sentence="ritik.12217900@lpu.in";
 // string pattern=@"\b[\w.-]+@[\w-]+\.\w{2,}\b";
-string pattern= @"^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9-]+\.[a-zA-Z]{2,}$";
+// string pattern= @"^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9-]+\.[a-zA-Z]{2,}$";
 
 List<string> Emails = new List<string>
 {
@@ -73,29 +73,29 @@ List<string> Emails = new List<string>
     "ritik.12217900@lpu.in"
 };
 
-foreach(string it in Emails)
-{
-    if (Regex.IsMatch(it, pattern))
-    {
-        Console.WriteLine("VAild: "+it);
-    }
-    else
-    {
-        Console.WriteLine("InVAild: "+it);
-    }
-}
+// foreach(string it in Emails)
+// {
+//     if (Regex.IsMatch(it, pattern))
+//     {
+//         Console.WriteLine("VAild: "+it);
+//     }
+//     else
+//     {
+//         Console.WriteLine("InVAild: "+it);
+//     }
+// }
 
 
 
 // bool result = Regex.IsMatch(sentence,pattern);
-// Match m=Regex.Match(sentence,pattern);
-// Console.WriteLine(m.Value);
+Match m=Regex.Match(sentence,pattern);
+Console.WriteLine(m.Value);
 // Console.WriteLine(m.Groups["year"].Value);
 // Console.WriteLine(m.Groups["month"].Value);
 // Console.WriteLine(m.Groups["date"].Value);
 
 // MatchCollection matches=Regex.Matches(sentence,pattern);
-Console.WriteLine("Matches:");
+// Console.WriteLine("Matches:");
 
 // foreach(Match match in matches)
 // {

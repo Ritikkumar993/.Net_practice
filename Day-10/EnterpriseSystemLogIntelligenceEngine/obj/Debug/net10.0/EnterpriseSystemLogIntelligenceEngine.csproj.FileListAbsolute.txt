@@ -1,0 +1,15 @@
+K:\csharp\dot_net\Day-10\EnterpriseSystemLogIntelligenceEngine\bin\Debug\net10.0\EnterpriseSystemLogIntelligenceEngine.exe
+K:\csharp\dot_net\Day-10\EnterpriseSystemLogIntelligenceEngine\bin\Debug\net10.0\EnterpriseSystemLogIntelligenceEngine.deps.json
+K:\csharp\dot_net\Day-10\EnterpriseSystemLogIntelligenceEngine\bin\Debug\net10.0\EnterpriseSystemLogIntelligenceEngine.runtimeconfig.json
+K:\csharp\dot_net\Day-10\EnterpriseSystemLogIntelligenceEngine\bin\Debug\net10.0\EnterpriseSystemLogIntelligenceEngine.dll
+K:\csharp\dot_net\Day-10\EnterpriseSystemLogIntelligenceEngine\bin\Debug\net10.0\EnterpriseSystemLogIntelligenceEngine.pdb
+K:\csharp\dot_net\Day-10\EnterpriseSystemLogIntelligenceEngine\obj\Debug\net10.0\EnterpriseSystemLogIntelligenceEngine.GeneratedMSBuildEditorConfig.editorconfig
+K:\csharp\dot_net\Day-10\EnterpriseSystemLogIntelligenceEngine\obj\Debug\net10.0\EnterpriseSystemLogIntelligenceEngine.AssemblyInfoInputs.cache
+K:\csharp\dot_net\Day-10\EnterpriseSystemLogIntelligenceEngine\obj\Debug\net10.0\EnterpriseSystemLogIntelligenceEngine.AssemblyInfo.cs
+K:\csharp\dot_net\Day-10\EnterpriseSystemLogIntelligenceEngine\obj\Debug\net10.0\EnterpriseSystemLogIntelligenceEngine.csproj.CoreCompileInputs.cache
+K:\csharp\dot_net\Day-10\EnterpriseSystemLogIntelligenceEngine\obj\Debug\net10.0\EnterpriseSystemLogIntelligenceEngine.sourcelink.json
+K:\csharp\dot_net\Day-10\EnterpriseSystemLogIntelligenceEngine\obj\Debug\net10.0\EnterpriseSystemLogIntelligenceEngine.dll
+K:\csharp\dot_net\Day-10\EnterpriseSystemLogIntelligenceEngine\obj\Debug\net10.0\refint\EnterpriseSystemLogIntelligenceEngine.dll
+K:\csharp\dot_net\Day-10\EnterpriseSystemLogIntelligenceEngine\obj\Debug\net10.0\EnterpriseSystemLogIntelligenceEngine.pdb
+K:\csharp\dot_net\Day-10\EnterpriseSystemLogIntelligenceEngine\obj\Debug\net10.0\EnterpriseSystemLogIntelligenceEngine.genruntimeconfig.cache
+K:\csharp\dot_net\Day-10\EnterpriseSystemLogIntelligenceEngine\obj\Debug\net10.0\ref\EnterpriseSystemLogIntelligenceEngine.dll

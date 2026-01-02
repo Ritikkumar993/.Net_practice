@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "K:\\csharp\\dot_net\\day10\\EnterpriseSystemLogIntelligenceEngine\\EnterpriseSystemLogIntelligenceEngine.csproj",
+      "projectUniqueName": "K:\\csharp\\dot_net\\Day-10\\EnterpriseSystemLogIntelligenceEngine\\EnterpriseSystemLogIntelligenceEngine.csproj",
       "projectName": "EnterpriseSystemLogIntelligenceEngine",
-      "projectPath": "K:\\csharp\\dot_net\\day10\\EnterpriseSystemLogIntelligenceEngine\\EnterpriseSystemLogIntelligenceEngine.csproj",
+      "projectPath": "K:\\csharp\\dot_net\\Day-10\\EnterpriseSystemLogIntelligenceEngine\\EnterpriseSystemLogIntelligenceEngine.csproj",
       "packagesPath": "C:\\Users\\Ritik kumar\\.nuget\\packages\\",
-      "outputPath": "K:\\csharp\\dot_net\\day10\\EnterpriseSystemLogIntelligenceEngine\\obj\\",
+      "outputPath": "K:\\csharp\\dot_net\\Day-10\\EnterpriseSystemLogIntelligenceEngine\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
