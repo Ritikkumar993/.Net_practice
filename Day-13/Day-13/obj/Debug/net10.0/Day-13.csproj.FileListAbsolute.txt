@@ -1,0 +1,15 @@
+K:\csharp\dot_net\Day-13\Day-13\bin\Debug\net10.0\Day-13.exe
+K:\csharp\dot_net\Day-13\Day-13\bin\Debug\net10.0\Day-13.deps.json
+K:\csharp\dot_net\Day-13\Day-13\bin\Debug\net10.0\Day-13.runtimeconfig.json
+K:\csharp\dot_net\Day-13\Day-13\bin\Debug\net10.0\Day-13.dll
+K:\csharp\dot_net\Day-13\Day-13\bin\Debug\net10.0\Day-13.pdb
+K:\csharp\dot_net\Day-13\Day-13\obj\Debug\net10.0\Day-13.GeneratedMSBuildEditorConfig.editorconfig
+K:\csharp\dot_net\Day-13\Day-13\obj\Debug\net10.0\Day-13.AssemblyInfoInputs.cache
+K:\csharp\dot_net\Day-13\Day-13\obj\Debug\net10.0\Day-13.AssemblyInfo.cs
+K:\csharp\dot_net\Day-13\Day-13\obj\Debug\net10.0\Day-13.csproj.CoreCompileInputs.cache
+K:\csharp\dot_net\Day-13\Day-13\obj\Debug\net10.0\Day-13.sourcelink.json
+K:\csharp\dot_net\Day-13\Day-13\obj\Debug\net10.0\Day-13.dll
+K:\csharp\dot_net\Day-13\Day-13\obj\Debug\net10.0\refint\Day-13.dll
+K:\csharp\dot_net\Day-13\Day-13\obj\Debug\net10.0\Day-13.pdb
+K:\csharp\dot_net\Day-13\Day-13\obj\Debug\net10.0\Day-13.genruntimeconfig.cache
+K:\csharp\dot_net\Day-13\Day-13\obj\Debug\net10.0\ref\Day-13.dll
