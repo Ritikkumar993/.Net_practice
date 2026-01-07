@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "K:\\csharp\\dot_net\\Day-13\\Assessment\\Assessment.csproj": {}
+    "K:\\csharp\\dot_net\\day-13\\Assessment\\Assessment.csproj": {}
   },
   "projects": {
-    "K:\\csharp\\dot_net\\Day-13\\Assessment\\Assessment.csproj": {
+    "K:\\csharp\\dot_net\\day-13\\Assessment\\Assessment.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "K:\\csharp\\dot_net\\Day-13\\Assessment\\Assessment.csproj",
+        "projectUniqueName": "K:\\csharp\\dot_net\\day-13\\Assessment\\Assessment.csproj",
         "projectName": "Assessment",
-        "projectPath": "K:\\csharp\\dot_net\\Day-13\\Assessment\\Assessment.csproj",
+        "projectPath": "K:\\csharp\\dot_net\\day-13\\Assessment\\Assessment.csproj",
         "packagesPath": "C:\\Users\\Ritik kumar\\.nuget\\packages\\",
-        "outputPath": "K:\\csharp\\dot_net\\Day-13\\Assessment\\obj\\",
+        "outputPath": "K:\\csharp\\dot_net\\day-13\\Assessment\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

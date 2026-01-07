@@ -1,10 +1,16 @@
 namespace EcommerceAssessment{
-    class Repositry
+    public class Repositry<T>
     {
-        private List<T> items;
-        public void Add( List<T> item)
+        private List<T> items=new List<T>();
+        public void Add( T item)
         {
-                        
+            items.Add(item);                
         }
+
+        public List<T> GetAll()
+        {
+            return items;
+        }
+
     }
 }
