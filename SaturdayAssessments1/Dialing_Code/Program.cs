@@ -1,48 +1,65 @@
-﻿
-using DialingCodesApp;
-class Program
+﻿using System;
+using System.Collections.Generic;
+namespace DialingCodesApp
+{
+    class Program
     {
         public static void Main()
         {
-            Dictionary<int, string> emptyDict = DialingCodes.GetEmptyDictionary();
+            //task1
+            Dictionary<int, string> emptyDict =DialingCodes.GetEmptyDictionary();
             Console.WriteLine(emptyDict.Count);
 
-            Dictionary<int, string> existingDict = DialingCodes.GetExistingDirectory();
-            existingDict.Add(1, "United States of America");
-            existingDict.Add(55, "Brazil");
-            existingDict.Add(91, "India");
+            //task2
+            Dictionary<int, string> existingDict= DialingCodes.GetExistingDirectory();
+            existingDict.Add(1,"United States of America");
+            existingDict.Add(55,"Brazil");
+            existingDict.Add(91,"India");
 
-            foreach (var it in existingDict)
+            // Console.WriteLine("Existing Dictionary key -> value ");
+            foreach(var it in existingDict)
             {
-                Console.WriteLine(it.Key + " -> " + it.Value);
+                Console.WriteLine("Code: "+it.Key + "  Country: "+it.Value);
             }
 
-            Dictionary<int, string> singleEntryDict =
-                DialingCodes.AddCountryToEmptyDictonary(81, "Japan");
-
-            foreach (var it in singleEntryDict)
+            //task3
+            Dictionary<int, string> singleEntryDict = DialingCodes.AddCountryToEmptyDictonary(81,"Japan");
+            // Console.WriteLine("Single entry Contains:");
+            foreach(var it in singleEntryDict)
             {
-                Console.WriteLine(it.Key + " -> " + it.Value);
+                Console.WriteLine("Code: "+it.Key + "  Country: "+it.Value);
             }
 
-            DialingCodes.AddCountryToExistingDictionary(
-                existingDict, 44, "United Kingdom");
+            // task4
+            DialingCodes.AddCountryToExistingDictionary(existingDict,44,"United Kingdom");
+            // foreach(var it in existingDict)
+            // {
+            //     Console.WriteLine("Code: "+it.Key + "  Country"+it.Value);
+            // }
 
-            string country =
-                DialingCodes.GetCountryNameFromDictionary(existingDict, 91);
+            //task5
+            string country = DialingCodes.GetCountryNameFromDictionary(existingDict,91);
             Console.WriteLine(country);
 
-            bool exists =
-                DialingCodes.CheckCodeExists(existingDict, 55);
-            Console.WriteLine(exists);
+            //task6
+            bool exist =DialingCodes.CheckCodeExists(existingDict,55);
+            Console.WriteLine(exist);
 
-            DialingCodes.UpdateDictonary(
-                existingDict, 55, "Federative Republic of Brazil");
+            //task7
+            DialingCodes.UpdateDictonary(existingDict,55,"Fedrerative Republic of Brazil");
+            // Console.WriteLine(existingDict[55]);
 
-            DialingCodes.RemoveCountryFromDictionary(existingDict, 1);
+            //task8
+            DialingCodes.RemoveCountryFromDictionary(existingDict,1);
+            // Console.WriteLine(emptyDict.ContainsKey(1));
 
-            string longestName =
-                DialingCodes.FindLongestCountryName(existingDict);
+            //task9
+            string longestName =DialingCodes.FindLongestCountryName(existingDict);
             Console.WriteLine(longestName);
+
+            
         }
     }
+
+}
+
