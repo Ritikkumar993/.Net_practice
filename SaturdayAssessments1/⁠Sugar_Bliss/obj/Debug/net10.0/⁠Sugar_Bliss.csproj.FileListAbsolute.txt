@@ -1,0 +1,15 @@
+K:\csharp\dot_net\SaturdayAssessments1\⁠Sugar_Bliss\obj\Debug\net10.0\⁠Sugar_Bliss.GeneratedMSBuildEditorConfig.editorconfig
+K:\csharp\dot_net\SaturdayAssessments1\⁠Sugar_Bliss\obj\Debug\net10.0\⁠Sugar_Bliss.AssemblyInfoInputs.cache
+K:\csharp\dot_net\SaturdayAssessments1\⁠Sugar_Bliss\obj\Debug\net10.0\⁠Sugar_Bliss.AssemblyInfo.cs
+K:\csharp\dot_net\SaturdayAssessments1\⁠Sugar_Bliss\obj\Debug\net10.0\⁠Sugar_Bliss.csproj.CoreCompileInputs.cache
+K:\csharp\dot_net\SaturdayAssessments1\⁠Sugar_Bliss\obj\Debug\net10.0\⁠Sugar_Bliss.sourcelink.json
+K:\csharp\dot_net\SaturdayAssessments1\⁠Sugar_Bliss\bin\Debug\net10.0\⁠Sugar_Bliss.exe
+K:\csharp\dot_net\SaturdayAssessments1\⁠Sugar_Bliss\bin\Debug\net10.0\⁠Sugar_Bliss.deps.json
+K:\csharp\dot_net\SaturdayAssessments1\⁠Sugar_Bliss\bin\Debug\net10.0\⁠Sugar_Bliss.runtimeconfig.json
+K:\csharp\dot_net\SaturdayAssessments1\⁠Sugar_Bliss\bin\Debug\net10.0\⁠Sugar_Bliss.dll
+K:\csharp\dot_net\SaturdayAssessments1\⁠Sugar_Bliss\bin\Debug\net10.0\⁠Sugar_Bliss.pdb
+K:\csharp\dot_net\SaturdayAssessments1\⁠Sugar_Bliss\obj\Debug\net10.0\⁠Sugar_Bliss.dll
+K:\csharp\dot_net\SaturdayAssessments1\⁠Sugar_Bliss\obj\Debug\net10.0\refint\⁠Sugar_Bliss.dll
+K:\csharp\dot_net\SaturdayAssessments1\⁠Sugar_Bliss\obj\Debug\net10.0\⁠Sugar_Bliss.pdb
+K:\csharp\dot_net\SaturdayAssessments1\⁠Sugar_Bliss\obj\Debug\net10.0\⁠Sugar_Bliss.genruntimeconfig.cache
+K:\csharp\dot_net\SaturdayAssessments1\⁠Sugar_Bliss\obj\Debug\net10.0\ref\⁠Sugar_Bliss.dll

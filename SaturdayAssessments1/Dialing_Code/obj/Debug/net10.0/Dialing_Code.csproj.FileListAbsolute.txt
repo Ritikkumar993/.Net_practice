@@ -1,0 +1,15 @@
+K:\csharp\dot_net\SaturdayAssessments1\Dialing_Code\obj\Debug\net10.0\Dialing_Code.GeneratedMSBuildEditorConfig.editorconfig
+K:\csharp\dot_net\SaturdayAssessments1\Dialing_Code\obj\Debug\net10.0\Dialing_Code.AssemblyInfoInputs.cache
+K:\csharp\dot_net\SaturdayAssessments1\Dialing_Code\obj\Debug\net10.0\Dialing_Code.AssemblyInfo.cs
+K:\csharp\dot_net\SaturdayAssessments1\Dialing_Code\obj\Debug\net10.0\Dialing_Code.csproj.CoreCompileInputs.cache
+K:\csharp\dot_net\SaturdayAssessments1\Dialing_Code\obj\Debug\net10.0\Dialing_Code.sourcelink.json
+K:\csharp\dot_net\SaturdayAssessments1\Dialing_Code\bin\Debug\net10.0\Dialing_Code.exe
+K:\csharp\dot_net\SaturdayAssessments1\Dialing_Code\bin\Debug\net10.0\Dialing_Code.deps.json
+K:\csharp\dot_net\SaturdayAssessments1\Dialing_Code\bin\Debug\net10.0\Dialing_Code.runtimeconfig.json
+K:\csharp\dot_net\SaturdayAssessments1\Dialing_Code\bin\Debug\net10.0\Dialing_Code.dll
+K:\csharp\dot_net\SaturdayAssessments1\Dialing_Code\bin\Debug\net10.0\Dialing_Code.pdb
+K:\csharp\dot_net\SaturdayAssessments1\Dialing_Code\obj\Debug\net10.0\Dialing_Code.dll
+K:\csharp\dot_net\SaturdayAssessments1\Dialing_Code\obj\Debug\net10.0\refint\Dialing_Code.dll
+K:\csharp\dot_net\SaturdayAssessments1\Dialing_Code\obj\Debug\net10.0\Dialing_Code.pdb
+K:\csharp\dot_net\SaturdayAssessments1\Dialing_Code\obj\Debug\net10.0\Dialing_Code.genruntimeconfig.cache
+K:\csharp\dot_net\SaturdayAssessments1\Dialing_Code\obj\Debug\net10.0\ref\Dialing_Code.dll
