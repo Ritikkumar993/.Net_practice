@@ -1,0 +1,15 @@
+K:\csharp\dot_net\Day-16-Assembly-Reflection\Day-16\bin\Debug\net10.0\Day-16.exe
+K:\csharp\dot_net\Day-16-Assembly-Reflection\Day-16\bin\Debug\net10.0\Day-16.deps.json
+K:\csharp\dot_net\Day-16-Assembly-Reflection\Day-16\bin\Debug\net10.0\Day-16.runtimeconfig.json
+K:\csharp\dot_net\Day-16-Assembly-Reflection\Day-16\bin\Debug\net10.0\Day-16.dll
+K:\csharp\dot_net\Day-16-Assembly-Reflection\Day-16\bin\Debug\net10.0\Day-16.pdb
+K:\csharp\dot_net\Day-16-Assembly-Reflection\Day-16\obj\Debug\net10.0\Day-16.GeneratedMSBuildEditorConfig.editorconfig
+K:\csharp\dot_net\Day-16-Assembly-Reflection\Day-16\obj\Debug\net10.0\Day-16.AssemblyInfoInputs.cache
+K:\csharp\dot_net\Day-16-Assembly-Reflection\Day-16\obj\Debug\net10.0\Day-16.AssemblyInfo.cs
+K:\csharp\dot_net\Day-16-Assembly-Reflection\Day-16\obj\Debug\net10.0\Day-16.csproj.CoreCompileInputs.cache
+K:\csharp\dot_net\Day-16-Assembly-Reflection\Day-16\obj\Debug\net10.0\Day-16.sourcelink.json
+K:\csharp\dot_net\Day-16-Assembly-Reflection\Day-16\obj\Debug\net10.0\Day-16.dll
+K:\csharp\dot_net\Day-16-Assembly-Reflection\Day-16\obj\Debug\net10.0\refint\Day-16.dll
+K:\csharp\dot_net\Day-16-Assembly-Reflection\Day-16\obj\Debug\net10.0\Day-16.pdb
+K:\csharp\dot_net\Day-16-Assembly-Reflection\Day-16\obj\Debug\net10.0\Day-16.genruntimeconfig.cache
+K:\csharp\dot_net\Day-16-Assembly-Reflection\Day-16\obj\Debug\net10.0\ref\Day-16.dll
