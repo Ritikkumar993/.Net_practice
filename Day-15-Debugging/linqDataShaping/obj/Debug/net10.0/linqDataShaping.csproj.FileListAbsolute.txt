@@ -1,0 +1,15 @@
+K:\csharp\dot_net\Day-15-Debugging\linqDataShaping\bin\Debug\net10.0\linqDataShaping.exe
+K:\csharp\dot_net\Day-15-Debugging\linqDataShaping\bin\Debug\net10.0\linqDataShaping.deps.json
+K:\csharp\dot_net\Day-15-Debugging\linqDataShaping\bin\Debug\net10.0\linqDataShaping.runtimeconfig.json
+K:\csharp\dot_net\Day-15-Debugging\linqDataShaping\bin\Debug\net10.0\linqDataShaping.dll
+K:\csharp\dot_net\Day-15-Debugging\linqDataShaping\bin\Debug\net10.0\linqDataShaping.pdb
+K:\csharp\dot_net\Day-15-Debugging\linqDataShaping\obj\Debug\net10.0\linqDataShaping.GeneratedMSBuildEditorConfig.editorconfig
+K:\csharp\dot_net\Day-15-Debugging\linqDataShaping\obj\Debug\net10.0\linqDataShaping.AssemblyInfoInputs.cache
+K:\csharp\dot_net\Day-15-Debugging\linqDataShaping\obj\Debug\net10.0\linqDataShaping.AssemblyInfo.cs
+K:\csharp\dot_net\Day-15-Debugging\linqDataShaping\obj\Debug\net10.0\linqDataShaping.csproj.CoreCompileInputs.cache
+K:\csharp\dot_net\Day-15-Debugging\linqDataShaping\obj\Debug\net10.0\linqDataShaping.sourcelink.json
+K:\csharp\dot_net\Day-15-Debugging\linqDataShaping\obj\Debug\net10.0\linqDataShaping.dll
+K:\csharp\dot_net\Day-15-Debugging\linqDataShaping\obj\Debug\net10.0\refint\linqDataShaping.dll
+K:\csharp\dot_net\Day-15-Debugging\linqDataShaping\obj\Debug\net10.0\linqDataShaping.pdb
+K:\csharp\dot_net\Day-15-Debugging\linqDataShaping\obj\Debug\net10.0\linqDataShaping.genruntimeconfig.cache
+K:\csharp\dot_net\Day-15-Debugging\linqDataShaping\obj\Debug\net10.0\ref\linqDataShaping.dll

@@ -1,0 +1,75 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "K:\\csharp\\dot_net\\Day-15-Debugging\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|K:\\csharp\\dot_net\\Day-15-Debugging\\AutonomousRobert\\DecisionEngine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AutonomousRobert\\DecisionEngine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|K:\\csharp\\dot_net\\Day-15-Debugging\\AutonomousRobert\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AutonomousRobert\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|K:\\csharp\\dot_net\\Day-15-Debugging\\AutonomousRobert\\SensorReading.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AutonomousRobert\\SensorReading.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DecisionEngine.cs",
+              "DocumentMoniker": "K:\\csharp\\dot_net\\Day-15-Debugging\\AutonomousRobert\\DecisionEngine.cs",
+              "RelativeDocumentMoniker": "AutonomousRobert\\DecisionEngine.cs",
+              "ToolTip": "K:\\csharp\\dot_net\\Day-15-Debugging\\AutonomousRobert\\DecisionEngine.cs",
+              "RelativeToolTip": "AutonomousRobert\\DecisionEngine.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-12T08:58:00.137Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SensorReading.cs",
+              "DocumentMoniker": "K:\\csharp\\dot_net\\Day-15-Debugging\\AutonomousRobert\\SensorReading.cs",
+              "RelativeDocumentMoniker": "AutonomousRobert\\SensorReading.cs",
+              "ToolTip": "K:\\csharp\\dot_net\\Day-15-Debugging\\AutonomousRobert\\SensorReading.cs",
+              "RelativeToolTip": "AutonomousRobert\\SensorReading.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-12T08:53:14.964Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "K:\\csharp\\dot_net\\Day-15-Debugging\\AutonomousRobert\\Program.cs",
+              "RelativeDocumentMoniker": "AutonomousRobert\\Program.cs",
+              "ToolTip": "K:\\csharp\\dot_net\\Day-15-Debugging\\AutonomousRobert\\Program.cs",
+              "RelativeToolTip": "AutonomousRobert\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-12T08:50:42.576Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

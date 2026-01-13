@@ -1,0 +1,15 @@
+K:\csharp\dot_net\Day-15-Debugging\AutonomousRobert\obj\Debug\net10.0\AutonomousRobert.GeneratedMSBuildEditorConfig.editorconfig
+K:\csharp\dot_net\Day-15-Debugging\AutonomousRobert\obj\Debug\net10.0\AutonomousRobert.AssemblyInfoInputs.cache
+K:\csharp\dot_net\Day-15-Debugging\AutonomousRobert\obj\Debug\net10.0\AutonomousRobert.AssemblyInfo.cs
+K:\csharp\dot_net\Day-15-Debugging\AutonomousRobert\obj\Debug\net10.0\AutonomousRobert.csproj.CoreCompileInputs.cache
+K:\csharp\dot_net\Day-15-Debugging\AutonomousRobert\obj\Debug\net10.0\AutonomousRobert.sourcelink.json
+K:\csharp\dot_net\Day-15-Debugging\AutonomousRobert\bin\Debug\net10.0\AutonomousRobert.exe
+K:\csharp\dot_net\Day-15-Debugging\AutonomousRobert\bin\Debug\net10.0\AutonomousRobert.deps.json
+K:\csharp\dot_net\Day-15-Debugging\AutonomousRobert\bin\Debug\net10.0\AutonomousRobert.runtimeconfig.json
+K:\csharp\dot_net\Day-15-Debugging\AutonomousRobert\bin\Debug\net10.0\AutonomousRobert.dll
+K:\csharp\dot_net\Day-15-Debugging\AutonomousRobert\bin\Debug\net10.0\AutonomousRobert.pdb
+K:\csharp\dot_net\Day-15-Debugging\AutonomousRobert\obj\Debug\net10.0\AutonomousRobert.dll
+K:\csharp\dot_net\Day-15-Debugging\AutonomousRobert\obj\Debug\net10.0\refint\AutonomousRobert.dll
+K:\csharp\dot_net\Day-15-Debugging\AutonomousRobert\obj\Debug\net10.0\AutonomousRobert.pdb
+K:\csharp\dot_net\Day-15-Debugging\AutonomousRobert\obj\Debug\net10.0\AutonomousRobert.genruntimeconfig.cache
+K:\csharp\dot_net\Day-15-Debugging\AutonomousRobert\obj\Debug\net10.0\ref\AutonomousRobert.dll

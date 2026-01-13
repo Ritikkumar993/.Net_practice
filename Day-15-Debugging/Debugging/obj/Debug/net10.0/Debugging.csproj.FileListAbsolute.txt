@@ -1,0 +1,15 @@
+K:\csharp\dot_net\Day-15-Debugging\Debugging\bin\Debug\net10.0\Debugging.exe
+K:\csharp\dot_net\Day-15-Debugging\Debugging\bin\Debug\net10.0\Debugging.deps.json
+K:\csharp\dot_net\Day-15-Debugging\Debugging\bin\Debug\net10.0\Debugging.runtimeconfig.json
+K:\csharp\dot_net\Day-15-Debugging\Debugging\bin\Debug\net10.0\Debugging.dll
+K:\csharp\dot_net\Day-15-Debugging\Debugging\bin\Debug\net10.0\Debugging.pdb
+K:\csharp\dot_net\Day-15-Debugging\Debugging\obj\Debug\net10.0\Debugging.GeneratedMSBuildEditorConfig.editorconfig
+K:\csharp\dot_net\Day-15-Debugging\Debugging\obj\Debug\net10.0\Debugging.AssemblyInfoInputs.cache
+K:\csharp\dot_net\Day-15-Debugging\Debugging\obj\Debug\net10.0\Debugging.AssemblyInfo.cs
+K:\csharp\dot_net\Day-15-Debugging\Debugging\obj\Debug\net10.0\Debugging.csproj.CoreCompileInputs.cache
+K:\csharp\dot_net\Day-15-Debugging\Debugging\obj\Debug\net10.0\Debugging.sourcelink.json
+K:\csharp\dot_net\Day-15-Debugging\Debugging\obj\Debug\net10.0\Debugging.dll
+K:\csharp\dot_net\Day-15-Debugging\Debugging\obj\Debug\net10.0\refint\Debugging.dll
+K:\csharp\dot_net\Day-15-Debugging\Debugging\obj\Debug\net10.0\Debugging.pdb
+K:\csharp\dot_net\Day-15-Debugging\Debugging\obj\Debug\net10.0\Debugging.genruntimeconfig.cache
+K:\csharp\dot_net\Day-15-Debugging\Debugging\obj\Debug\net10.0\ref\Debugging.dll
