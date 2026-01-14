@@ -1,0 +1,15 @@
+K:\csharp\dot_net\Day-16-Assembly-Reflection\SdlcUltraEnterprise\obj\Debug\net10.0\SdlcUltraEnterprise.GeneratedMSBuildEditorConfig.editorconfig
+K:\csharp\dot_net\Day-16-Assembly-Reflection\SdlcUltraEnterprise\obj\Debug\net10.0\SdlcUltraEnterprise.AssemblyInfoInputs.cache
+K:\csharp\dot_net\Day-16-Assembly-Reflection\SdlcUltraEnterprise\obj\Debug\net10.0\SdlcUltraEnterprise.AssemblyInfo.cs
+K:\csharp\dot_net\Day-16-Assembly-Reflection\SdlcUltraEnterprise\obj\Debug\net10.0\SdlcUltraEnterprise.csproj.CoreCompileInputs.cache
+K:\csharp\dot_net\Day-16-Assembly-Reflection\SdlcUltraEnterprise\obj\Debug\net10.0\SdlcUltraEnterprise.sourcelink.json
+K:\csharp\dot_net\Day-16-Assembly-Reflection\SdlcUltraEnterprise\bin\Debug\net10.0\SdlcUltraEnterprise.exe
+K:\csharp\dot_net\Day-16-Assembly-Reflection\SdlcUltraEnterprise\bin\Debug\net10.0\SdlcUltraEnterprise.deps.json
+K:\csharp\dot_net\Day-16-Assembly-Reflection\SdlcUltraEnterprise\bin\Debug\net10.0\SdlcUltraEnterprise.runtimeconfig.json
+K:\csharp\dot_net\Day-16-Assembly-Reflection\SdlcUltraEnterprise\bin\Debug\net10.0\SdlcUltraEnterprise.dll
+K:\csharp\dot_net\Day-16-Assembly-Reflection\SdlcUltraEnterprise\bin\Debug\net10.0\SdlcUltraEnterprise.pdb
+K:\csharp\dot_net\Day-16-Assembly-Reflection\SdlcUltraEnterprise\obj\Debug\net10.0\SdlcUltraEnterprise.dll
+K:\csharp\dot_net\Day-16-Assembly-Reflection\SdlcUltraEnterprise\obj\Debug\net10.0\refint\SdlcUltraEnterprise.dll
+K:\csharp\dot_net\Day-16-Assembly-Reflection\SdlcUltraEnterprise\obj\Debug\net10.0\SdlcUltraEnterprise.pdb
+K:\csharp\dot_net\Day-16-Assembly-Reflection\SdlcUltraEnterprise\obj\Debug\net10.0\SdlcUltraEnterprise.genruntimeconfig.cache
+K:\csharp\dot_net\Day-16-Assembly-Reflection\SdlcUltraEnterprise\obj\Debug\net10.0\ref\SdlcUltraEnterprise.dll
