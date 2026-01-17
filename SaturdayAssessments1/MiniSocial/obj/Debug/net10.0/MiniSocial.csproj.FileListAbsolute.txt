@@ -1,0 +1,15 @@
+K:\csharp\dot_net\SaturdayAssessments1\MiniSocial\bin\Debug\net10.0\MiniSocial.exe
+K:\csharp\dot_net\SaturdayAssessments1\MiniSocial\bin\Debug\net10.0\MiniSocial.deps.json
+K:\csharp\dot_net\SaturdayAssessments1\MiniSocial\bin\Debug\net10.0\MiniSocial.runtimeconfig.json
+K:\csharp\dot_net\SaturdayAssessments1\MiniSocial\bin\Debug\net10.0\MiniSocial.dll
+K:\csharp\dot_net\SaturdayAssessments1\MiniSocial\bin\Debug\net10.0\MiniSocial.pdb
+K:\csharp\dot_net\SaturdayAssessments1\MiniSocial\obj\Debug\net10.0\MiniSocial.GeneratedMSBuildEditorConfig.editorconfig
+K:\csharp\dot_net\SaturdayAssessments1\MiniSocial\obj\Debug\net10.0\MiniSocial.AssemblyInfoInputs.cache
+K:\csharp\dot_net\SaturdayAssessments1\MiniSocial\obj\Debug\net10.0\MiniSocial.AssemblyInfo.cs
+K:\csharp\dot_net\SaturdayAssessments1\MiniSocial\obj\Debug\net10.0\MiniSocial.csproj.CoreCompileInputs.cache
+K:\csharp\dot_net\SaturdayAssessments1\MiniSocial\obj\Debug\net10.0\MiniSocial.sourcelink.json
+K:\csharp\dot_net\SaturdayAssessments1\MiniSocial\obj\Debug\net10.0\MiniSocial.dll
+K:\csharp\dot_net\SaturdayAssessments1\MiniSocial\obj\Debug\net10.0\refint\MiniSocial.dll
+K:\csharp\dot_net\SaturdayAssessments1\MiniSocial\obj\Debug\net10.0\MiniSocial.pdb
+K:\csharp\dot_net\SaturdayAssessments1\MiniSocial\obj\Debug\net10.0\MiniSocial.genruntimeconfig.cache
+K:\csharp\dot_net\SaturdayAssessments1\MiniSocial\obj\Debug\net10.0\ref\MiniSocial.dll
