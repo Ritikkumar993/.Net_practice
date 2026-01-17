@@ -1,0 +1,16 @@
+[
+  {
+    "Username": "ritik123",
+    "Email": "ritik@gmail.com",
+    "Following": [
+      "aman108"
+    ],
+    "Posts": []
+  },
+  {
+    "Username": "aman108",
+    "Email": "aman@gmail.com",
+    "Following": [],
+    "Posts": []
+  }
+]

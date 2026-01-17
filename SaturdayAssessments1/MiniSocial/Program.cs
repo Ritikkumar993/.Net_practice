@@ -1,4 +1,4 @@
-﻿
+﻿﻿// See https://aka.ms/new-console-template for more information
 using MiniSocialMedia;
 using System.IO;
 using System.Text.Json;

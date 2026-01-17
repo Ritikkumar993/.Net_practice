@@ -1,9 +1,9 @@
-// using System.Collections;
-// using System.Text;
-// using System.Text.RegularExpressions;
+using System.Collections;
+using System.Text;
+using System.Text.RegularExpressions;
 
-// namespace MiniSocialMedia
-// {
+namespace MiniSocialMedia
+{
 //     class SocialException:Exception
 //     {
 //         public SocialException(string message){ }
@@ -205,4 +205,4 @@
     
 
     
-// }
+}
