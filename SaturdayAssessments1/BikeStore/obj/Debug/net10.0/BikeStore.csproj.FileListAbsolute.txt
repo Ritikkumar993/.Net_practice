@@ -1,0 +1,15 @@
+K:\csharp\dot_net\Practice\BikeStore\obj\Debug\net10.0\BikeStore.GeneratedMSBuildEditorConfig.editorconfig
+K:\csharp\dot_net\Practice\BikeStore\obj\Debug\net10.0\BikeStore.AssemblyInfoInputs.cache
+K:\csharp\dot_net\Practice\BikeStore\obj\Debug\net10.0\BikeStore.AssemblyInfo.cs
+K:\csharp\dot_net\Practice\BikeStore\obj\Debug\net10.0\BikeStore.csproj.CoreCompileInputs.cache
+K:\csharp\dot_net\Practice\BikeStore\obj\Debug\net10.0\BikeStore.sourcelink.json
+K:\csharp\dot_net\Practice\BikeStore\bin\Debug\net10.0\BikeStore.exe
+K:\csharp\dot_net\Practice\BikeStore\bin\Debug\net10.0\BikeStore.deps.json
+K:\csharp\dot_net\Practice\BikeStore\bin\Debug\net10.0\BikeStore.runtimeconfig.json
+K:\csharp\dot_net\Practice\BikeStore\bin\Debug\net10.0\BikeStore.dll
+K:\csharp\dot_net\Practice\BikeStore\bin\Debug\net10.0\BikeStore.pdb
+K:\csharp\dot_net\Practice\BikeStore\obj\Debug\net10.0\BikeStore.dll
+K:\csharp\dot_net\Practice\BikeStore\obj\Debug\net10.0\refint\BikeStore.dll
+K:\csharp\dot_net\Practice\BikeStore\obj\Debug\net10.0\BikeStore.pdb
+K:\csharp\dot_net\Practice\BikeStore\obj\Debug\net10.0\BikeStore.genruntimeconfig.cache
+K:\csharp\dot_net\Practice\BikeStore\obj\Debug\net10.0\ref\BikeStore.dll
