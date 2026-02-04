@@ -1,0 +1,15 @@
+K:\csharp\dot_net\TopBrains\SearchInsideCollection\obj\Debug\net10.0\SearchInsideCollection.GeneratedMSBuildEditorConfig.editorconfig
+K:\csharp\dot_net\TopBrains\SearchInsideCollection\obj\Debug\net10.0\SearchInsideCollection.AssemblyInfoInputs.cache
+K:\csharp\dot_net\TopBrains\SearchInsideCollection\obj\Debug\net10.0\SearchInsideCollection.AssemblyInfo.cs
+K:\csharp\dot_net\TopBrains\SearchInsideCollection\obj\Debug\net10.0\SearchInsideCollection.csproj.CoreCompileInputs.cache
+K:\csharp\dot_net\TopBrains\SearchInsideCollection\obj\Debug\net10.0\SearchInsideCollection.sourcelink.json
+K:\csharp\dot_net\TopBrains\SearchInsideCollection\bin\Debug\net10.0\SearchInsideCollection.exe
+K:\csharp\dot_net\TopBrains\SearchInsideCollection\bin\Debug\net10.0\SearchInsideCollection.deps.json
+K:\csharp\dot_net\TopBrains\SearchInsideCollection\bin\Debug\net10.0\SearchInsideCollection.runtimeconfig.json
+K:\csharp\dot_net\TopBrains\SearchInsideCollection\bin\Debug\net10.0\SearchInsideCollection.dll
+K:\csharp\dot_net\TopBrains\SearchInsideCollection\bin\Debug\net10.0\SearchInsideCollection.pdb
+K:\csharp\dot_net\TopBrains\SearchInsideCollection\obj\Debug\net10.0\SearchInsideCollection.dll
+K:\csharp\dot_net\TopBrains\SearchInsideCollection\obj\Debug\net10.0\refint\SearchInsideCollection.dll
+K:\csharp\dot_net\TopBrains\SearchInsideCollection\obj\Debug\net10.0\SearchInsideCollection.pdb
+K:\csharp\dot_net\TopBrains\SearchInsideCollection\obj\Debug\net10.0\SearchInsideCollection.genruntimeconfig.cache
+K:\csharp\dot_net\TopBrains\SearchInsideCollection\obj\Debug\net10.0\ref\SearchInsideCollection.dll

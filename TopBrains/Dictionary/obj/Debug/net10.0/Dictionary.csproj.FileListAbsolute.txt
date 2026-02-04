@@ -1,0 +1,15 @@
+K:\csharp\dot_net\TopBrains\Dictionary\obj\Debug\net10.0\Dictionary.GeneratedMSBuildEditorConfig.editorconfig
+K:\csharp\dot_net\TopBrains\Dictionary\obj\Debug\net10.0\Dictionary.AssemblyInfoInputs.cache
+K:\csharp\dot_net\TopBrains\Dictionary\obj\Debug\net10.0\Dictionary.AssemblyInfo.cs
+K:\csharp\dot_net\TopBrains\Dictionary\obj\Debug\net10.0\Dictionary.csproj.CoreCompileInputs.cache
+K:\csharp\dot_net\TopBrains\Dictionary\obj\Debug\net10.0\Dictionary.sourcelink.json
+K:\csharp\dot_net\TopBrains\Dictionary\bin\Debug\net10.0\Dictionary.exe
+K:\csharp\dot_net\TopBrains\Dictionary\bin\Debug\net10.0\Dictionary.deps.json
+K:\csharp\dot_net\TopBrains\Dictionary\bin\Debug\net10.0\Dictionary.runtimeconfig.json
+K:\csharp\dot_net\TopBrains\Dictionary\bin\Debug\net10.0\Dictionary.dll
+K:\csharp\dot_net\TopBrains\Dictionary\bin\Debug\net10.0\Dictionary.pdb
+K:\csharp\dot_net\TopBrains\Dictionary\obj\Debug\net10.0\Dictionary.dll
+K:\csharp\dot_net\TopBrains\Dictionary\obj\Debug\net10.0\refint\Dictionary.dll
+K:\csharp\dot_net\TopBrains\Dictionary\obj\Debug\net10.0\Dictionary.pdb
+K:\csharp\dot_net\TopBrains\Dictionary\obj\Debug\net10.0\Dictionary.genruntimeconfig.cache
+K:\csharp\dot_net\TopBrains\Dictionary\obj\Debug\net10.0\ref\Dictionary.dll
