@@ -1,0 +1,15 @@
+K:\csharp\dot_net\M1_Assessment\FlipKey\bin\Debug\net10.0\FlipKey.exe
+K:\csharp\dot_net\M1_Assessment\FlipKey\bin\Debug\net10.0\FlipKey.deps.json
+K:\csharp\dot_net\M1_Assessment\FlipKey\bin\Debug\net10.0\FlipKey.runtimeconfig.json
+K:\csharp\dot_net\M1_Assessment\FlipKey\bin\Debug\net10.0\FlipKey.dll
+K:\csharp\dot_net\M1_Assessment\FlipKey\bin\Debug\net10.0\FlipKey.pdb
+K:\csharp\dot_net\M1_Assessment\FlipKey\obj\Debug\net10.0\FlipKey.GeneratedMSBuildEditorConfig.editorconfig
+K:\csharp\dot_net\M1_Assessment\FlipKey\obj\Debug\net10.0\FlipKey.AssemblyInfoInputs.cache
+K:\csharp\dot_net\M1_Assessment\FlipKey\obj\Debug\net10.0\FlipKey.AssemblyInfo.cs
+K:\csharp\dot_net\M1_Assessment\FlipKey\obj\Debug\net10.0\FlipKey.csproj.CoreCompileInputs.cache
+K:\csharp\dot_net\M1_Assessment\FlipKey\obj\Debug\net10.0\FlipKey.sourcelink.json
+K:\csharp\dot_net\M1_Assessment\FlipKey\obj\Debug\net10.0\FlipKey.dll
+K:\csharp\dot_net\M1_Assessment\FlipKey\obj\Debug\net10.0\refint\FlipKey.dll
+K:\csharp\dot_net\M1_Assessment\FlipKey\obj\Debug\net10.0\FlipKey.pdb
+K:\csharp\dot_net\M1_Assessment\FlipKey\obj\Debug\net10.0\FlipKey.genruntimeconfig.cache
+K:\csharp\dot_net\M1_Assessment\FlipKey\obj\Debug\net10.0\ref\FlipKey.dll
