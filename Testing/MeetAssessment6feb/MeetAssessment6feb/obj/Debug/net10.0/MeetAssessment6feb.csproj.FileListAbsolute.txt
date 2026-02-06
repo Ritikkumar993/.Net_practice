@@ -1,0 +1,15 @@
+K:\csharp\dot_net\Testing\MeetAssessment6feb\MeetAssessment6feb\bin\Debug\net10.0\MeetAssessment6feb.exe
+K:\csharp\dot_net\Testing\MeetAssessment6feb\MeetAssessment6feb\bin\Debug\net10.0\MeetAssessment6feb.deps.json
+K:\csharp\dot_net\Testing\MeetAssessment6feb\MeetAssessment6feb\bin\Debug\net10.0\MeetAssessment6feb.runtimeconfig.json
+K:\csharp\dot_net\Testing\MeetAssessment6feb\MeetAssessment6feb\bin\Debug\net10.0\MeetAssessment6feb.dll
+K:\csharp\dot_net\Testing\MeetAssessment6feb\MeetAssessment6feb\bin\Debug\net10.0\MeetAssessment6feb.pdb
+K:\csharp\dot_net\Testing\MeetAssessment6feb\MeetAssessment6feb\obj\Debug\net10.0\MeetAssessment6feb.GeneratedMSBuildEditorConfig.editorconfig
+K:\csharp\dot_net\Testing\MeetAssessment6feb\MeetAssessment6feb\obj\Debug\net10.0\MeetAssessment6feb.AssemblyInfoInputs.cache
+K:\csharp\dot_net\Testing\MeetAssessment6feb\MeetAssessment6feb\obj\Debug\net10.0\MeetAssessment6feb.AssemblyInfo.cs
+K:\csharp\dot_net\Testing\MeetAssessment6feb\MeetAssessment6feb\obj\Debug\net10.0\MeetAssessment6feb.csproj.CoreCompileInputs.cache
+K:\csharp\dot_net\Testing\MeetAssessment6feb\MeetAssessment6feb\obj\Debug\net10.0\MeetAssessment6feb.sourcelink.json
+K:\csharp\dot_net\Testing\MeetAssessment6feb\MeetAssessment6feb\obj\Debug\net10.0\MeetAssessment6feb.dll
+K:\csharp\dot_net\Testing\MeetAssessment6feb\MeetAssessment6feb\obj\Debug\net10.0\refint\MeetAssessment6feb.dll
+K:\csharp\dot_net\Testing\MeetAssessment6feb\MeetAssessment6feb\obj\Debug\net10.0\MeetAssessment6feb.pdb
+K:\csharp\dot_net\Testing\MeetAssessment6feb\MeetAssessment6feb\obj\Debug\net10.0\MeetAssessment6feb.genruntimeconfig.cache
+K:\csharp\dot_net\Testing\MeetAssessment6feb\MeetAssessment6feb\obj\Debug\net10.0\ref\MeetAssessment6feb.dll
