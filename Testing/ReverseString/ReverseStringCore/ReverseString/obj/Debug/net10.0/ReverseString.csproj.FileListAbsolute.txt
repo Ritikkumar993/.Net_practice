@@ -1,0 +1,15 @@
+K:\csharp\dot_net\Testing\ReverseString\ReverseStringCore\ReverseString\bin\Debug\net10.0\ReverseString.exe
+K:\csharp\dot_net\Testing\ReverseString\ReverseStringCore\ReverseString\bin\Debug\net10.0\ReverseString.deps.json
+K:\csharp\dot_net\Testing\ReverseString\ReverseStringCore\ReverseString\bin\Debug\net10.0\ReverseString.runtimeconfig.json
+K:\csharp\dot_net\Testing\ReverseString\ReverseStringCore\ReverseString\bin\Debug\net10.0\ReverseString.dll
+K:\csharp\dot_net\Testing\ReverseString\ReverseStringCore\ReverseString\bin\Debug\net10.0\ReverseString.pdb
+K:\csharp\dot_net\Testing\ReverseString\ReverseStringCore\ReverseString\obj\Debug\net10.0\ReverseString.GeneratedMSBuildEditorConfig.editorconfig
+K:\csharp\dot_net\Testing\ReverseString\ReverseStringCore\ReverseString\obj\Debug\net10.0\ReverseString.AssemblyInfoInputs.cache
+K:\csharp\dot_net\Testing\ReverseString\ReverseStringCore\ReverseString\obj\Debug\net10.0\ReverseString.AssemblyInfo.cs
+K:\csharp\dot_net\Testing\ReverseString\ReverseStringCore\ReverseString\obj\Debug\net10.0\ReverseString.csproj.CoreCompileInputs.cache
+K:\csharp\dot_net\Testing\ReverseString\ReverseStringCore\ReverseString\obj\Debug\net10.0\ReverseString.sourcelink.json
+K:\csharp\dot_net\Testing\ReverseString\ReverseStringCore\ReverseString\obj\Debug\net10.0\ReverseString.dll
+K:\csharp\dot_net\Testing\ReverseString\ReverseStringCore\ReverseString\obj\Debug\net10.0\refint\ReverseString.dll
+K:\csharp\dot_net\Testing\ReverseString\ReverseStringCore\ReverseString\obj\Debug\net10.0\ReverseString.pdb
+K:\csharp\dot_net\Testing\ReverseString\ReverseStringCore\ReverseString\obj\Debug\net10.0\ReverseString.genruntimeconfig.cache
+K:\csharp\dot_net\Testing\ReverseString\ReverseStringCore\ReverseString\obj\Debug\net10.0\ref\ReverseString.dll

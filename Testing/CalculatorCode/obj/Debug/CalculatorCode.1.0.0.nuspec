@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>CalculatorCode</id>
+    <version>1.0.0</version>
+    <authors>CalculatorCode</authors>
+    <description>Package Description</description>
+    <repository type="git" commit="b423ad9a18b399ce4b404802fe5c2e294b6d5bbe" />
+    <dependencies>
+      <group targetFramework="net10.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="K:\csharp\dot_net\Testing\CalculatorCode\bin\Debug\net10.0\CalculatorCode.runtimeconfig.json" target="lib\net10.0\CalculatorCode.runtimeconfig.json" />
+    <file src="K:\csharp\dot_net\Testing\CalculatorCode\bin\Debug\net10.0\CalculatorCode.dll" target="lib\net10.0\CalculatorCode.dll" />
+  </files>
+</package>

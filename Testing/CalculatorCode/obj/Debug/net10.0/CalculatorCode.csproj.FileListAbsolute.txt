@@ -1,0 +1,15 @@
+K:\csharp\dot_net\Testing\CalculatorCode\bin\Debug\net10.0\CalculatorCode.exe
+K:\csharp\dot_net\Testing\CalculatorCode\bin\Debug\net10.0\CalculatorCode.deps.json
+K:\csharp\dot_net\Testing\CalculatorCode\bin\Debug\net10.0\CalculatorCode.runtimeconfig.json
+K:\csharp\dot_net\Testing\CalculatorCode\bin\Debug\net10.0\CalculatorCode.dll
+K:\csharp\dot_net\Testing\CalculatorCode\bin\Debug\net10.0\CalculatorCode.pdb
+K:\csharp\dot_net\Testing\CalculatorCode\obj\Debug\net10.0\CalculatorCode.GeneratedMSBuildEditorConfig.editorconfig
+K:\csharp\dot_net\Testing\CalculatorCode\obj\Debug\net10.0\CalculatorCode.AssemblyInfoInputs.cache
+K:\csharp\dot_net\Testing\CalculatorCode\obj\Debug\net10.0\CalculatorCode.AssemblyInfo.cs
+K:\csharp\dot_net\Testing\CalculatorCode\obj\Debug\net10.0\CalculatorCode.csproj.CoreCompileInputs.cache
+K:\csharp\dot_net\Testing\CalculatorCode\obj\Debug\net10.0\CalculatorCode.sourcelink.json
+K:\csharp\dot_net\Testing\CalculatorCode\obj\Debug\net10.0\CalculatorCode.dll
+K:\csharp\dot_net\Testing\CalculatorCode\obj\Debug\net10.0\refint\CalculatorCode.dll
+K:\csharp\dot_net\Testing\CalculatorCode\obj\Debug\net10.0\CalculatorCode.pdb
+K:\csharp\dot_net\Testing\CalculatorCode\obj\Debug\net10.0\CalculatorCode.genruntimeconfig.cache
+K:\csharp\dot_net\Testing\CalculatorCode\obj\Debug\net10.0\ref\CalculatorCode.dll

@@ -1,0 +1,118 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "K:\\csharp\\dot_net\\Testing\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8FD495DC-FC3A-4976-93B9-0E3299328A2B}|CalculatorUnitTest1\\CalculatorUnitTest1.csproj|k:\\csharp\\dot_net\\testing\\calculatorunittest1\\calculatorunittest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FD495DC-FC3A-4976-93B9-0E3299328A2B}|CalculatorUnitTest1\\CalculatorUnitTest1.csproj|solutionrelative:calculatorunittest1\\calculatorunittest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FD495DC-FC3A-4976-93B9-0E3299328A2B}|CalculatorUnitTest1\\CalculatorUnitTest1.csproj|k:\\csharp\\dot_net\\testing\\calculatorunittest1\\calculatorunittest1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{8FD495DC-FC3A-4976-93B9-0E3299328A2B}|CalculatorUnitTest1\\CalculatorUnitTest1.csproj|solutionrelative:calculatorunittest1\\calculatorunittest1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2077FCC6-1CCB-4C5A-920C-B5168DDC96F6}|CalculatorCode\\CalculatorCode.csproj|k:\\csharp\\dot_net\\testing\\calculatorcode\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2077FCC6-1CCB-4C5A-920C-B5168DDC96F6}|CalculatorCode\\CalculatorCode.csproj|solutionrelative:calculatorcode\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2077FCC6-1CCB-4C5A-920C-B5168DDC96F6}|CalculatorCode\\CalculatorCode.csproj|k:\\csharp\\dot_net\\testing\\calculatorcode\\feature\\calculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2077FCC6-1CCB-4C5A-920C-B5168DDC96F6}|CalculatorCode\\CalculatorCode.csproj|solutionrelative:calculatorcode\\feature\\calculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 274,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CalculatorUnitTest.cs",
+              "DocumentMoniker": "K:\\csharp\\dot_net\\Testing\\CalculatorUnitTest1\\CalculatorUnitTest.cs",
+              "RelativeDocumentMoniker": "CalculatorUnitTest1\\CalculatorUnitTest.cs",
+              "ToolTip": "K:\\csharp\\dot_net\\Testing\\CalculatorUnitTest1\\CalculatorUnitTest.cs",
+              "RelativeToolTip": "CalculatorUnitTest1\\CalculatorUnitTest.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBIAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-03T06:00:09.134Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CalculatorUnitTest1",
+              "DocumentMoniker": "K:\\csharp\\dot_net\\Testing\\CalculatorUnitTest1\\CalculatorUnitTest1.csproj",
+              "RelativeDocumentMoniker": "CalculatorUnitTest1\\CalculatorUnitTest1.csproj",
+              "ToolTip": "K:\\csharp\\dot_net\\Testing\\CalculatorUnitTest1\\CalculatorUnitTest1.csproj",
+              "RelativeToolTip": "CalculatorUnitTest1\\CalculatorUnitTest1.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-02-03T05:48:27.108Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Calculator.cs",
+              "DocumentMoniker": "K:\\csharp\\dot_net\\Testing\\CalculatorCode\\Feature\\Calculator.cs",
+              "RelativeDocumentMoniker": "CalculatorCode\\Feature\\Calculator.cs",
+              "ToolTip": "K:\\csharp\\dot_net\\Testing\\CalculatorCode\\Feature\\Calculator.cs",
+              "RelativeToolTip": "CalculatorCode\\Feature\\Calculator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-03T05:06:35.11Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "K:\\csharp\\dot_net\\Testing\\CalculatorCode\\Program.cs",
+              "RelativeDocumentMoniker": "CalculatorCode\\Program.cs",
+              "ToolTip": "K:\\csharp\\dot_net\\Testing\\CalculatorCode\\Program.cs",
+              "RelativeToolTip": "CalculatorCode\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-03T05:05:53.405Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedHeight": 126,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:4:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/Src/">
+    <Project Path="CalculatorCode/CalculatorCode.csproj" Id="2077fcc6-1ccb-4c5a-920c-b5168ddc96f6" />
+  </Folder>
+  <Folder Name="/Tests/">
+    <Project Path="CalculatorUnitTest1/CalculatorUnitTest1.csproj" Id="8fd495dc-fc3a-4976-93b9-0e3299328a2b" />
+  </Folder>
+</Solution>
