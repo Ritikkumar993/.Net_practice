@@ -1,0 +1,15 @@
+K:\csharp\dot_net\Day-17-Threading\thread\obj\Debug\net10.0\thread.GeneratedMSBuildEditorConfig.editorconfig
+K:\csharp\dot_net\Day-17-Threading\thread\obj\Debug\net10.0\thread.AssemblyInfoInputs.cache
+K:\csharp\dot_net\Day-17-Threading\thread\obj\Debug\net10.0\thread.AssemblyInfo.cs
+K:\csharp\dot_net\Day-17-Threading\thread\obj\Debug\net10.0\thread.csproj.CoreCompileInputs.cache
+K:\csharp\dot_net\Day-17-Threading\thread\obj\Debug\net10.0\thread.sourcelink.json
+K:\csharp\dot_net\Day-17-Threading\thread\bin\Debug\net10.0\thread.exe
+K:\csharp\dot_net\Day-17-Threading\thread\bin\Debug\net10.0\thread.deps.json
+K:\csharp\dot_net\Day-17-Threading\thread\bin\Debug\net10.0\thread.runtimeconfig.json
+K:\csharp\dot_net\Day-17-Threading\thread\bin\Debug\net10.0\thread.dll
+K:\csharp\dot_net\Day-17-Threading\thread\bin\Debug\net10.0\thread.pdb
+K:\csharp\dot_net\Day-17-Threading\thread\obj\Debug\net10.0\thread.dll
+K:\csharp\dot_net\Day-17-Threading\thread\obj\Debug\net10.0\refint\thread.dll
+K:\csharp\dot_net\Day-17-Threading\thread\obj\Debug\net10.0\thread.pdb
+K:\csharp\dot_net\Day-17-Threading\thread\obj\Debug\net10.0\thread.genruntimeconfig.cache
+K:\csharp\dot_net\Day-17-Threading\thread\obj\Debug\net10.0\ref\thread.dll

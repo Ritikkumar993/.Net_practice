@@ -1,0 +1,2 @@
+Read the text form the file "Data.txt"
+stored in the content
