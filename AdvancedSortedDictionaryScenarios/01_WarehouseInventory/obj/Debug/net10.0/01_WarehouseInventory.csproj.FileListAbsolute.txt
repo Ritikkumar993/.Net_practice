@@ -1,0 +1,15 @@
+K:\csharp\dot_net\AdvancedSortedDictionaryScenarios\01_WarehouseInventory\bin\Debug\net10.0\01_WarehouseInventory.exe
+K:\csharp\dot_net\AdvancedSortedDictionaryScenarios\01_WarehouseInventory\bin\Debug\net10.0\01_WarehouseInventory.deps.json
+K:\csharp\dot_net\AdvancedSortedDictionaryScenarios\01_WarehouseInventory\bin\Debug\net10.0\01_WarehouseInventory.runtimeconfig.json
+K:\csharp\dot_net\AdvancedSortedDictionaryScenarios\01_WarehouseInventory\bin\Debug\net10.0\01_WarehouseInventory.dll
+K:\csharp\dot_net\AdvancedSortedDictionaryScenarios\01_WarehouseInventory\bin\Debug\net10.0\01_WarehouseInventory.pdb
+K:\csharp\dot_net\AdvancedSortedDictionaryScenarios\01_WarehouseInventory\obj\Debug\net10.0\01_WarehouseInventory.GeneratedMSBuildEditorConfig.editorconfig
+K:\csharp\dot_net\AdvancedSortedDictionaryScenarios\01_WarehouseInventory\obj\Debug\net10.0\01_WarehouseInventory.AssemblyInfoInputs.cache
+K:\csharp\dot_net\AdvancedSortedDictionaryScenarios\01_WarehouseInventory\obj\Debug\net10.0\01_WarehouseInventory.AssemblyInfo.cs
+K:\csharp\dot_net\AdvancedSortedDictionaryScenarios\01_WarehouseInventory\obj\Debug\net10.0\01_WarehouseInventory.csproj.CoreCompileInputs.cache
+K:\csharp\dot_net\AdvancedSortedDictionaryScenarios\01_WarehouseInventory\obj\Debug\net10.0\01_WarehouseInventory.sourcelink.json
+K:\csharp\dot_net\AdvancedSortedDictionaryScenarios\01_WarehouseInventory\obj\Debug\net10.0\01_WarehouseInventory.dll
+K:\csharp\dot_net\AdvancedSortedDictionaryScenarios\01_WarehouseInventory\obj\Debug\net10.0\refint\01_WarehouseInventory.dll
+K:\csharp\dot_net\AdvancedSortedDictionaryScenarios\01_WarehouseInventory\obj\Debug\net10.0\01_WarehouseInventory.pdb
+K:\csharp\dot_net\AdvancedSortedDictionaryScenarios\01_WarehouseInventory\obj\Debug\net10.0\01_WarehouseInventory.genruntimeconfig.cache
+K:\csharp\dot_net\AdvancedSortedDictionaryScenarios\01_WarehouseInventory\obj\Debug\net10.0\ref\01_WarehouseInventory.dll

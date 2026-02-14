@@ -1,0 +1,29 @@
+C:\Users\Ritik kumar\Downloads\BookStoreApplication_Boilerplate\BookStoreApplication\bin\Debug\net10.0\BookStoreApplication.exe
+C:\Users\Ritik kumar\Downloads\BookStoreApplication_Boilerplate\BookStoreApplication\bin\Debug\net10.0\BookStoreApplication.deps.json
+C:\Users\Ritik kumar\Downloads\BookStoreApplication_Boilerplate\BookStoreApplication\bin\Debug\net10.0\BookStoreApplication.runtimeconfig.json
+C:\Users\Ritik kumar\Downloads\BookStoreApplication_Boilerplate\BookStoreApplication\bin\Debug\net10.0\BookStoreApplication.dll
+C:\Users\Ritik kumar\Downloads\BookStoreApplication_Boilerplate\BookStoreApplication\bin\Debug\net10.0\BookStoreApplication.pdb
+C:\Users\Ritik kumar\Downloads\BookStoreApplication_Boilerplate\BookStoreApplication\obj\Debug\net10.0\BookStoreApplication.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ritik kumar\Downloads\BookStoreApplication_Boilerplate\BookStoreApplication\obj\Debug\net10.0\BookStoreApplication.AssemblyInfoInputs.cache
+C:\Users\Ritik kumar\Downloads\BookStoreApplication_Boilerplate\BookStoreApplication\obj\Debug\net10.0\BookStoreApplication.AssemblyInfo.cs
+C:\Users\Ritik kumar\Downloads\BookStoreApplication_Boilerplate\BookStoreApplication\obj\Debug\net10.0\BookStoreApplication.csproj.CoreCompileInputs.cache
+C:\Users\Ritik kumar\Downloads\BookStoreApplication_Boilerplate\BookStoreApplication\obj\Debug\net10.0\BookStoreApplication.dll
+C:\Users\Ritik kumar\Downloads\BookStoreApplication_Boilerplate\BookStoreApplication\obj\Debug\net10.0\refint\BookStoreApplication.dll
+C:\Users\Ritik kumar\Downloads\BookStoreApplication_Boilerplate\BookStoreApplication\obj\Debug\net10.0\BookStoreApplication.pdb
+C:\Users\Ritik kumar\Downloads\BookStoreApplication_Boilerplate\BookStoreApplication\obj\Debug\net10.0\BookStoreApplication.genruntimeconfig.cache
+C:\Users\Ritik kumar\Downloads\BookStoreApplication_Boilerplate\BookStoreApplication\obj\Debug\net10.0\ref\BookStoreApplication.dll
+K:\csharp\dot_net\AdvancedSortedDictionaryScenarios\BookStoreApplication_Boilerplate\BookStoreApplication\bin\Debug\net10.0\BookStoreApplication.exe
+K:\csharp\dot_net\AdvancedSortedDictionaryScenarios\BookStoreApplication_Boilerplate\BookStoreApplication\bin\Debug\net10.0\BookStoreApplication.deps.json
+K:\csharp\dot_net\AdvancedSortedDictionaryScenarios\BookStoreApplication_Boilerplate\BookStoreApplication\bin\Debug\net10.0\BookStoreApplication.runtimeconfig.json
+K:\csharp\dot_net\AdvancedSortedDictionaryScenarios\BookStoreApplication_Boilerplate\BookStoreApplication\bin\Debug\net10.0\BookStoreApplication.dll
+K:\csharp\dot_net\AdvancedSortedDictionaryScenarios\BookStoreApplication_Boilerplate\BookStoreApplication\bin\Debug\net10.0\BookStoreApplication.pdb
+K:\csharp\dot_net\AdvancedSortedDictionaryScenarios\BookStoreApplication_Boilerplate\BookStoreApplication\obj\Debug\net10.0\BookStoreApplication.GeneratedMSBuildEditorConfig.editorconfig
+K:\csharp\dot_net\AdvancedSortedDictionaryScenarios\BookStoreApplication_Boilerplate\BookStoreApplication\obj\Debug\net10.0\BookStoreApplication.AssemblyInfoInputs.cache
+K:\csharp\dot_net\AdvancedSortedDictionaryScenarios\BookStoreApplication_Boilerplate\BookStoreApplication\obj\Debug\net10.0\BookStoreApplication.AssemblyInfo.cs
+K:\csharp\dot_net\AdvancedSortedDictionaryScenarios\BookStoreApplication_Boilerplate\BookStoreApplication\obj\Debug\net10.0\BookStoreApplication.csproj.CoreCompileInputs.cache
+K:\csharp\dot_net\AdvancedSortedDictionaryScenarios\BookStoreApplication_Boilerplate\BookStoreApplication\obj\Debug\net10.0\BookStoreApplication.sourcelink.json
+K:\csharp\dot_net\AdvancedSortedDictionaryScenarios\BookStoreApplication_Boilerplate\BookStoreApplication\obj\Debug\net10.0\BookStoreApplication.dll
+K:\csharp\dot_net\AdvancedSortedDictionaryScenarios\BookStoreApplication_Boilerplate\BookStoreApplication\obj\Debug\net10.0\refint\BookStoreApplication.dll
+K:\csharp\dot_net\AdvancedSortedDictionaryScenarios\BookStoreApplication_Boilerplate\BookStoreApplication\obj\Debug\net10.0\BookStoreApplication.pdb
+K:\csharp\dot_net\AdvancedSortedDictionaryScenarios\BookStoreApplication_Boilerplate\BookStoreApplication\obj\Debug\net10.0\BookStoreApplication.genruntimeconfig.cache
+K:\csharp\dot_net\AdvancedSortedDictionaryScenarios\BookStoreApplication_Boilerplate\BookStoreApplication\obj\Debug\net10.0\ref\BookStoreApplication.dll
