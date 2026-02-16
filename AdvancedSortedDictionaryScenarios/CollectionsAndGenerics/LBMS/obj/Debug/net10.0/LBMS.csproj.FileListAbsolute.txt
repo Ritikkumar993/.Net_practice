@@ -1,0 +1,15 @@
+K:\csharp\dot_net\AdvancedSortedDictionaryScenarios\CollectionsAndGenerics\LBMS\obj\Debug\net10.0\LBMS.GeneratedMSBuildEditorConfig.editorconfig
+K:\csharp\dot_net\AdvancedSortedDictionaryScenarios\CollectionsAndGenerics\LBMS\obj\Debug\net10.0\LBMS.AssemblyInfoInputs.cache
+K:\csharp\dot_net\AdvancedSortedDictionaryScenarios\CollectionsAndGenerics\LBMS\obj\Debug\net10.0\LBMS.AssemblyInfo.cs
+K:\csharp\dot_net\AdvancedSortedDictionaryScenarios\CollectionsAndGenerics\LBMS\obj\Debug\net10.0\LBMS.csproj.CoreCompileInputs.cache
+K:\csharp\dot_net\AdvancedSortedDictionaryScenarios\CollectionsAndGenerics\LBMS\obj\Debug\net10.0\LBMS.sourcelink.json
+K:\csharp\dot_net\AdvancedSortedDictionaryScenarios\CollectionsAndGenerics\LBMS\bin\Debug\net10.0\LBMS.exe
+K:\csharp\dot_net\AdvancedSortedDictionaryScenarios\CollectionsAndGenerics\LBMS\bin\Debug\net10.0\LBMS.deps.json
+K:\csharp\dot_net\AdvancedSortedDictionaryScenarios\CollectionsAndGenerics\LBMS\bin\Debug\net10.0\LBMS.runtimeconfig.json
+K:\csharp\dot_net\AdvancedSortedDictionaryScenarios\CollectionsAndGenerics\LBMS\bin\Debug\net10.0\LBMS.dll
+K:\csharp\dot_net\AdvancedSortedDictionaryScenarios\CollectionsAndGenerics\LBMS\bin\Debug\net10.0\LBMS.pdb
+K:\csharp\dot_net\AdvancedSortedDictionaryScenarios\CollectionsAndGenerics\LBMS\obj\Debug\net10.0\LBMS.dll
+K:\csharp\dot_net\AdvancedSortedDictionaryScenarios\CollectionsAndGenerics\LBMS\obj\Debug\net10.0\refint\LBMS.dll
+K:\csharp\dot_net\AdvancedSortedDictionaryScenarios\CollectionsAndGenerics\LBMS\obj\Debug\net10.0\LBMS.pdb
+K:\csharp\dot_net\AdvancedSortedDictionaryScenarios\CollectionsAndGenerics\LBMS\obj\Debug\net10.0\LBMS.genruntimeconfig.cache
+K:\csharp\dot_net\AdvancedSortedDictionaryScenarios\CollectionsAndGenerics\LBMS\obj\Debug\net10.0\ref\LBMS.dll
