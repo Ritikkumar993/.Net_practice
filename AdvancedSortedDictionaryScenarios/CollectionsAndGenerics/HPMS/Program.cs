@@ -35,18 +35,27 @@ public class HospitalManager
     public void ScheduleAppointment(int patientId)
     {
         // TODO: Find patient and add to queue
+        if (_patients.ContainsKey(patientId))
+        {
+            _appointmentQueue.Enqueue(_patients[patientId]);
+        }
+        return;
     }
     
     // Process next appointment (remove from queue)
     public Patient ProcessNextAppointment()
     {
         // TODO: Return and remove next patient from queue
+        return _appointmentQueue.Dequeue();
+        
     }
     
     // Find patients with specific condition using LINQ
     public List<Patient> FindPatientsByCondition(string condition)
     {
         // TODO: Use LINQ to filter patients
+        var patients = _patients.Where(p => p.Value.Condition==condition).Select(r => r.Value).ToList();
+        return patients;
     }
 }
 

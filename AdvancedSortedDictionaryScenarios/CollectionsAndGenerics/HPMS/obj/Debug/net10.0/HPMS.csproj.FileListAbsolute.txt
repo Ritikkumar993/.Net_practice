@@ -1,0 +1,15 @@
+K:\csharp\dot_net\AdvancedSortedDictionaryScenarios\CollectionsAndGenerics\HPMS\bin\Debug\net10.0\HPMS.exe
+K:\csharp\dot_net\AdvancedSortedDictionaryScenarios\CollectionsAndGenerics\HPMS\bin\Debug\net10.0\HPMS.deps.json
+K:\csharp\dot_net\AdvancedSortedDictionaryScenarios\CollectionsAndGenerics\HPMS\bin\Debug\net10.0\HPMS.runtimeconfig.json
+K:\csharp\dot_net\AdvancedSortedDictionaryScenarios\CollectionsAndGenerics\HPMS\bin\Debug\net10.0\HPMS.dll
+K:\csharp\dot_net\AdvancedSortedDictionaryScenarios\CollectionsAndGenerics\HPMS\bin\Debug\net10.0\HPMS.pdb
+K:\csharp\dot_net\AdvancedSortedDictionaryScenarios\CollectionsAndGenerics\HPMS\obj\Debug\net10.0\HPMS.GeneratedMSBuildEditorConfig.editorconfig
+K:\csharp\dot_net\AdvancedSortedDictionaryScenarios\CollectionsAndGenerics\HPMS\obj\Debug\net10.0\HPMS.AssemblyInfoInputs.cache
+K:\csharp\dot_net\AdvancedSortedDictionaryScenarios\CollectionsAndGenerics\HPMS\obj\Debug\net10.0\HPMS.AssemblyInfo.cs
+K:\csharp\dot_net\AdvancedSortedDictionaryScenarios\CollectionsAndGenerics\HPMS\obj\Debug\net10.0\HPMS.csproj.CoreCompileInputs.cache
+K:\csharp\dot_net\AdvancedSortedDictionaryScenarios\CollectionsAndGenerics\HPMS\obj\Debug\net10.0\HPMS.sourcelink.json
+K:\csharp\dot_net\AdvancedSortedDictionaryScenarios\CollectionsAndGenerics\HPMS\obj\Debug\net10.0\HPMS.dll
+K:\csharp\dot_net\AdvancedSortedDictionaryScenarios\CollectionsAndGenerics\HPMS\obj\Debug\net10.0\refint\HPMS.dll
+K:\csharp\dot_net\AdvancedSortedDictionaryScenarios\CollectionsAndGenerics\HPMS\obj\Debug\net10.0\HPMS.pdb
+K:\csharp\dot_net\AdvancedSortedDictionaryScenarios\CollectionsAndGenerics\HPMS\obj\Debug\net10.0\HPMS.genruntimeconfig.cache
+K:\csharp\dot_net\AdvancedSortedDictionaryScenarios\CollectionsAndGenerics\HPMS\obj\Debug\net10.0\ref\HPMS.dll
