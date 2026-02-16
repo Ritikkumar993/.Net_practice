@@ -1,0 +1,15 @@
+K:\csharp\dot_net\AdvancedSortedDictionaryScenarios\HealthSyncAdvance\bin\Debug\net10.0\HealthSyncAdvance.exe
+K:\csharp\dot_net\AdvancedSortedDictionaryScenarios\HealthSyncAdvance\bin\Debug\net10.0\HealthSyncAdvance.deps.json
+K:\csharp\dot_net\AdvancedSortedDictionaryScenarios\HealthSyncAdvance\bin\Debug\net10.0\HealthSyncAdvance.runtimeconfig.json
+K:\csharp\dot_net\AdvancedSortedDictionaryScenarios\HealthSyncAdvance\bin\Debug\net10.0\HealthSyncAdvance.dll
+K:\csharp\dot_net\AdvancedSortedDictionaryScenarios\HealthSyncAdvance\bin\Debug\net10.0\HealthSyncAdvance.pdb
+K:\csharp\dot_net\AdvancedSortedDictionaryScenarios\HealthSyncAdvance\obj\Debug\net10.0\HealthSyncAdvance.GeneratedMSBuildEditorConfig.editorconfig
+K:\csharp\dot_net\AdvancedSortedDictionaryScenarios\HealthSyncAdvance\obj\Debug\net10.0\HealthSyncAdvance.AssemblyInfoInputs.cache
+K:\csharp\dot_net\AdvancedSortedDictionaryScenarios\HealthSyncAdvance\obj\Debug\net10.0\HealthSyncAdvance.AssemblyInfo.cs
+K:\csharp\dot_net\AdvancedSortedDictionaryScenarios\HealthSyncAdvance\obj\Debug\net10.0\HealthSyncAdvance.csproj.CoreCompileInputs.cache
+K:\csharp\dot_net\AdvancedSortedDictionaryScenarios\HealthSyncAdvance\obj\Debug\net10.0\HealthSyncAdvance.sourcelink.json
+K:\csharp\dot_net\AdvancedSortedDictionaryScenarios\HealthSyncAdvance\obj\Debug\net10.0\HealthSyncAdvance.dll
+K:\csharp\dot_net\AdvancedSortedDictionaryScenarios\HealthSyncAdvance\obj\Debug\net10.0\refint\HealthSyncAdvance.dll
+K:\csharp\dot_net\AdvancedSortedDictionaryScenarios\HealthSyncAdvance\obj\Debug\net10.0\HealthSyncAdvance.pdb
+K:\csharp\dot_net\AdvancedSortedDictionaryScenarios\HealthSyncAdvance\obj\Debug\net10.0\HealthSyncAdvance.genruntimeconfig.cache
+K:\csharp\dot_net\AdvancedSortedDictionaryScenarios\HealthSyncAdvance\obj\Debug\net10.0\ref\HealthSyncAdvance.dll

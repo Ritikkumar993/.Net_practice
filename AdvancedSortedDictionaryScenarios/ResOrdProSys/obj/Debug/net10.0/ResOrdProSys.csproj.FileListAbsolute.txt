@@ -1,0 +1,15 @@
+K:\csharp\dot_net\AdvancedSortedDictionaryScenarios\ResOrdProSys\bin\Debug\net10.0\ResOrdProSys.exe
+K:\csharp\dot_net\AdvancedSortedDictionaryScenarios\ResOrdProSys\bin\Debug\net10.0\ResOrdProSys.deps.json
+K:\csharp\dot_net\AdvancedSortedDictionaryScenarios\ResOrdProSys\bin\Debug\net10.0\ResOrdProSys.runtimeconfig.json
+K:\csharp\dot_net\AdvancedSortedDictionaryScenarios\ResOrdProSys\bin\Debug\net10.0\ResOrdProSys.dll
+K:\csharp\dot_net\AdvancedSortedDictionaryScenarios\ResOrdProSys\bin\Debug\net10.0\ResOrdProSys.pdb
+K:\csharp\dot_net\AdvancedSortedDictionaryScenarios\ResOrdProSys\obj\Debug\net10.0\ResOrdProSys.GeneratedMSBuildEditorConfig.editorconfig
+K:\csharp\dot_net\AdvancedSortedDictionaryScenarios\ResOrdProSys\obj\Debug\net10.0\ResOrdProSys.AssemblyInfoInputs.cache
+K:\csharp\dot_net\AdvancedSortedDictionaryScenarios\ResOrdProSys\obj\Debug\net10.0\ResOrdProSys.AssemblyInfo.cs
+K:\csharp\dot_net\AdvancedSortedDictionaryScenarios\ResOrdProSys\obj\Debug\net10.0\ResOrdProSys.csproj.CoreCompileInputs.cache
+K:\csharp\dot_net\AdvancedSortedDictionaryScenarios\ResOrdProSys\obj\Debug\net10.0\ResOrdProSys.sourcelink.json
+K:\csharp\dot_net\AdvancedSortedDictionaryScenarios\ResOrdProSys\obj\Debug\net10.0\ResOrdProSys.dll
+K:\csharp\dot_net\AdvancedSortedDictionaryScenarios\ResOrdProSys\obj\Debug\net10.0\refint\ResOrdProSys.dll
+K:\csharp\dot_net\AdvancedSortedDictionaryScenarios\ResOrdProSys\obj\Debug\net10.0\ResOrdProSys.pdb
+K:\csharp\dot_net\AdvancedSortedDictionaryScenarios\ResOrdProSys\obj\Debug\net10.0\ResOrdProSys.genruntimeconfig.cache
+K:\csharp\dot_net\AdvancedSortedDictionaryScenarios\ResOrdProSys\obj\Debug\net10.0\ref\ResOrdProSys.dll

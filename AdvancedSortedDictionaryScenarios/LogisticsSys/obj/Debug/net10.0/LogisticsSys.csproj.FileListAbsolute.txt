@@ -1,0 +1,15 @@
+K:\csharp\dot_net\AdvancedSortedDictionaryScenarios\LogisticsSys\obj\Debug\net10.0\LogisticsSys.GeneratedMSBuildEditorConfig.editorconfig
+K:\csharp\dot_net\AdvancedSortedDictionaryScenarios\LogisticsSys\obj\Debug\net10.0\LogisticsSys.AssemblyInfoInputs.cache
+K:\csharp\dot_net\AdvancedSortedDictionaryScenarios\LogisticsSys\obj\Debug\net10.0\LogisticsSys.AssemblyInfo.cs
+K:\csharp\dot_net\AdvancedSortedDictionaryScenarios\LogisticsSys\obj\Debug\net10.0\LogisticsSys.csproj.CoreCompileInputs.cache
+K:\csharp\dot_net\AdvancedSortedDictionaryScenarios\LogisticsSys\obj\Debug\net10.0\LogisticsSys.sourcelink.json
+K:\csharp\dot_net\AdvancedSortedDictionaryScenarios\LogisticsSys\bin\Debug\net10.0\LogisticsSys.exe
+K:\csharp\dot_net\AdvancedSortedDictionaryScenarios\LogisticsSys\bin\Debug\net10.0\LogisticsSys.deps.json
+K:\csharp\dot_net\AdvancedSortedDictionaryScenarios\LogisticsSys\bin\Debug\net10.0\LogisticsSys.runtimeconfig.json
+K:\csharp\dot_net\AdvancedSortedDictionaryScenarios\LogisticsSys\bin\Debug\net10.0\LogisticsSys.dll
+K:\csharp\dot_net\AdvancedSortedDictionaryScenarios\LogisticsSys\bin\Debug\net10.0\LogisticsSys.pdb
+K:\csharp\dot_net\AdvancedSortedDictionaryScenarios\LogisticsSys\obj\Debug\net10.0\LogisticsSys.dll
+K:\csharp\dot_net\AdvancedSortedDictionaryScenarios\LogisticsSys\obj\Debug\net10.0\refint\LogisticsSys.dll
+K:\csharp\dot_net\AdvancedSortedDictionaryScenarios\LogisticsSys\obj\Debug\net10.0\LogisticsSys.pdb
+K:\csharp\dot_net\AdvancedSortedDictionaryScenarios\LogisticsSys\obj\Debug\net10.0\LogisticsSys.genruntimeconfig.cache
+K:\csharp\dot_net\AdvancedSortedDictionaryScenarios\LogisticsSys\obj\Debug\net10.0\ref\LogisticsSys.dll

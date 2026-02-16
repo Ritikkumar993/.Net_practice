@@ -8,6 +8,7 @@ namespace BookStoreApplication
         {
             // TODO:
             // 1. Read initial input
+            Console.WriteLine("Details: <BookId> <Title> <Price> <Stock>");
             // Format: BookID Title Price Stock
             string str = Console.ReadLine();
             string[] arr = str.Split();
