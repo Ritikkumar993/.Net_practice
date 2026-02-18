@@ -1,0 +1,15 @@
+K:\csharp\dot_net\Practice\BakeMeAWish\bin\Debug\net10.0\BakeMeAWish.exe
+K:\csharp\dot_net\Practice\BakeMeAWish\bin\Debug\net10.0\BakeMeAWish.deps.json
+K:\csharp\dot_net\Practice\BakeMeAWish\bin\Debug\net10.0\BakeMeAWish.runtimeconfig.json
+K:\csharp\dot_net\Practice\BakeMeAWish\bin\Debug\net10.0\BakeMeAWish.dll
+K:\csharp\dot_net\Practice\BakeMeAWish\bin\Debug\net10.0\BakeMeAWish.pdb
+K:\csharp\dot_net\Practice\BakeMeAWish\obj\Debug\net10.0\BakeMeAWish.GeneratedMSBuildEditorConfig.editorconfig
+K:\csharp\dot_net\Practice\BakeMeAWish\obj\Debug\net10.0\BakeMeAWish.AssemblyInfoInputs.cache
+K:\csharp\dot_net\Practice\BakeMeAWish\obj\Debug\net10.0\BakeMeAWish.AssemblyInfo.cs
+K:\csharp\dot_net\Practice\BakeMeAWish\obj\Debug\net10.0\BakeMeAWish.csproj.CoreCompileInputs.cache
+K:\csharp\dot_net\Practice\BakeMeAWish\obj\Debug\net10.0\BakeMeAWish.sourcelink.json
+K:\csharp\dot_net\Practice\BakeMeAWish\obj\Debug\net10.0\BakeMeAWish.dll
+K:\csharp\dot_net\Practice\BakeMeAWish\obj\Debug\net10.0\refint\BakeMeAWish.dll
+K:\csharp\dot_net\Practice\BakeMeAWish\obj\Debug\net10.0\BakeMeAWish.pdb
+K:\csharp\dot_net\Practice\BakeMeAWish\obj\Debug\net10.0\BakeMeAWish.genruntimeconfig.cache
+K:\csharp\dot_net\Practice\BakeMeAWish\obj\Debug\net10.0\ref\BakeMeAWish.dll
