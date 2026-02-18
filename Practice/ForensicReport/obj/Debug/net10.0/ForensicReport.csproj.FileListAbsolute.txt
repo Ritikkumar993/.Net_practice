@@ -1,0 +1,15 @@
+K:\csharp\dot_net\Practice\ForensicReport\bin\Debug\net10.0\ForensicReport.exe
+K:\csharp\dot_net\Practice\ForensicReport\bin\Debug\net10.0\ForensicReport.deps.json
+K:\csharp\dot_net\Practice\ForensicReport\bin\Debug\net10.0\ForensicReport.runtimeconfig.json
+K:\csharp\dot_net\Practice\ForensicReport\bin\Debug\net10.0\ForensicReport.dll
+K:\csharp\dot_net\Practice\ForensicReport\bin\Debug\net10.0\ForensicReport.pdb
+K:\csharp\dot_net\Practice\ForensicReport\obj\Debug\net10.0\ForensicReport.GeneratedMSBuildEditorConfig.editorconfig
+K:\csharp\dot_net\Practice\ForensicReport\obj\Debug\net10.0\ForensicReport.AssemblyInfoInputs.cache
+K:\csharp\dot_net\Practice\ForensicReport\obj\Debug\net10.0\ForensicReport.AssemblyInfo.cs
+K:\csharp\dot_net\Practice\ForensicReport\obj\Debug\net10.0\ForensicReport.csproj.CoreCompileInputs.cache
+K:\csharp\dot_net\Practice\ForensicReport\obj\Debug\net10.0\ForensicReport.sourcelink.json
+K:\csharp\dot_net\Practice\ForensicReport\obj\Debug\net10.0\ForensicReport.dll
+K:\csharp\dot_net\Practice\ForensicReport\obj\Debug\net10.0\refint\ForensicReport.dll
+K:\csharp\dot_net\Practice\ForensicReport\obj\Debug\net10.0\ForensicReport.pdb
+K:\csharp\dot_net\Practice\ForensicReport\obj\Debug\net10.0\ForensicReport.genruntimeconfig.cache
+K:\csharp\dot_net\Practice\ForensicReport\obj\Debug\net10.0\ref\ForensicReport.dll
