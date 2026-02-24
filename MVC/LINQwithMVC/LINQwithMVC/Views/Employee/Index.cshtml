@@ -1,0 +1,25 @@
+﻿@model Dictionary<string, List<LINQwithMVC.Models.Employee>>
+
+<h2>Employee Greater than 50000 as Salary </h2>
+
+@foreach (var dept in Model)
+{
+    <h3>@dept.Key Department</h3>
+
+    <table border="1" cellpadding="8" style="margin-bottom:20px;">
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Salary</th>
+        </tr>
+
+        @foreach (var emp in dept.Value)
+        {
+            <tr>
+                <td>@emp.Id</td>
+                <td>@emp.Name</td>
+                <td>@emp.Salary</td>
+            </tr>
+        }
+    </table>
+}
