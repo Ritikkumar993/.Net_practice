@@ -1,0 +1,33 @@
+﻿@model List<BookShop.Models.Book>
+
+<h2>Search Book</h2>
+
+<form method="get" asp-controller="Book" asp-action="BookByName">
+    <input type="text" name="name" placeholder="Enter Book Name" />
+    <button type="submit">Search</button>
+</form>
+
+<br />
+
+<table border="1" cellpadding="10">
+    <thead>
+        <tr>
+            <th>Book Id</th>
+            <th>Book Name</th>
+            <th>Author</th>
+            <th>Price</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach (var book in Model)
+        {
+            <tr>
+                <td>@book.BookId</td>
+                <td>@book.BookName</td>
+                <td>@book.Author</td>
+                <td>@book.Price</td>
+            </tr>
+        }
+    </tbody>
+</table>

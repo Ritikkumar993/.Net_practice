@@ -1,0 +1,26 @@
+﻿@model List<BookShop.Models.Book>
+
+<h2>Books With Price ≥ 500</h2>
+
+<table border="1" cellpadding="10">
+    <thead>
+        <tr>
+            <th>Book Id</th>
+            <th>Book Name</th>
+            <th>Author</th>
+            <th>Price</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach (var book in Model)
+        {
+            <tr>
+                <td>@book.BookId</td>
+                <td>@book.BookName</td>
+                <td>@book.Author</td>
+                <td>@book.Price</td>
+            </tr>
+        }
+    </tbody>
+</table>
