@@ -1,0 +1,23 @@
+﻿@model IEnumerable<BookHouse.Models.Book>
+
+<h2>Books</h2>
+
+<a asp-action="Create">Add Book</a>
+
+<table border="1" cellpadding="10">
+    <tr>
+        <th>Book Id</th>
+        <th>Title</th>
+        <th>Author</th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.BookId</td>
+            <td>@item.Title</td>
+            <td>@item.Author.Name</td>
+        </tr>
+    }
+
+</table>

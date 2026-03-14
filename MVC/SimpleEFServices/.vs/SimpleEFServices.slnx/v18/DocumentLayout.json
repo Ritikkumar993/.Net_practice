@@ -1,0 +1,111 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "K:\\csharp\\dot_net\\MVC\\SimpleEFServices\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{68403889-383F-4F71-A563-C84BB1FE8A28}|SimpleEFServices\\SimpleEFServices.csproj|k:\\csharp\\dot_net\\mvc\\simpleefservices\\simpleefservices\\controllers\\calculatorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68403889-383F-4F71-A563-C84BB1FE8A28}|SimpleEFServices\\SimpleEFServices.csproj|solutionrelative:simpleefservices\\controllers\\calculatorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68403889-383F-4F71-A563-C84BB1FE8A28}|SimpleEFServices\\SimpleEFServices.csproj|k:\\csharp\\dot_net\\mvc\\simpleefservices\\simpleefservices\\services\\calculatorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68403889-383F-4F71-A563-C84BB1FE8A28}|SimpleEFServices\\SimpleEFServices.csproj|solutionrelative:simpleefservices\\services\\calculatorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68403889-383F-4F71-A563-C84BB1FE8A28}|SimpleEFServices\\SimpleEFServices.csproj|k:\\csharp\\dot_net\\mvc\\simpleefservices\\simpleefservices\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68403889-383F-4F71-A563-C84BB1FE8A28}|SimpleEFServices\\SimpleEFServices.csproj|solutionrelative:simpleefservices\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 25,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{c6f34f0d-7ae5-4f3a-be61-fe0c21ae9eb8}"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 126,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 375,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CalculatorController.cs",
+              "DocumentMoniker": "K:\\csharp\\dot_net\\MVC\\SimpleEFServices\\SimpleEFServices\\Controllers\\CalculatorController.cs",
+              "RelativeDocumentMoniker": "SimpleEFServices\\Controllers\\CalculatorController.cs",
+              "ToolTip": "K:\\csharp\\dot_net\\MVC\\SimpleEFServices\\SimpleEFServices\\Controllers\\CalculatorController.cs",
+              "RelativeToolTip": "SimpleEFServices\\Controllers\\CalculatorController.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAiwBAAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T06:11:47.367Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "K:\\csharp\\dot_net\\MVC\\SimpleEFServices\\SimpleEFServices\\Program.cs",
+              "RelativeDocumentMoniker": "SimpleEFServices\\Program.cs",
+              "ToolTip": "K:\\csharp\\dot_net\\MVC\\SimpleEFServices\\SimpleEFServices\\Program.cs",
+              "RelativeToolTip": "SimpleEFServices\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T06:09:23.883Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CalculatorService.cs",
+              "DocumentMoniker": "K:\\csharp\\dot_net\\MVC\\SimpleEFServices\\SimpleEFServices\\Services\\CalculatorService.cs",
+              "RelativeDocumentMoniker": "SimpleEFServices\\Services\\CalculatorService.cs",
+              "ToolTip": "K:\\csharp\\dot_net\\MVC\\SimpleEFServices\\SimpleEFServices\\Services\\CalculatorService.cs",
+              "RelativeToolTip": "SimpleEFServices\\Services\\CalculatorService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T06:06:32.07Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

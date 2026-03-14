@@ -1,0 +1,15 @@
+K:\csharp\dot_net\MVC\FacadePatternConsole\FacadePatternConsole\obj\Debug\net10.0\FacadePatternConsole.GeneratedMSBuildEditorConfig.editorconfig
+K:\csharp\dot_net\MVC\FacadePatternConsole\FacadePatternConsole\obj\Debug\net10.0\FacadePatternConsole.AssemblyInfoInputs.cache
+K:\csharp\dot_net\MVC\FacadePatternConsole\FacadePatternConsole\obj\Debug\net10.0\FacadePatternConsole.AssemblyInfo.cs
+K:\csharp\dot_net\MVC\FacadePatternConsole\FacadePatternConsole\obj\Debug\net10.0\FacadePatternConsole.csproj.CoreCompileInputs.cache
+K:\csharp\dot_net\MVC\FacadePatternConsole\FacadePatternConsole\obj\Debug\net10.0\FacadePatternConsole.sourcelink.json
+K:\csharp\dot_net\MVC\FacadePatternConsole\FacadePatternConsole\bin\Debug\net10.0\FacadePatternConsole.exe
+K:\csharp\dot_net\MVC\FacadePatternConsole\FacadePatternConsole\bin\Debug\net10.0\FacadePatternConsole.deps.json
+K:\csharp\dot_net\MVC\FacadePatternConsole\FacadePatternConsole\bin\Debug\net10.0\FacadePatternConsole.runtimeconfig.json
+K:\csharp\dot_net\MVC\FacadePatternConsole\FacadePatternConsole\bin\Debug\net10.0\FacadePatternConsole.dll
+K:\csharp\dot_net\MVC\FacadePatternConsole\FacadePatternConsole\bin\Debug\net10.0\FacadePatternConsole.pdb
+K:\csharp\dot_net\MVC\FacadePatternConsole\FacadePatternConsole\obj\Debug\net10.0\FacadePatternConsole.dll
+K:\csharp\dot_net\MVC\FacadePatternConsole\FacadePatternConsole\obj\Debug\net10.0\refint\FacadePatternConsole.dll
+K:\csharp\dot_net\MVC\FacadePatternConsole\FacadePatternConsole\obj\Debug\net10.0\FacadePatternConsole.pdb
+K:\csharp\dot_net\MVC\FacadePatternConsole\FacadePatternConsole\obj\Debug\net10.0\FacadePatternConsole.genruntimeconfig.cache
+K:\csharp\dot_net\MVC\FacadePatternConsole\FacadePatternConsole\obj\Debug\net10.0\ref\FacadePatternConsole.dll

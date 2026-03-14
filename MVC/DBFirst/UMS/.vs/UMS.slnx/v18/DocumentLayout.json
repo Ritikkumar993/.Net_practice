@@ -1,0 +1,277 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "K:\\csharp\\dot_net\\MVC\\DBFirst\\UMS\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DAD318EB-183F-A9D7-2F88-9FC8411EDF62}|UMS\\UMS.csproj|k:\\csharp\\dot_net\\mvc\\dbfirst\\ums\\ums\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAD318EB-183F-A9D7-2F88-9FC8411EDF62}|UMS\\UMS.csproj|solutionrelative:ums\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAD318EB-183F-A9D7-2F88-9FC8411EDF62}|UMS\\UMS.csproj|k:\\csharp\\dot_net\\mvc\\dbfirst\\ums\\ums\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAD318EB-183F-A9D7-2F88-9FC8411EDF62}|UMS\\UMS.csproj|solutionrelative:ums\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAD318EB-183F-A9D7-2F88-9FC8411EDF62}|UMS\\UMS.csproj|k:\\csharp\\dot_net\\mvc\\dbfirst\\ums\\ums\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAD318EB-183F-A9D7-2F88-9FC8411EDF62}|UMS\\UMS.csproj|solutionrelative:ums\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAD318EB-183F-A9D7-2F88-9FC8411EDF62}|UMS\\UMS.csproj|k:\\csharp\\dot_net\\mvc\\dbfirst\\ums\\ums\\dto\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAD318EB-183F-A9D7-2F88-9FC8411EDF62}|UMS\\UMS.csproj|solutionrelative:ums\\dto\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAD318EB-183F-A9D7-2F88-9FC8411EDF62}|UMS\\UMS.csproj|k:\\csharp\\dot_net\\mvc\\dbfirst\\ums\\ums\\models\\collegedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAD318EB-183F-A9D7-2F88-9FC8411EDF62}|UMS\\UMS.csproj|solutionrelative:ums\\models\\collegedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAD318EB-183F-A9D7-2F88-9FC8411EDF62}|UMS\\UMS.csproj|k:\\csharp\\dot_net\\mvc\\dbfirst\\ums\\ums\\logs\\log-20260313.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{DAD318EB-183F-A9D7-2F88-9FC8411EDF62}|UMS\\UMS.csproj|solutionrelative:ums\\logs\\log-20260313.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAD318EB-183F-A9D7-2F88-9FC8411EDF62}|UMS\\UMS.csproj|k:\\csharp\\dot_net\\mvc\\dbfirst\\ums\\ums\\models\\hostel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAD318EB-183F-A9D7-2F88-9FC8411EDF62}|UMS\\UMS.csproj|solutionrelative:ums\\models\\hostel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAD318EB-183F-A9D7-2F88-9FC8411EDF62}|UMS\\UMS.csproj|k:\\csharp\\dot_net\\mvc\\dbfirst\\ums\\ums\\nlog.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{DAD318EB-183F-A9D7-2F88-9FC8411EDF62}|UMS\\UMS.csproj|solutionrelative:ums\\nlog.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAD318EB-183F-A9D7-2F88-9FC8411EDF62}|UMS\\UMS.csproj|k:\\csharp\\dot_net\\mvc\\dbfirst\\ums\\ums\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{DAD318EB-183F-A9D7-2F88-9FC8411EDF62}|UMS\\UMS.csproj|solutionrelative:ums\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAD318EB-183F-A9D7-2F88-9FC8411EDF62}|UMS\\UMS.csproj|k:\\csharp\\dot_net\\mvc\\dbfirst\\ums\\ums\\nlog.config||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{DAD318EB-183F-A9D7-2F88-9FC8411EDF62}|UMS\\UMS.csproj|solutionrelative:ums\\nlog.config||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAD318EB-183F-A9D7-2F88-9FC8411EDF62}|UMS\\UMS.csproj|k:\\csharp\\dot_net\\mvc\\dbfirst\\ums\\ums\\dto\\studenthosteldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAD318EB-183F-A9D7-2F88-9FC8411EDF62}|UMS\\UMS.csproj|solutionrelative:ums\\dto\\studenthosteldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAD318EB-183F-A9D7-2F88-9FC8411EDF62}|UMS\\UMS.csproj|k:\\csharp\\dot_net\\mvc\\dbfirst\\ums\\ums\\services\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAD318EB-183F-A9D7-2F88-9FC8411EDF62}|UMS\\UMS.csproj|solutionrelative:ums\\services\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAD318EB-183F-A9D7-2F88-9FC8411EDF62}|UMS\\UMS.csproj|k:\\csharp\\dot_net\\mvc\\dbfirst\\ums\\ums\\services\\jwttokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAD318EB-183F-A9D7-2F88-9FC8411EDF62}|UMS\\UMS.csproj|solutionrelative:ums\\services\\jwttokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{c6f34f0d-7ae5-4f3a-be61-fe0c21ae9eb8}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 832,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CollegeDBContext.cs",
+              "DocumentMoniker": "K:\\csharp\\dot_net\\MVC\\DBFirst\\UMS\\UMS\\Models\\CollegeDBContext.cs",
+              "RelativeDocumentMoniker": "UMS\\Models\\CollegeDBContext.cs",
+              "ToolTip": "K:\\csharp\\dot_net\\MVC\\DBFirst\\UMS\\UMS\\Models\\CollegeDBContext.cs",
+              "RelativeToolTip": "UMS\\Models\\CollegeDBContext.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAA3wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-13T06:50:27.145Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LoginRequest.cs",
+              "DocumentMoniker": "K:\\csharp\\dot_net\\MVC\\DBFirst\\UMS\\UMS\\DTO\\LoginRequest.cs",
+              "RelativeDocumentMoniker": "UMS\\DTO\\LoginRequest.cs",
+              "ToolTip": "K:\\csharp\\dot_net\\MVC\\DBFirst\\UMS\\UMS\\DTO\\LoginRequest.cs",
+              "RelativeToolTip": "UMS\\DTO\\LoginRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-13T06:50:23.326Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "nlog.config",
+              "DocumentMoniker": "K:\\csharp\\dot_net\\MVC\\DBFirst\\UMS\\UMS\\nlog.config",
+              "RelativeDocumentMoniker": "UMS\\nlog.config",
+              "ToolTip": "K:\\csharp\\dot_net\\MVC\\DBFirst\\UMS\\UMS\\nlog.config",
+              "RelativeToolTip": "UMS\\nlog.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2026-03-13T06:47:29.656Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "K:\\csharp\\dot_net\\MVC\\DBFirst\\UMS\\UMS\\Program.cs",
+              "RelativeDocumentMoniker": "UMS\\Program.cs",
+              "ToolTip": "K:\\csharp\\dot_net\\MVC\\DBFirst\\UMS\\UMS\\Program.cs",
+              "RelativeToolTip": "UMS\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-13T04:10:02.74Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "K:\\csharp\\dot_net\\MVC\\DBFirst\\UMS\\UMS\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "UMS\\Controllers\\StudentController.cs",
+              "ToolTip": "K:\\csharp\\dot_net\\MVC\\DBFirst\\UMS\\UMS\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "UMS\\Controllers\\StudentController.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAYwBcAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-13T04:34:45.033Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "K:\\csharp\\dot_net\\MVC\\DBFirst\\UMS\\UMS\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "UMS\\Controllers\\AuthController.cs",
+              "ToolTip": "K:\\csharp\\dot_net\\MVC\\DBFirst\\UMS\\UMS\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "UMS\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABwAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-13T04:59:08.225Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Hostel.cs",
+              "DocumentMoniker": "K:\\csharp\\dot_net\\MVC\\DBFirst\\UMS\\UMS\\Models\\Hostel.cs",
+              "RelativeDocumentMoniker": "UMS\\Models\\Hostel.cs",
+              "ToolTip": "K:\\csharp\\dot_net\\MVC\\DBFirst\\UMS\\UMS\\Models\\Hostel.cs",
+              "RelativeToolTip": "UMS\\Models\\Hostel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-13T06:50:28.804Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "log-20260313.txt",
+              "DocumentMoniker": "K:\\csharp\\dot_net\\MVC\\DBFirst\\UMS\\UMS\\Logs\\log-20260313.txt",
+              "RelativeDocumentMoniker": "UMS\\Logs\\log-20260313.txt",
+              "ToolTip": "K:\\csharp\\dot_net\\MVC\\DBFirst\\UMS\\UMS\\Logs\\log-20260313.txt",
+              "RelativeToolTip": "UMS\\Logs\\log-20260313.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2026-03-13T06:50:54.879Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "K:\\csharp\\dot_net\\MVC\\DBFirst\\UMS\\UMS\\appsettings.json",
+              "RelativeDocumentMoniker": "UMS\\appsettings.json",
+              "ToolTip": "K:\\csharp\\dot_net\\MVC\\DBFirst\\UMS\\UMS\\appsettings.json",
+              "RelativeToolTip": "UMS\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-12T09:45:44.386Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "nlog.config",
+              "DocumentMoniker": "K:\\csharp\\dot_net\\MVC\\DBFirst\\UMS\\UMS\\nlog.config",
+              "RelativeDocumentMoniker": "UMS\\nlog.config",
+              "ToolTip": "K:\\csharp\\dot_net\\MVC\\DBFirst\\UMS\\UMS\\nlog.config",
+              "RelativeToolTip": "UMS\\nlog.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2026-03-13T04:57:12.119Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "StudentService.cs",
+              "DocumentMoniker": "K:\\csharp\\dot_net\\MVC\\DBFirst\\UMS\\UMS\\Services\\StudentService.cs",
+              "RelativeDocumentMoniker": "UMS\\Services\\StudentService.cs",
+              "ToolTip": "K:\\csharp\\dot_net\\MVC\\DBFirst\\UMS\\UMS\\Services\\StudentService.cs",
+              "RelativeToolTip": "UMS\\Services\\StudentService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-13T04:33:57.228Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "StudentHostelDTO.cs",
+              "DocumentMoniker": "K:\\csharp\\dot_net\\MVC\\DBFirst\\UMS\\UMS\\DTO\\StudentHostelDTO.cs",
+              "RelativeDocumentMoniker": "UMS\\DTO\\StudentHostelDTO.cs",
+              "ToolTip": "K:\\csharp\\dot_net\\MVC\\DBFirst\\UMS\\UMS\\DTO\\StudentHostelDTO.cs",
+              "RelativeToolTip": "UMS\\DTO\\StudentHostelDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-13T04:35:03.631Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "JwtTokenService.cs",
+              "DocumentMoniker": "K:\\csharp\\dot_net\\MVC\\DBFirst\\UMS\\UMS\\Services\\JwtTokenService.cs",
+              "RelativeDocumentMoniker": "UMS\\Services\\JwtTokenService.cs",
+              "ToolTip": "K:\\csharp\\dot_net\\MVC\\DBFirst\\UMS\\UMS\\Services\\JwtTokenService.cs",
+              "RelativeToolTip": "UMS\\Services\\JwtTokenService.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-13T04:33:44.671Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

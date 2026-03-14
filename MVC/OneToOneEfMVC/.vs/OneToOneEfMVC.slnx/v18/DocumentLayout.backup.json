@@ -1,0 +1,209 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "K:\\csharp\\dot_net\\MVC\\OneToOneEfMVC\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BC0F3B5C-2BF0-4A0E-B084-59189886EAE4}|OneToOneEfMVC\\OneToOneEfMVC.csproj|k:\\csharp\\dot_net\\mvc\\onetooneefmvc\\onetooneefmvc\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC0F3B5C-2BF0-4A0E-B084-59189886EAE4}|OneToOneEfMVC\\OneToOneEfMVC.csproj|solutionrelative:onetooneefmvc\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC0F3B5C-2BF0-4A0E-B084-59189886EAE4}|OneToOneEfMVC\\OneToOneEfMVC.csproj|k:\\csharp\\dot_net\\mvc\\onetooneefmvc\\onetooneefmvc\\models\\hostelroom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC0F3B5C-2BF0-4A0E-B084-59189886EAE4}|OneToOneEfMVC\\OneToOneEfMVC.csproj|solutionrelative:onetooneefmvc\\models\\hostelroom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC0F3B5C-2BF0-4A0E-B084-59189886EAE4}|OneToOneEfMVC\\OneToOneEfMVC.csproj|k:\\csharp\\dot_net\\mvc\\onetooneefmvc\\onetooneefmvc\\views\\student\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BC0F3B5C-2BF0-4A0E-B084-59189886EAE4}|OneToOneEfMVC\\OneToOneEfMVC.csproj|solutionrelative:onetooneefmvc\\views\\student\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC0F3B5C-2BF0-4A0E-B084-59189886EAE4}|OneToOneEfMVC\\OneToOneEfMVC.csproj|k:\\csharp\\dot_net\\mvc\\onetooneefmvc\\onetooneefmvc\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC0F3B5C-2BF0-4A0E-B084-59189886EAE4}|OneToOneEfMVC\\OneToOneEfMVC.csproj|solutionrelative:onetooneefmvc\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC0F3B5C-2BF0-4A0E-B084-59189886EAE4}|OneToOneEfMVC\\OneToOneEfMVC.csproj|k:\\csharp\\dot_net\\mvc\\onetooneefmvc\\onetooneefmvc\\data\\studentmanagementcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC0F3B5C-2BF0-4A0E-B084-59189886EAE4}|OneToOneEfMVC\\OneToOneEfMVC.csproj|solutionrelative:onetooneefmvc\\data\\studentmanagementcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC0F3B5C-2BF0-4A0E-B084-59189886EAE4}|OneToOneEfMVC\\OneToOneEfMVC.csproj|k:\\csharp\\dot_net\\mvc\\onetooneefmvc\\onetooneefmvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{BC0F3B5C-2BF0-4A0E-B084-59189886EAE4}|OneToOneEfMVC\\OneToOneEfMVC.csproj|solutionrelative:onetooneefmvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC0F3B5C-2BF0-4A0E-B084-59189886EAE4}|OneToOneEfMVC\\OneToOneEfMVC.csproj|k:\\csharp\\dot_net\\mvc\\onetooneefmvc\\onetooneefmvc\\views\\student\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BC0F3B5C-2BF0-4A0E-B084-59189886EAE4}|OneToOneEfMVC\\OneToOneEfMVC.csproj|solutionrelative:onetooneefmvc\\views\\student\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC0F3B5C-2BF0-4A0E-B084-59189886EAE4}|OneToOneEfMVC\\OneToOneEfMVC.csproj|k:\\csharp\\dot_net\\mvc\\onetooneefmvc\\onetooneefmvc\\services\\studentservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC0F3B5C-2BF0-4A0E-B084-59189886EAE4}|OneToOneEfMVC\\OneToOneEfMVC.csproj|solutionrelative:onetooneefmvc\\services\\studentservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC0F3B5C-2BF0-4A0E-B084-59189886EAE4}|OneToOneEfMVC\\OneToOneEfMVC.csproj|k:\\csharp\\dot_net\\mvc\\onetooneefmvc\\onetooneefmvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC0F3B5C-2BF0-4A0E-B084-59189886EAE4}|OneToOneEfMVC\\OneToOneEfMVC.csproj|solutionrelative:onetooneefmvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 25,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{c6f34f0d-7ae5-4f3a-be61-fe0c21ae9eb8}"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 126,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 375,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "K:\\csharp\\dot_net\\MVC\\OneToOneEfMVC\\OneToOneEfMVC\\Views\\Student\\Create.cshtml",
+              "RelativeDocumentMoniker": "OneToOneEfMVC\\Views\\Student\\Create.cshtml",
+              "ToolTip": "K:\\csharp\\dot_net\\MVC\\OneToOneEfMVC\\OneToOneEfMVC\\Views\\Student\\Create.cshtml",
+              "RelativeToolTip": "OneToOneEfMVC\\Views\\Student\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-07T09:46:10.892Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "K:\\csharp\\dot_net\\MVC\\OneToOneEfMVC\\OneToOneEfMVC\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "OneToOneEfMVC\\Controllers\\StudentController.cs",
+              "ToolTip": "K:\\csharp\\dot_net\\MVC\\OneToOneEfMVC\\OneToOneEfMVC\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "OneToOneEfMVC\\Controllers\\StudentController.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAzwBQAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-07T09:16:41.185Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HostelRoom.cs",
+              "DocumentMoniker": "K:\\csharp\\dot_net\\MVC\\OneToOneEfMVC\\OneToOneEfMVC\\Models\\HostelRoom.cs",
+              "RelativeDocumentMoniker": "OneToOneEfMVC\\Models\\HostelRoom.cs",
+              "ToolTip": "K:\\csharp\\dot_net\\MVC\\OneToOneEfMVC\\OneToOneEfMVC\\Models\\HostelRoom.cs",
+              "RelativeToolTip": "OneToOneEfMVC\\Models\\HostelRoom.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-07T09:11:21.958Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Student.cs",
+              "DocumentMoniker": "K:\\csharp\\dot_net\\MVC\\OneToOneEfMVC\\OneToOneEfMVC\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "OneToOneEfMVC\\Models\\Student.cs",
+              "ToolTip": "K:\\csharp\\dot_net\\MVC\\OneToOneEfMVC\\OneToOneEfMVC\\Models\\Student.cs",
+              "RelativeToolTip": "OneToOneEfMVC\\Models\\Student.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-07T09:11:36.147Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "StudentManagementContext.cs",
+              "DocumentMoniker": "K:\\csharp\\dot_net\\MVC\\OneToOneEfMVC\\OneToOneEfMVC\\Data\\StudentManagementContext.cs",
+              "RelativeDocumentMoniker": "OneToOneEfMVC\\Data\\StudentManagementContext.cs",
+              "ToolTip": "K:\\csharp\\dot_net\\MVC\\OneToOneEfMVC\\OneToOneEfMVC\\Data\\StudentManagementContext.cs",
+              "RelativeToolTip": "OneToOneEfMVC\\Data\\StudentManagementContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-07T09:19:22.541Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "K:\\csharp\\dot_net\\MVC\\OneToOneEfMVC\\OneToOneEfMVC\\appsettings.json",
+              "RelativeDocumentMoniker": "OneToOneEfMVC\\appsettings.json",
+              "ToolTip": "K:\\csharp\\dot_net\\MVC\\OneToOneEfMVC\\OneToOneEfMVC\\appsettings.json",
+              "RelativeToolTip": "OneToOneEfMVC\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-07T09:36:25.939Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "K:\\csharp\\dot_net\\MVC\\OneToOneEfMVC\\OneToOneEfMVC\\Views\\Student\\Index.cshtml",
+              "RelativeDocumentMoniker": "OneToOneEfMVC\\Views\\Student\\Index.cshtml",
+              "ToolTip": "K:\\csharp\\dot_net\\MVC\\OneToOneEfMVC\\OneToOneEfMVC\\Views\\Student\\Index.cshtml",
+              "RelativeToolTip": "OneToOneEfMVC\\Views\\Student\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-07T09:44:06.551Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "K:\\csharp\\dot_net\\MVC\\OneToOneEfMVC\\OneToOneEfMVC\\Program.cs",
+              "RelativeDocumentMoniker": "OneToOneEfMVC\\Program.cs",
+              "ToolTip": "K:\\csharp\\dot_net\\MVC\\OneToOneEfMVC\\OneToOneEfMVC\\Program.cs",
+              "RelativeToolTip": "OneToOneEfMVC\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-07T09:30:06.345Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "StudentServices.cs",
+              "DocumentMoniker": "K:\\csharp\\dot_net\\MVC\\OneToOneEfMVC\\OneToOneEfMVC\\Services\\StudentServices.cs",
+              "RelativeDocumentMoniker": "OneToOneEfMVC\\Services\\StudentServices.cs",
+              "ToolTip": "K:\\csharp\\dot_net\\MVC\\OneToOneEfMVC\\OneToOneEfMVC\\Services\\StudentServices.cs",
+              "RelativeToolTip": "OneToOneEfMVC\\Services\\StudentServices.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-07T09:12:12.151Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

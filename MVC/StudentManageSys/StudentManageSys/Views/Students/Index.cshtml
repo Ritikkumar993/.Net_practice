@@ -1,0 +1,306 @@
+﻿@model List<Student>
+
+@{
+    ViewData["Title"] = "Students";
+    var q = (ViewBag.Query as string) ?? "";
+    int page = ViewBag.Page ?? 1;
+    var prevDisabled = page <= 1 ? "disabled" : "";
+}
+
+<div class="container-card">
+
+    ```
+    <div class="header-row">
+        <div>
+            <h2>Students</h2>
+            <p class="subtitle">Manage student records with live search</p>
+        </div>
+
+        <a class="btn-primary" asp-action="Create">+ Add Student</a>
+    </div>
+
+
+    <div class="search-row">
+        <input id="q"
+               class="search-input"
+               placeholder="Search by name or email..."
+               value="@q" />
+
+        <button id="btnSearch"
+                class="btn-secondary"
+                type="button">
+            Search
+        </button>
+    </div>
+
+
+    <div id="liveBox" class="search-info"></div>
+
+
+    <table class="modern-table">
+
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Status</th>
+                <th style="width:180px">Actions</th>
+            </tr>
+        </thead>
+
+        <tbody id="tblBody">
+
+            @if (Model == null || Model.Count == 0)
+            {
+                <tr>
+                    <td colspan="5">No records found</td>
+                </tr>
+            }
+            else
+            {
+                foreach (var s in Model)
+                {
+                    <tr>
+                        <td>@s.StudentId</td>
+                        <td>@s.FullName</td>
+                        <td>@s.Email</td>
+
+                        <td>
+                            <span class="badge">@s.Status</span>
+                        </td>
+
+                        <td>
+                            <a class="btn-sm edit"
+                               asp-action="Edit"
+                               asp-route-id="@s.StudentId">
+                                Edit
+                            </a>
+
+                            <a class="btn-sm delete"
+                               asp-action="Delete"
+                               asp-route-id="@s.StudentId">
+                                Delete
+                            </a>
+                        </td>
+                    </tr>
+                }
+            }
+
+        </tbody>
+
+    </table>
+
+
+    <div class="pagination-row" style="margin-top:20px">
+
+        <a class="btn-secondary @prevDisabled"
+           asp-action="Index"
+           asp-route-q="@q"
+           asp-route-page="@(page - 1)">
+            Previous
+        </a>
+
+        <span style="margin:0 15px;font-weight:600">
+            Page @(page)
+        </span>
+
+        <a class="btn-secondary"
+           asp-action="Index"
+           asp-route-q="@q"
+           asp-route-page="@(page + 1)">
+            Next
+        </a>
+
+    </div>
+    ```
+
+</div>
+
+@section Scripts {
+
+    <script>
+
+        const qEl = document.getElementById("q");
+        const box = document.getElementById("liveBox");
+        const tbody = document.getElementById("tblBody");
+        const btn = document.getElementById("btnSearch");
+
+        let timer = null;
+
+
+        function renderRows(items){
+
+            if(!items || items.length === 0){
+                tbody.innerHTML =
+                `<tr>
+                    <td colspan="5">No results</td>
+                 </tr>`;
+                return;
+            }
+
+            tbody.innerHTML = items.map(s => `
+
+                <tr>
+                    <td>${s.studentId}</td>
+                    <td>${s.fullName}</td>
+                    <td>${s.email}</td>
+
+                    <td>
+                        <span class="badge">${s.status}</span>
+                    </td>
+
+                    <td>
+                        <a class="btn-sm edit"
+                           href="/Students/Edit/${s.studentId}">
+                           Edit
+                        </a>
+
+                        <a class="btn-sm delete"
+                           href="/Students/Delete/${s.studentId}">
+                           Delete
+                        </a>
+                    </td>
+                </tr>
+
+            `).join("");
+        }
+
+
+        async function liveSearch(){
+
+            const q = qEl.value.trim();
+
+            const res =
+                await fetch(`/Students/Search?q=${encodeURIComponent(q)}`);
+
+            const data = await res.json();
+
+            box.textContent =
+                q.length === 0 ? "" : `Found: ${data.length}`;
+
+            renderRows(data);
+
+        }
+
+
+        qEl.addEventListener("keyup", () => {
+
+            clearTimeout(timer);
+
+            timer = setTimeout(liveSearch, 300);
+
+        });
+
+
+        btn.addEventListener("click", liveSearch);
+
+    </script>
+
+}
+
+
+
+
+
+
+
+@* @model List<Student>
+
+@{
+    ViewData["Title"] = "Students";
+    var q = (ViewBag.Query as string) ?? "";
+}
+
+<div class="container-card">
+    <div class="header-row">
+        <div>
+            <h2>Students</h2>
+            <p class="subtitle">Manage student records with live search</p>
+        </div>
+        <a class="btn-primary" asp-action="Create">+ Add Student</a>
+    </div>
+
+    <div class="search-row">
+        <input id="q" class="search-input" placeholder="Search by name or email..." value="@q" />
+        <button id="btnSearch" class="btn-secondary" type="button">Search</button>
+    </div>
+
+    <div id="liveBox" class="search-info"></div>
+
+    <table class="modern-table">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Status</th>
+                <th style="width:180px">Actions</th>
+            </tr>
+        </thead>
+        <tbody id="tblBody">
+            @foreach (var s in Model)
+            {
+                <tr>
+                    <td>@s.StudentId</td>
+                    <td>@s.FullName</td>
+                    <td>@s.Email</td>
+                    <td>
+                        <span class="badge">@s.Status</span>
+                    </td>
+                    <td>
+                        <a class="btn-sm edit" asp-action="Edit" asp-route-id="@s.StudentId">Edit</a>
+                        <a class="btn-sm delete" asp-action="Delete" asp-route-id="@s.StudentId">Delete</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+@section Scripts {
+    <script>
+        const qEl = document.getElementById("q");
+        const box = document.getElementById("liveBox");
+        const tbody = document.getElementById("tblBody");
+        const btn = document.getElementById("btnSearch");
+
+        let t = null;
+
+        function renderRows(items){
+            if(!items || items.length === 0){
+                tbody.innerHTML = `<tr><td colspan="5">No results</td></tr>`;
+                return;
+            }
+
+            tbody.innerHTML = items.map(s => `
+                <tr>
+                    <td>${s.studentId}</td>
+                    <td>${s.fullName}</td>
+                    <td>${s.email}</td>
+                    <td><span class="badge">${s.status}</span></td>
+                    <td>
+                        <a class="btn-sm edit" href="/Students/Edit/${s.studentId}">Edit</a>
+                        <a class="btn-sm delete" href="/Students/Delete/${s.studentId}">Delete</a>
+                    </td>
+                </tr>
+            `).join("");
+        }
+
+        async function liveSearch(){
+            const q = qEl.value.trim();
+
+            const res = await fetch(`/Students/Search?q=${encodeURIComponent(q)}`);
+            const data = await res.json();
+
+            box.textContent = q.length === 0 ? "" : `Found: ${data.length}`;
+            renderRows(data);
+        }
+
+        qEl.addEventListener("keyup", () => {
+            clearTimeout(t);
+            t = setTimeout(liveSearch, 300);
+        });
+
+        btn.addEventListener("click", liveSearch);
+    </script>
+} *@

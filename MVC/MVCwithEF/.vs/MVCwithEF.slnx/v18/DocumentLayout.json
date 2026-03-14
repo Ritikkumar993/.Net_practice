@@ -1,0 +1,160 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "K:\\csharp\\dot_net\\MVC\\MVCwithEF\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C2FBAE22-41A8-5564-694B-F064D86F223E}|MVCwithEF\\MVCwithEF.csproj|k:\\csharp\\dot_net\\mvc\\mvcwithef\\mvcwithef\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C2FBAE22-41A8-5564-694B-F064D86F223E}|MVCwithEF\\MVCwithEF.csproj|solutionrelative:mvcwithef\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2FBAE22-41A8-5564-694B-F064D86F223E}|MVCwithEF\\MVCwithEF.csproj|k:\\csharp\\dot_net\\mvc\\mvcwithef\\mvcwithef\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C2FBAE22-41A8-5564-694B-F064D86F223E}|MVCwithEF\\MVCwithEF.csproj|solutionrelative:mvcwithef\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2FBAE22-41A8-5564-694B-F064D86F223E}|MVCwithEF\\MVCwithEF.csproj|k:\\csharp\\dot_net\\mvc\\mvcwithef\\mvcwithef\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2FBAE22-41A8-5564-694B-F064D86F223E}|MVCwithEF\\MVCwithEF.csproj|solutionrelative:mvcwithef\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2FBAE22-41A8-5564-694B-F064D86F223E}|MVCwithEF\\MVCwithEF.csproj|k:\\csharp\\dot_net\\mvc\\mvcwithef\\mvcwithef\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2FBAE22-41A8-5564-694B-F064D86F223E}|MVCwithEF\\MVCwithEF.csproj|solutionrelative:mvcwithef\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2FBAE22-41A8-5564-694B-F064D86F223E}|MVCwithEF\\MVCwithEF.csproj|k:\\csharp\\dot_net\\mvc\\mvcwithef\\mvcwithef\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2FBAE22-41A8-5564-694B-F064D86F223E}|MVCwithEF\\MVCwithEF.csproj|solutionrelative:mvcwithef\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2FBAE22-41A8-5564-694B-F064D86F223E}|MVCwithEF\\MVCwithEF.csproj|k:\\csharp\\dot_net\\mvc\\mvcwithef\\mvcwithef\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2FBAE22-41A8-5564-694B-F064D86F223E}|MVCwithEF\\MVCwithEF.csproj|solutionrelative:mvcwithef\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 304,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{c6f34f0d-7ae5-4f3a-be61-fe0c21ae9eb8}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "K:\\csharp\\dot_net\\MVC\\MVCwithEF\\MVCwithEF\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "MVCwithEF\\Views\\_ViewStart.cshtml",
+              "ToolTip": "K:\\csharp\\dot_net\\MVC\\MVCwithEF\\MVCwithEF\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "MVCwithEF\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-24T08:46:05.066Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "StudentsController.cs",
+              "DocumentMoniker": "K:\\csharp\\dot_net\\MVC\\MVCwithEF\\MVCwithEF\\Controllers\\StudentsController.cs",
+              "RelativeDocumentMoniker": "MVCwithEF\\Controllers\\StudentsController.cs",
+              "ToolTip": "K:\\csharp\\dot_net\\MVC\\MVCwithEF\\MVCwithEF\\Controllers\\StudentsController.cs",
+              "RelativeToolTip": "MVCwithEF\\Controllers\\StudentsController.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAowD4AAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-23T06:49:08.02Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "K:\\csharp\\dot_net\\MVC\\MVCwithEF\\MVCwithEF\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "MVCwithEF\\Data\\AppDbContext.cs",
+              "ToolTip": "K:\\csharp\\dot_net\\MVC\\MVCwithEF\\MVCwithEF\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "MVCwithEF\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-23T06:39:58.902Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Student.cs",
+              "DocumentMoniker": "K:\\csharp\\dot_net\\MVC\\MVCwithEF\\MVCwithEF\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "MVCwithEF\\Models\\Student.cs",
+              "ToolTip": "K:\\csharp\\dot_net\\MVC\\MVCwithEF\\MVCwithEF\\Models\\Student.cs",
+              "RelativeToolTip": "MVCwithEF\\Models\\Student.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAAAoAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-23T06:37:30.055Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "K:\\csharp\\dot_net\\MVC\\MVCwithEF\\MVCwithEF\\Program.cs",
+              "RelativeDocumentMoniker": "MVCwithEF\\Program.cs",
+              "ToolTip": "K:\\csharp\\dot_net\\MVC\\MVCwithEF\\MVCwithEF\\Program.cs",
+              "RelativeToolTip": "MVCwithEF\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-23T06:37:10.623Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "K:\\csharp\\dot_net\\MVC\\MVCwithEF\\MVCwithEF\\appsettings.json",
+              "RelativeDocumentMoniker": "MVCwithEF\\appsettings.json",
+              "ToolTip": "K:\\csharp\\dot_net\\MVC\\MVCwithEF\\MVCwithEF\\appsettings.json",
+              "RelativeToolTip": "MVCwithEF\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-02-23T06:28:55.494Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedHeight": 126,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 96,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:4:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

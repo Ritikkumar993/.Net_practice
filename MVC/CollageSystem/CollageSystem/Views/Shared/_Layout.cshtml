@@ -1,0 +1,96 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] — College Portal</title>
+    <meta name="description"
+        content="College Portal Management System — Apply, track, and manage your academic journey." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+</head>
+
+<body>
+    <!-- ── Navbar ── -->
+    <nav class="navbar-portal" id="navbar">
+        <div class="navbar-inner">
+            <a class="navbar-logo" asp-controller="Home" asp-action="Index">
+                <span class="logo-icon">🎓</span>
+                CollegePortal
+            </a>
+
+            <button class="navbar-toggle" id="navToggle" aria-label="Toggle navigation">☰</button>
+
+            <ul class="navbar-links" id="navLinks">
+                <li><a asp-controller="Home" asp-action="Index">Home</a></li>
+
+                @if (Context.Session.GetString("UserRole") == "Student")
+                {
+                    <li><a asp-controller="Student" asp-action="Dashboard">My Dashboard</a></li>
+                }
+                else if (Context.Session.GetString("UserRole") == "Admin")
+                {
+                    <li><a asp-controller="Admin" asp-action="Dashboard">Admin Panel</a></li>
+                }
+                else
+                {
+                    <li><a asp-controller="Account" asp-action="Register">Register</a></li>
+                    <li><a asp-controller="Account" asp-action="Login">Student Login</a></li>
+                    <li><a asp-controller="Admin" asp-action="Login">Admin</a></li>
+                }
+            </ul>
+
+            <div class="navbar-cta">
+                @if (Context.Session.GetString("UserRole") == "Student")
+                {
+                    <span style="color:var(--text-secondary);font-size:0.85rem;">
+                        👤 @Context.Session.GetString("StudentName")
+                    </span>
+                    <a class="btn btn-outline btn-sm" asp-controller="Account" asp-action="Logout">Logout</a>
+                }
+                else if (Context.Session.GetString("UserRole") == "Admin")
+                {
+                    <span style="color:var(--text-secondary);font-size:0.85rem;">
+                        🛡️ Admin
+                    </span>
+                    <a class="btn btn-outline btn-sm" asp-controller="Admin" asp-action="Logout">Logout</a>
+                }
+                else
+                {
+                    <a class="btn btn-primary btn-sm" asp-controller="Account" asp-action="Register">Apply Now</a>
+                }
+            </div>
+        </div>
+    </nav>
+
+    <!-- ── Main Content ── -->
+    <main>
+        @if (TempData["SuccessMessage"] != null)
+        {
+            <div class="page-container" style="padding-bottom:0;">
+                <div class="alert alert-success">✅ @TempData["SuccessMessage"]</div>
+            </div>
+        }
+        @if (TempData["ErrorMessage"] != null)
+        {
+            <div class="page-container" style="padding-bottom:0;">
+                <div class="alert alert-error">❌ @TempData["ErrorMessage"]</div>
+            </div>
+        }
+        @RenderBody()
+    </main>
+
+    <!-- ── Footer ── -->
+    <footer class="footer-portal">
+        &copy; @DateTime.Now.Year CollegePortal — All rights reserved.
+    </footer>
+
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+
+</html>

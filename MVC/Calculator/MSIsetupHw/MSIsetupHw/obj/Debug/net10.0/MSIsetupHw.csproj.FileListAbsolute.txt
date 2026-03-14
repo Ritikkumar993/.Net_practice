@@ -1,0 +1,15 @@
+K:\csharp\dot_net\MVC\Calculator\MSIsetupHw\MSIsetupHw\bin\Debug\net10.0\MSIsetupHw.exe
+K:\csharp\dot_net\MVC\Calculator\MSIsetupHw\MSIsetupHw\bin\Debug\net10.0\MSIsetupHw.deps.json
+K:\csharp\dot_net\MVC\Calculator\MSIsetupHw\MSIsetupHw\bin\Debug\net10.0\MSIsetupHw.runtimeconfig.json
+K:\csharp\dot_net\MVC\Calculator\MSIsetupHw\MSIsetupHw\bin\Debug\net10.0\MSIsetupHw.dll
+K:\csharp\dot_net\MVC\Calculator\MSIsetupHw\MSIsetupHw\bin\Debug\net10.0\MSIsetupHw.pdb
+K:\csharp\dot_net\MVC\Calculator\MSIsetupHw\MSIsetupHw\obj\Debug\net10.0\MSIsetupHw.GeneratedMSBuildEditorConfig.editorconfig
+K:\csharp\dot_net\MVC\Calculator\MSIsetupHw\MSIsetupHw\obj\Debug\net10.0\MSIsetupHw.AssemblyInfoInputs.cache
+K:\csharp\dot_net\MVC\Calculator\MSIsetupHw\MSIsetupHw\obj\Debug\net10.0\MSIsetupHw.AssemblyInfo.cs
+K:\csharp\dot_net\MVC\Calculator\MSIsetupHw\MSIsetupHw\obj\Debug\net10.0\MSIsetupHw.csproj.CoreCompileInputs.cache
+K:\csharp\dot_net\MVC\Calculator\MSIsetupHw\MSIsetupHw\obj\Debug\net10.0\MSIsetupHw.sourcelink.json
+K:\csharp\dot_net\MVC\Calculator\MSIsetupHw\MSIsetupHw\obj\Debug\net10.0\MSIsetupHw.dll
+K:\csharp\dot_net\MVC\Calculator\MSIsetupHw\MSIsetupHw\obj\Debug\net10.0\refint\MSIsetupHw.dll
+K:\csharp\dot_net\MVC\Calculator\MSIsetupHw\MSIsetupHw\obj\Debug\net10.0\MSIsetupHw.pdb
+K:\csharp\dot_net\MVC\Calculator\MSIsetupHw\MSIsetupHw\obj\Debug\net10.0\MSIsetupHw.genruntimeconfig.cache
+K:\csharp\dot_net\MVC\Calculator\MSIsetupHw\MSIsetupHw\obj\Debug\net10.0\ref\MSIsetupHw.dll

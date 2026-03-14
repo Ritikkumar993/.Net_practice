@@ -1,0 +1,15 @@
+K:\csharp\dot_net\MVC\Versioning\APIUpdateConsole\APIUpdateConsole\bin\Debug\net10.0\APIUpdateConsole.exe
+K:\csharp\dot_net\MVC\Versioning\APIUpdateConsole\APIUpdateConsole\bin\Debug\net10.0\APIUpdateConsole.deps.json
+K:\csharp\dot_net\MVC\Versioning\APIUpdateConsole\APIUpdateConsole\bin\Debug\net10.0\APIUpdateConsole.runtimeconfig.json
+K:\csharp\dot_net\MVC\Versioning\APIUpdateConsole\APIUpdateConsole\bin\Debug\net10.0\APIUpdateConsole.dll
+K:\csharp\dot_net\MVC\Versioning\APIUpdateConsole\APIUpdateConsole\bin\Debug\net10.0\APIUpdateConsole.pdb
+K:\csharp\dot_net\MVC\Versioning\APIUpdateConsole\APIUpdateConsole\obj\Debug\net10.0\APIUpdateConsole.GeneratedMSBuildEditorConfig.editorconfig
+K:\csharp\dot_net\MVC\Versioning\APIUpdateConsole\APIUpdateConsole\obj\Debug\net10.0\APIUpdateConsole.AssemblyInfoInputs.cache
+K:\csharp\dot_net\MVC\Versioning\APIUpdateConsole\APIUpdateConsole\obj\Debug\net10.0\APIUpdateConsole.AssemblyInfo.cs
+K:\csharp\dot_net\MVC\Versioning\APIUpdateConsole\APIUpdateConsole\obj\Debug\net10.0\APIUpdateConsole.csproj.CoreCompileInputs.cache
+K:\csharp\dot_net\MVC\Versioning\APIUpdateConsole\APIUpdateConsole\obj\Debug\net10.0\APIUpdateConsole.sourcelink.json
+K:\csharp\dot_net\MVC\Versioning\APIUpdateConsole\APIUpdateConsole\obj\Debug\net10.0\APIUpdateConsole.dll
+K:\csharp\dot_net\MVC\Versioning\APIUpdateConsole\APIUpdateConsole\obj\Debug\net10.0\refint\APIUpdateConsole.dll
+K:\csharp\dot_net\MVC\Versioning\APIUpdateConsole\APIUpdateConsole\obj\Debug\net10.0\APIUpdateConsole.pdb
+K:\csharp\dot_net\MVC\Versioning\APIUpdateConsole\APIUpdateConsole\obj\Debug\net10.0\APIUpdateConsole.genruntimeconfig.cache
+K:\csharp\dot_net\MVC\Versioning\APIUpdateConsole\APIUpdateConsole\obj\Debug\net10.0\ref\APIUpdateConsole.dll

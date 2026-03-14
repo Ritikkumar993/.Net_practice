@@ -1,0 +1,128 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "K:\\csharp\\dot_net\\MVC\\Employee.Core\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AFC8CED0-8087-4384-8174-00404787C26C}|Employee.Core\\Employee.Core.csproj|k:\\csharp\\dot_net\\mvc\\employee.core\\employee.core\\services\\employeeservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFC8CED0-8087-4384-8174-00404787C26C}|Employee.Core\\Employee.Core.csproj|solutionrelative:employee.core\\services\\employeeservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5303F45-B134-4519-B644-905B033805F2}|EmployeeApp.Test\\EmployeeApp.Test.csproj|k:\\csharp\\dot_net\\mvc\\employee.core\\employeeapp.test\\employeeservicestests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5303F45-B134-4519-B644-905B033805F2}|EmployeeApp.Test\\EmployeeApp.Test.csproj|solutionrelative:employeeapp.test\\employeeservicestests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFC8CED0-8087-4384-8174-00404787C26C}|Employee.Core\\Employee.Core.csproj|k:\\csharp\\dot_net\\mvc\\employee.core\\employee.core\\repositories\\iemployeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFC8CED0-8087-4384-8174-00404787C26C}|Employee.Core\\Employee.Core.csproj|solutionrelative:employee.core\\repositories\\iemployeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFC8CED0-8087-4384-8174-00404787C26C}|Employee.Core\\Employee.Core.csproj|k:\\csharp\\dot_net\\mvc\\employee.core\\employee.core\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFC8CED0-8087-4384-8174-00404787C26C}|Employee.Core\\Employee.Core.csproj|solutionrelative:employee.core\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 25,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{c6f34f0d-7ae5-4f3a-be61-fe0c21ae9eb8}"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 126,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 375,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EmployeeServices.cs",
+              "DocumentMoniker": "K:\\csharp\\dot_net\\MVC\\Employee.Core\\Employee.Core\\Services\\EmployeeServices.cs",
+              "RelativeDocumentMoniker": "Employee.Core\\Services\\EmployeeServices.cs",
+              "ToolTip": "K:\\csharp\\dot_net\\MVC\\Employee.Core\\Employee.Core\\Services\\EmployeeServices.cs",
+              "RelativeToolTip": "Employee.Core\\Services\\EmployeeServices.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-05T06:55:07.103Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EmployeeServicesTests.cs",
+              "DocumentMoniker": "K:\\csharp\\dot_net\\MVC\\Employee.Core\\EmployeeApp.Test\\EmployeeServicesTests.cs",
+              "RelativeDocumentMoniker": "EmployeeApp.Test\\EmployeeServicesTests.cs",
+              "ToolTip": "K:\\csharp\\dot_net\\MVC\\Employee.Core\\EmployeeApp.Test\\EmployeeServicesTests.cs",
+              "RelativeToolTip": "EmployeeApp.Test\\EmployeeServicesTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-05T07:00:29.776Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IEmployeeRepository.cs",
+              "DocumentMoniker": "K:\\csharp\\dot_net\\MVC\\Employee.Core\\Employee.Core\\Repositories\\IEmployeeRepository.cs",
+              "RelativeDocumentMoniker": "Employee.Core\\Repositories\\IEmployeeRepository.cs",
+              "ToolTip": "K:\\csharp\\dot_net\\MVC\\Employee.Core\\Employee.Core\\Repositories\\IEmployeeRepository.cs",
+              "RelativeToolTip": "Employee.Core\\Repositories\\IEmployeeRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-05T06:50:16.873Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "K:\\csharp\\dot_net\\MVC\\Employee.Core\\Employee.Core\\Models\\Employee.cs",
+              "RelativeDocumentMoniker": "Employee.Core\\Models\\Employee.cs",
+              "ToolTip": "K:\\csharp\\dot_net\\MVC\\Employee.Core\\Employee.Core\\Models\\Employee.cs",
+              "RelativeToolTip": "Employee.Core\\Models\\Employee.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-05T06:49:30.847Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

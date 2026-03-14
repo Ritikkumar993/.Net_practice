@@ -1,0 +1,201 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "K:\\csharp\\dot_net\\MVC\\CollegeApplication\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{75CB87EC-0C80-D16C-6A00-7F30E40EF089}|CollegeApplication\\CollegeApplication.csproj|k:\\csharp\\dot_net\\mvc\\collegeapplication\\collegeapplication\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{75CB87EC-0C80-D16C-6A00-7F30E40EF089}|CollegeApplication\\CollegeApplication.csproj|solutionrelative:collegeapplication\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75CB87EC-0C80-D16C-6A00-7F30E40EF089}|CollegeApplication\\CollegeApplication.csproj|k:\\csharp\\dot_net\\mvc\\collegeapplication\\collegeapplication\\models\\applicant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75CB87EC-0C80-D16C-6A00-7F30E40EF089}|CollegeApplication\\CollegeApplication.csproj|solutionrelative:collegeapplication\\models\\applicant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75CB87EC-0C80-D16C-6A00-7F30E40EF089}|CollegeApplication\\CollegeApplication.csproj|k:\\csharp\\dot_net\\mvc\\collegeapplication\\collegeapplication\\data\\applicantrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75CB87EC-0C80-D16C-6A00-7F30E40EF089}|CollegeApplication\\CollegeApplication.csproj|solutionrelative:collegeapplication\\data\\applicantrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75CB87EC-0C80-D16C-6A00-7F30E40EF089}|CollegeApplication\\CollegeApplication.csproj|k:\\csharp\\dot_net\\mvc\\collegeapplication\\collegeapplication\\controllers\\applicantcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75CB87EC-0C80-D16C-6A00-7F30E40EF089}|CollegeApplication\\CollegeApplication.csproj|solutionrelative:collegeapplication\\controllers\\applicantcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75CB87EC-0C80-D16C-6A00-7F30E40EF089}|CollegeApplication\\CollegeApplication.csproj|k:\\csharp\\dot_net\\mvc\\collegeapplication\\collegeapplication\\views\\applicant\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{75CB87EC-0C80-D16C-6A00-7F30E40EF089}|CollegeApplication\\CollegeApplication.csproj|solutionrelative:collegeapplication\\views\\applicant\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75CB87EC-0C80-D16C-6A00-7F30E40EF089}|CollegeApplication\\CollegeApplication.csproj|k:\\csharp\\dot_net\\mvc\\collegeapplication\\collegeapplication\\views\\applicant\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{75CB87EC-0C80-D16C-6A00-7F30E40EF089}|CollegeApplication\\CollegeApplication.csproj|solutionrelative:collegeapplication\\views\\applicant\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75CB87EC-0C80-D16C-6A00-7F30E40EF089}|CollegeApplication\\CollegeApplication.csproj|k:\\csharp\\dot_net\\mvc\\collegeapplication\\collegeapplication\\views\\applicant\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{75CB87EC-0C80-D16C-6A00-7F30E40EF089}|CollegeApplication\\CollegeApplication.csproj|solutionrelative:collegeapplication\\views\\applicant\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75CB87EC-0C80-D16C-6A00-7F30E40EF089}|CollegeApplication\\CollegeApplication.csproj|k:\\csharp\\dot_net\\mvc\\collegeapplication\\collegeapplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75CB87EC-0C80-D16C-6A00-7F30E40EF089}|CollegeApplication\\CollegeApplication.csproj|solutionrelative:collegeapplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75CB87EC-0C80-D16C-6A00-7F30E40EF089}|CollegeApplication\\CollegeApplication.csproj|k:\\csharp\\dot_net\\mvc\\collegeapplication\\collegeapplication\\views\\applicant\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{75CB87EC-0C80-D16C-6A00-7F30E40EF089}|CollegeApplication\\CollegeApplication.csproj|solutionrelative:collegeapplication\\views\\applicant\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 25,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{c6f34f0d-7ae5-4f3a-be61-fe0c21ae9eb8}"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 126,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 375,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "K:\\csharp\\dot_net\\MVC\\CollegeApplication\\CollegeApplication\\appsettings.json",
+              "RelativeDocumentMoniker": "CollegeApplication\\appsettings.json",
+              "ToolTip": "K:\\csharp\\dot_net\\MVC\\CollegeApplication\\CollegeApplication\\appsettings.json",
+              "RelativeToolTip": "CollegeApplication\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-02-26T10:23:29.449Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ApplicantRepository.cs",
+              "DocumentMoniker": "K:\\csharp\\dot_net\\MVC\\CollegeApplication\\CollegeApplication\\Data\\ApplicantRepository.cs",
+              "RelativeDocumentMoniker": "CollegeApplication\\Data\\ApplicantRepository.cs",
+              "ToolTip": "K:\\csharp\\dot_net\\MVC\\CollegeApplication\\CollegeApplication\\Data\\ApplicantRepository.cs",
+              "RelativeToolTip": "CollegeApplication\\Data\\ApplicantRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-25T06:06:27.657Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Applicant.cs",
+              "DocumentMoniker": "K:\\csharp\\dot_net\\MVC\\CollegeApplication\\CollegeApplication\\Models\\Applicant.cs",
+              "RelativeDocumentMoniker": "CollegeApplication\\Models\\Applicant.cs",
+              "ToolTip": "K:\\csharp\\dot_net\\MVC\\CollegeApplication\\CollegeApplication\\Models\\Applicant.cs",
+              "RelativeToolTip": "CollegeApplication\\Models\\Applicant.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAcwDAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-25T04:33:53.122Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ApplicantController.cs",
+              "DocumentMoniker": "K:\\csharp\\dot_net\\MVC\\CollegeApplication\\CollegeApplication\\Controllers\\ApplicantController.cs",
+              "RelativeDocumentMoniker": "CollegeApplication\\Controllers\\ApplicantController.cs",
+              "ToolTip": "K:\\csharp\\dot_net\\MVC\\CollegeApplication\\CollegeApplication\\Controllers\\ApplicantController.cs",
+              "RelativeToolTip": "CollegeApplication\\Controllers\\ApplicantController.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAmwCMAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-25T07:04:23.231Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "K:\\csharp\\dot_net\\MVC\\CollegeApplication\\CollegeApplication\\Program.cs",
+              "RelativeDocumentMoniker": "CollegeApplication\\Program.cs",
+              "ToolTip": "K:\\csharp\\dot_net\\MVC\\CollegeApplication\\CollegeApplication\\Program.cs",
+              "RelativeToolTip": "CollegeApplication\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-25T07:09:38.323Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "K:\\csharp\\dot_net\\MVC\\CollegeApplication\\CollegeApplication\\Views\\Applicant\\Delete.cshtml",
+              "RelativeDocumentMoniker": "CollegeApplication\\Views\\Applicant\\Delete.cshtml",
+              "ToolTip": "K:\\csharp\\dot_net\\MVC\\CollegeApplication\\CollegeApplication\\Views\\Applicant\\Delete.cshtml",
+              "RelativeToolTip": "CollegeApplication\\Views\\Applicant\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-25T07:08:58.104Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "K:\\csharp\\dot_net\\MVC\\CollegeApplication\\CollegeApplication\\Views\\Applicant\\Edit.cshtml",
+              "RelativeDocumentMoniker": "CollegeApplication\\Views\\Applicant\\Edit.cshtml",
+              "ToolTip": "K:\\csharp\\dot_net\\MVC\\CollegeApplication\\CollegeApplication\\Views\\Applicant\\Edit.cshtml",
+              "RelativeToolTip": "CollegeApplication\\Views\\Applicant\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-25T07:07:39.804Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "K:\\csharp\\dot_net\\MVC\\CollegeApplication\\CollegeApplication\\Views\\Applicant\\Create.cshtml",
+              "RelativeDocumentMoniker": "CollegeApplication\\Views\\Applicant\\Create.cshtml",
+              "ToolTip": "K:\\csharp\\dot_net\\MVC\\CollegeApplication\\CollegeApplication\\Views\\Applicant\\Create.cshtml",
+              "RelativeToolTip": "CollegeApplication\\Views\\Applicant\\Create.cshtml",
+              "ViewState": "AgIAACYAAAAAAAAAAAAQwCkAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-25T07:06:15.658Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "K:\\csharp\\dot_net\\MVC\\CollegeApplication\\CollegeApplication\\Views\\Applicant\\Index.cshtml",
+              "RelativeDocumentMoniker": "CollegeApplication\\Views\\Applicant\\Index.cshtml",
+              "ToolTip": "K:\\csharp\\dot_net\\MVC\\CollegeApplication\\CollegeApplication\\Views\\Applicant\\Index.cshtml",
+              "RelativeToolTip": "CollegeApplication\\Views\\Applicant\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-25T07:05:47.154Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+﻿using Microsoft.AspNetCore.Mvc;
+using NumbersAPI.Services;
+
+namespace NumbersAPI.Controllers
+{
+    public class NumbersController : Controller
+    {
+        private readonly INumbersServices _numsOP;
+        public IActionResult Index()
+        {
+
+            return ContentResult();
+        }
+        public IActionResult evens()
+        {
+            var nums = _numsOP.EVENs();
+            return ContentResult(nums);
+        }
+        public IActionResult odds()
+        {
+            var nums = _numsOP.ODDs();
+            return ContentResult(nums);
+        }
+    }
+}

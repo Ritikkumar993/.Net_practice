@@ -1,0 +1,175 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "K:\\csharp\\dot_net\\MVC\\API\\CollegePortalApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{54F9DBF4-BD23-4D40-ACAF-B64C6A6CD7EE}|CollegePortalApi\\CollegePortalApi.csproj|k:\\csharp\\dot_net\\mvc\\api\\collegeportalapi\\collegeportalapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54F9DBF4-BD23-4D40-ACAF-B64C6A6CD7EE}|CollegePortalApi\\CollegePortalApi.csproj|solutionrelative:collegeportalapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54F9DBF4-BD23-4D40-ACAF-B64C6A6CD7EE}|CollegePortalApi\\CollegePortalApi.csproj|k:\\csharp\\dot_net\\mvc\\api\\collegeportalapi\\collegeportalapi\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54F9DBF4-BD23-4D40-ACAF-B64C6A6CD7EE}|CollegePortalApi\\CollegePortalApi.csproj|solutionrelative:collegeportalapi\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54F9DBF4-BD23-4D40-ACAF-B64C6A6CD7EE}|CollegePortalApi\\CollegePortalApi.csproj|k:\\csharp\\dot_net\\mvc\\api\\collegeportalapi\\collegeportalapi\\dto\\studentupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54F9DBF4-BD23-4D40-ACAF-B64C6A6CD7EE}|CollegePortalApi\\CollegePortalApi.csproj|solutionrelative:collegeportalapi\\dto\\studentupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54F9DBF4-BD23-4D40-ACAF-B64C6A6CD7EE}|CollegePortalApi\\CollegePortalApi.csproj|k:\\csharp\\dot_net\\mvc\\api\\collegeportalapi\\collegeportalapi\\dto\\studentreportdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54F9DBF4-BD23-4D40-ACAF-B64C6A6CD7EE}|CollegePortalApi\\CollegePortalApi.csproj|solutionrelative:collegeportalapi\\dto\\studentreportdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54F9DBF4-BD23-4D40-ACAF-B64C6A6CD7EE}|CollegePortalApi\\CollegePortalApi.csproj|k:\\csharp\\dot_net\\mvc\\api\\collegeportalapi\\collegeportalapi\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54F9DBF4-BD23-4D40-ACAF-B64C6A6CD7EE}|CollegePortalApi\\CollegePortalApi.csproj|solutionrelative:collegeportalapi\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54F9DBF4-BD23-4D40-ACAF-B64C6A6CD7EE}|CollegePortalApi\\CollegePortalApi.csproj|k:\\csharp\\dot_net\\mvc\\api\\collegeportalapi\\collegeportalapi\\dto\\studentcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54F9DBF4-BD23-4D40-ACAF-B64C6A6CD7EE}|CollegePortalApi\\CollegePortalApi.csproj|solutionrelative:collegeportalapi\\dto\\studentcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54F9DBF4-BD23-4D40-ACAF-B64C6A6CD7EE}|CollegePortalApi\\CollegePortalApi.csproj|k:\\csharp\\dot_net\\mvc\\api\\collegeportalapi\\collegeportalapi\\collegeportalapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{54F9DBF4-BD23-4D40-ACAF-B64C6A6CD7EE}|CollegePortalApi\\CollegePortalApi.csproj|solutionrelative:collegeportalapi\\collegeportalapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{c6f34f0d-7ae5-4f3a-be61-fe0c21ae9eb8}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 832,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "K:\\csharp\\dot_net\\MVC\\API\\CollegePortalApi\\CollegePortalApi\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "CollegePortalApi\\Controllers\\StudentController.cs",
+              "ToolTip": "K:\\csharp\\dot_net\\MVC\\API\\CollegePortalApi\\CollegePortalApi\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "CollegePortalApi\\Controllers\\StudentController.cs",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAkwEYAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-10T06:20:13.456Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "StudentReportDTO.cs",
+              "DocumentMoniker": "K:\\csharp\\dot_net\\MVC\\API\\CollegePortalApi\\CollegePortalApi\\DTO\\StudentReportDTO.cs",
+              "RelativeDocumentMoniker": "CollegePortalApi\\DTO\\StudentReportDTO.cs",
+              "ToolTip": "K:\\csharp\\dot_net\\MVC\\API\\CollegePortalApi\\CollegePortalApi\\DTO\\StudentReportDTO.cs",
+              "RelativeToolTip": "CollegePortalApi\\DTO\\StudentReportDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-10T06:19:00.937Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "StudentCreateDTO.cs",
+              "DocumentMoniker": "K:\\csharp\\dot_net\\MVC\\API\\CollegePortalApi\\CollegePortalApi\\DTO\\StudentCreateDTO.cs",
+              "RelativeDocumentMoniker": "CollegePortalApi\\DTO\\StudentCreateDTO.cs",
+              "ToolTip": "K:\\csharp\\dot_net\\MVC\\API\\CollegePortalApi\\CollegePortalApi\\DTO\\StudentCreateDTO.cs",
+              "RelativeToolTip": "CollegePortalApi\\DTO\\StudentCreateDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-10T06:18:16.58Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "K:\\csharp\\dot_net\\MVC\\API\\CollegePortalApi\\CollegePortalApi\\Program.cs",
+              "RelativeDocumentMoniker": "CollegePortalApi\\Program.cs",
+              "ToolTip": "K:\\csharp\\dot_net\\MVC\\API\\CollegePortalApi\\CollegePortalApi\\Program.cs",
+              "RelativeToolTip": "CollegePortalApi\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-10T06:19:04.551Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StudentUpdateDTO.cs",
+              "DocumentMoniker": "K:\\csharp\\dot_net\\MVC\\API\\CollegePortalApi\\CollegePortalApi\\DTO\\StudentUpdateDTO.cs",
+              "RelativeDocumentMoniker": "CollegePortalApi\\DTO\\StudentUpdateDTO.cs",
+              "ToolTip": "K:\\csharp\\dot_net\\MVC\\API\\CollegePortalApi\\CollegePortalApi\\DTO\\StudentUpdateDTO.cs",
+              "RelativeToolTip": "CollegePortalApi\\DTO\\StudentUpdateDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-10T06:18:31.163Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Student.cs",
+              "DocumentMoniker": "K:\\csharp\\dot_net\\MVC\\API\\CollegePortalApi\\CollegePortalApi\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "CollegePortalApi\\Models\\Student.cs",
+              "ToolTip": "K:\\csharp\\dot_net\\MVC\\API\\CollegePortalApi\\CollegePortalApi\\Models\\Student.cs",
+              "RelativeToolTip": "CollegePortalApi\\Models\\Student.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-10T06:15:52.975Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CollegePortalApi",
+              "DocumentMoniker": "K:\\csharp\\dot_net\\MVC\\API\\CollegePortalApi\\CollegePortalApi\\CollegePortalApi.csproj",
+              "RelativeDocumentMoniker": "CollegePortalApi\\CollegePortalApi.csproj",
+              "ToolTip": "K:\\csharp\\dot_net\\MVC\\API\\CollegePortalApi\\CollegePortalApi\\CollegePortalApi.csproj",
+              "RelativeToolTip": "CollegePortalApi\\CollegePortalApi.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-03-10T06:17:43.213Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

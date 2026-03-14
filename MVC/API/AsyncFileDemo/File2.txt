@@ -1,0 +1,1102 @@
+Skip to main content
+Finished reading? Get articles like this every Tuesday
+
+Subscribe
+codewithmukesh
+web development simplified!
+
+Home
+Blog
+Courses
+
+Resources
+.NET Claude Kit
+Build with Claude + .NET
+.NET Interview Questions
+Ace your next .NET interview
+Sponsor
+About
+Contact
+
+Search
+Ctrl K
+
+Join 6.5K+ Devs
+Blog
+20+ .NET 10 Tips from a Senior Developer - Write Better Code
+#dotnet
+.NET Web API Course
+Updated
+20+ .NET 10 Tips from a Senior Developer - Write Better Code
+20+ battle-tested .NET 10 tips from a senior developer - async best practices, EF Core optimization, DI patterns, caching, security, and more. Updated for 2026.
+
+dotnet webapi-course
+
+tips dotnet dotnet-10 aspnet-core webapi clean-code dependency-injection async-await entity-framework-core caching logging cancellation-tokens exception-handling ci-cd security background-services feature-flags performance dotnet-webapi-zero-to-hero-course
+
+32 min read
+Mar 21, 2025 · Updated Feb 23, 2026
+114.5K views
+Mukesh Murugan
+Mukesh Murugan
+Software Engineer
+Over the years, working with .NET has taught me more than just how to write code. The real lessons came from debugging impossible issues at 2 AM, struggling with messy legacy code, and learning the hard way what not to do. Some mistakes were painful - but they shaped the way I build software today.
+
+Before diving deep into ASP.NET Core Web APIs, it’s critical to master the fundamentals. These are the lessons no tutorial or documentation will teach you - they come from real-world experience, from mistakes made and problems solved.
+
+Whether you’re just starting out or have been working with .NET for years, these 20 essential tips will help you write cleaner, faster, and more maintainable applications. If you want to build robust, scalable APIs and truly level up your .NET skills, pay close attention - this will save you years of trial and error.
+
+If you find these tips valuable, share them with your colleagues - help them avoid the mistakes many of us had to learn the hard way.
+
+My Top 5 High-Impact Tips (Decision Matrix)
+After years of building production .NET applications, not all tips carry equal weight. Here’s my honest ranking of the tips that deliver the most bang for your buck, along with the learning curve and when they matter most.
+
+Tip	Impact	Learning Curve	When It Matters Most
+#3 Dependency Injection	Very High	Medium	From day one - it shapes your entire architecture
+#4 Async/Await	Very High	High	Any I/O-bound application (APIs, database calls)
+#6 EF Core Optimization	High	Medium	As soon as your data grows beyond trivial sizes
+#7 Cancellation Tokens	High	Low	Production APIs under real traffic - often overlooked
+#14 Caching	High	Medium	When you need to scale beyond a single database
+My take: If you’re short on time, nail these five first. I’ve seen teams spend weeks debugging performance issues that would have been prevented by proper async patterns and EF Core optimization. Cancellation tokens are the most underrated tip on this list - they’re easy to implement and prevent resource waste at scale. The remaining tips are all valuable, but these five form the foundation that everything else builds on.
+
+1. Master the Fundamentals
+Before jumping into complex frameworks and design patterns, it’s crucial to have a strong understanding of the fundamentals. A solid grasp of C#, .NET Core, and ASP.NET will make it much easier to build scalable, maintainable applications.
+
+Here are some key areas to focus on:
+
+C# language features like generics, delegates, async/await, LINQ, and pattern matching.
+Object-oriented programming principles, including SOLID, inheritance, polymorphism, and encapsulation.
+.NET 10 essentials such as dependency injection (DI), the request pipeline, middleware, configuration management, and Minimal APIs and so much more!
+Data structures and algorithms, covering lists, dictionaries, trees, and sorting techniques.
+Effective error handling and debugging with exception management and Visual Studio tools.
+Mastering these areas will not only improve your development skills but also make it easier to adapt to new technologies and industry changes. The tech may change to any extent, but the above mentioned concepts will remain the same forever!
+
+2. Follow Clean Code Principles
+Writing clean, maintainable code isn’t just about making things work - it’s about making them easy to read, understand, and extend. Clever hacks might save a few lines of code today, but they often lead to confusion and unnecessary complexity down the road.
+
+A key principle to follow is the Single Responsibility Principle (SRP). Methods should do one thing and do it well. Large, multi-purpose methods become difficult to debug and maintain. Instead of writing lengthy blocks of logic, break them down into smaller, reusable functions.
+
+Another crucial aspect is meaningful naming. Variable, method, and class names should clearly express their purpose. If you need to add a comment to explain what a method does, its name is probably not descriptive enough.
+
+Here’s an example of bad code that violates these principles:
+
+public void ProcessData(string d)
+{
+    var x = d.Split(',');
+    for (int i = 0; i < x.Length; i++)
+    {
+        if (x[i].Contains("error"))
+        {
+            Console.WriteLine("Found error!");
+        }
+    }
+}
+
+At first glance, it’s hard to tell what this method is doing. The variable names are vague, and the logic is all packed into one method, making it difficult to modify.
+
+Now, here’s a better approach:
+
+public void ProcessLogs(string logData)
+{
+    var logEntries = ParseLogEntries(logData);
+    foreach (var entry in logEntries)
+    {
+        if (IsError(entry))
+        {
+            Console.WriteLine("Found error!");
+        }
+    }
+}
+
+private string[] ParseLogEntries(string logData)
+{
+    return logData.Split(',');
+}
+
+private bool IsError(string logEntry)
+{
+    return logEntry.Contains("error");
+}
+
+This version improves readability and maintainability by breaking down responsibilities into separate methods. The naming is clear, and each function does one specific thing.
+
+Clean code isn’t just about aesthetics - it directly impacts the efficiency of your development process. Small improvements in structure, naming, and organization can make a massive difference in long-term maintainability.
+
+3. Understand Dependency Injection - IMPORTANT!
+Dependency Injection (DI) is one of the most powerful features in .NET, yet many developers either underuse or misuse it. At its core, DI helps manage dependencies efficiently, leading to better testability, flexibility, and maintainability. Instead of hardcoding dependencies, DI allows us to inject them where needed, reducing tight coupling between components.
+
+One of the biggest mistakes developers make is directly instantiating dependencies within a class. This makes the code rigid and difficult to test. Consider this example:
+
+Bad Example (Tightly Coupled Code)
+
+public class OrderService
+{
+    private readonly EmailService _emailService;
+
+    public OrderService()
+    {
+        _emailService = new EmailService();
+    }
+
+    public void ProcessOrder()
+    {
+        // Process order logic
+        _emailService.SendConfirmation();
+    }
+}
+
+Here, OrderService directly creates an instance of EmailService. If we ever need to change EmailService (e.g., replace it with a different implementation), we’ll have to modify this class, violating the Open/Closed Principle. Testing also becomes harder since EmailService is tightly coupled.
+
+Better Approach (Using Dependency Injection)
+
+public class OrderService
+{
+    private readonly IEmailService _emailService;
+
+    public OrderService(IEmailService emailService)
+    {
+        _emailService = emailService;
+    }
+
+    public void ProcessOrder()
+    {
+        // Process order logic
+        _emailService.SendConfirmation();
+    }
+}
+
+By injecting IEmailService, we make OrderService flexible and easier to test. Now, we can pass in different implementations of IEmailService without modifying OrderService.
+
+Registering Dependencies in .NET Core
+
+To make this work in an ASP.NET Core application, register dependencies in the DI container:
+
+builder.Services.AddScoped<IEmailService, EmailService>();
+builder.Services.AddScoped<OrderService>();
+
+Now, when OrderService is requested, the framework automatically injects an instance of IEmailService.
+
+Dependency Injection is not just about cleaner code - it’s about writing scalable, testable applications. The sooner you embrace it, the easier it becomes to manage dependencies across your projects.
+
+If you want to go deeper, I’ve written a comprehensive guide on Dependency Injection in ASP.NET Core that covers the full picture. Also make sure you understand when to use Transient, Scoped, and Singleton lifetimes - choosing the wrong lifetime is one of the most common DI bugs I see in production code.
+
+4. Use Asynchronous Programming Wisely
+Asynchronous programming in .NET, powered by async and await, helps improve application responsiveness and scalability. However, misusing it can lead to performance bottlenecks, deadlocks, or excessive thread usage. Knowing when and how to use async programming is crucial.
+
+One of the biggest mistakes developers make is blocking asynchronous code. Consider this example:
+
+Bad Example (Blocking Async Code)
+
+public void ProcessData()
+{
+    var result = GetData().Result; // Blocks the thread
+    Console.WriteLine(result);
+}
+
+public async Task<string> GetData()
+{
+    await Task.Delay(1000);
+    return "Data retrieved";
+}
+
+Here, calling .Result forces the method to wait for GetData() to complete, potentially causing deadlocks in UI or web applications.
+
+Better Approach (Fully Async Code)
+
+public async Task ProcessData()
+{
+    var result = await GetData();
+    Console.WriteLine(result);
+}
+
+Now, ProcessData() remains asynchronous, allowing the thread to be used elsewhere while waiting for GetData() to complete.
+
+Avoid Async Overhead When Not Needed
+Not every method needs to be asynchronous. If an operation is CPU-bound and does not involve I/O, making it async can introduce unnecessary overhead.
+
+Bad Example (Unnecessary Async Usage)
+
+public async Task<int> Compute()
+{
+    return await Task.FromResult(Calculate());
+}
+
+private int Calculate()
+{
+    return 42;
+}
+
+Here, Task.FromResult is pointless because Calculate() is purely CPU-bound. Instead, keep it synchronous:
+
+public int Compute()
+{
+    return Calculate();
+}
+
+Use ConfigureAwait(false) in Libraries
+When writing library code, use ConfigureAwait(false) to avoid capturing the calling context, which can improve performance in non-UI applications:
+
+public async Task<string> FetchData()
+{
+    await Task.Delay(1000).ConfigureAwait(false);
+    return "Data loaded";
+}
+
+Asynchronous programming is a powerful tool, but it should be used wisely. Avoid blocking calls, keep CPU-bound code synchronous, and be mindful of unnecessary async overhead. When used correctly, async programming leads to faster, more scalable applications.
+
+5. Log Everything That Matters
+Logging is one of the most important aspects of building and maintaining a reliable application. It helps with debugging, monitoring, and diagnosing issues, especially in production environments. However, excessive logging or logging the wrong information can be just as harmful as having no logs at all.
+
+A common mistake is logging everything at the information level, flooding log files with unnecessary details while missing critical failures. Another mistake is logging sensitive data, which can pose security risks.
+
+A good logging strategy involves:
+
+Logging at appropriate levels:
+Debug for deep insights useful in development
+Information for general application flow
+Warning for potential issues that need attention
+Error for failures that need immediate action
+Critical for system-breaking issues
+Including contextual information to help diagnose issues faster. For example, instead of logging just an error message, log relevant request details, user IDs, or correlation IDs.
+Here’s a bad example of logging:
+
+_logger.LogInformation("Processing request...");
+_logger.LogInformation($"User: {user.Email}");
+_logger.LogInformation("Request processed successfully.");
+
+This logs too much unnecessary information, potentially exposing sensitive data.
+
+A better approach would be:
+
+_logger.LogInformation("Processing request for user {UserId}", user.Id);
+
+This provides useful context without exposing private information.
+
+For structured logging, using Serilog or other libraries allows logging to JSON and sending logs to platforms like AWS CloudWatch, Elastic Stack, or Application Insights:
+
+Log.Information("Order {OrderId} processed successfully at {Timestamp}", order.Id, DateTime.UtcNow);
+
+I always prefer to use Serilog as my go-to library for handling logging concerns in my .NET Solutions.
+
+Well-structured logging makes troubleshooting faster and helps maintain application health. Log everything that matters, not everything you can.
+
+6. Embrace Entity Framework Core, But Use It Smartly
+Entity Framework Core (EF Core) simplifies database access in .NET applications, reducing the need for raw SQL and boilerplate code. However, blindly relying on it without understanding how it works under the hood can lead to performance issues.
+
+One of the most common mistakes developers make is not optimizing queries. EF Core provides powerful features like lazy loading and automatic change tracking, but if used incorrectly, they can cause unnecessary database hits.
+
+Take this example:
+
+Bad Example (Unoptimized Query)
+
+var users = _context.Users.ToList();
+
+If there are thousands of users in the database, this query will load all of them into memory, potentially crashing the application. Instead, always filter queries at the database level:
+
+Better Approach (Optimized Query)
+
+var users = await _context.Users
+    .Where(u => u.IsActive)
+    .ToListAsync();
+
+Another mistake is overusing lazy loading, which can lead to the “N+1 query problem.” This happens when EF Core loads related entities one by one instead of fetching them in a single query.
+
+Bad Example (Lazy Loading Causing N+1 Queries)
+
+var users = await _context.Users.ToListAsync();
+foreach (var user in users)
+{
+    Console.WriteLine(user.Orders.Count); // Triggers separate queries for each user
+}
+
+This results in multiple queries - one to get the users and separate queries for each user’s orders. Instead, use eager loading to fetch related data efficiently:
+
+Better Approach (Using Include to Prevent N+1 Queries)
+
+var users = await _context.Users
+    .Include(u => u.Orders)
+    .ToListAsync();
+
+Paginate Large Datasets
+Fetching large datasets at once can slow down applications and exhaust memory. Use pagination with Skip() and Take() to load data in chunks.
+
+Bad Example (Fetching All Records at Once)
+
+var users = await _context.Users.ToListAsync();
+
+Better Approach (Using Pagination to Fetch Only a Subset of Data)
+
+var users = await _context.Users
+    .OrderBy(u => u.Id)
+    .Skip(pageNumber * pageSize)
+    .Take(pageSize)
+    .ToListAsync();
+
+This ensures only a limited number of records are retrieved at a time, improving performance.
+
+Be Mindful of Change Tracking
+By default, EF Core tracks all retrieved entities, which can cause high memory usage when dealing with large datasets. If you don’t need to update the data, disable change tracking using AsNoTracking().
+
+Bad Example (Unnecessary Change Tracking for Read-Only Queries)
+
+var users = await _context.Users.ToListAsync();
+
+Better Approach (Using AsNoTracking for Performance Boost in Read-Only Queries)
+
+var users = await _context.Users.AsNoTracking().ToListAsync();
+
+This prevents EF Core from tracking changes, reducing memory usage and improving query speed.
+
+I benchmarked this with BenchmarkDotNet on a table with 10,000 rows in EF Core 10:
+
+Query Type	Mean Time	Memory Allocated
+ToListAsync() (tracked)	4.2 ms	3.8 MB
+AsNoTracking().ToListAsync()	2.1 ms	1.9 MB
+That’s a 2x speed improvement and 50% less memory just by adding .AsNoTracking() to read-only queries. On tables with 100K+ rows, the difference is even more dramatic. If you’re not updating the data, there’s zero reason to pay the tracking overhead.
+
+Use Indexes for Faster Lookups
+Indexes significantly speed up query performance, especially for filtering and sorting operations. Ensure that commonly searched columns, such as Email or CreatedAt, have indexes.
+
+Example: Adding an Index in EF Core
+
+modelBuilder.Entity<User>()
+    .HasIndex(u => u.Email)
+    .HasDatabaseName("IX_Users_Email");
+
+This improves performance when querying users by email.
+
+EF Core is a powerful ORM, but it’s essential to use it smartly. Always fetch only the data you need, avoid unnecessary database hits, and understand how EF Core translates LINQ queries into SQL. A well-optimized EF Core implementation leads to better performance and scalability.
+
+For a deeper dive into change tracking behavior, check out my guide on Tracking vs No-Tracking Queries in EF Core. And if you’re implementing pagination, I cover Pagination, Sorting, and Searching in ASP.NET Core Web API with both offset and keyset pagination patterns.
+
+Honestly, there are tons of ways to optimize EF Core Queries and Commands. I have just added a few of them here. Let me know in the comments section if you need a separate article for it.
+
+When Should You Use EF Core vs Dapper?
+This is one of the most debated topics in the .NET ecosystem, and here’s my honest take after using both in production.
+
+Use EF Core when:
+
+You need change tracking, migrations, and a rich LINQ query API
+Your team values developer productivity and rapid prototyping
+Your queries are standard CRUD operations
+Use Dapper when:
+
+You need maximum query performance for read-heavy, high-throughput scenarios
+You’re comfortable writing raw SQL and managing schema changes manually
+You’re building reporting dashboards or analytics endpoints
+The recommended approach for most .NET 10 applications is to start with EF Core and only introduce Dapper for specific performance-critical read paths. I’ve used this hybrid approach in multiple production systems - EF Core handles 90% of the work, and Dapper steps in for the hot paths where every millisecond counts. Don’t choose one over the other; use both where they shine.
+
+7. Cancellation Tokens are IMPORTANT
+In .NET applications, especially those dealing with long-running operations, cancellation tokens play a crucial role in improving responsiveness, efficiency, and resource management. Without proper cancellation handling, your application may continue running unnecessary tasks, leading to wasted CPU cycles, memory leaks, or even degraded performance under heavy load.
+
+Why Should You Care About Cancellation Tokens?
+Efficient Resource Utilization
+Long-running operations that are no longer needed should be stopped immediately. Cancellation tokens allow you to gracefully terminate these operations without consuming unnecessary CPU and memory.
+Better User Experience
+In web applications, if a user navigates away or cancels an operation (like a file upload or an API request), the backend should respect this and stop processing instead of continuing needlessly.
+Prevents Performance Bottlenecks
+Without cancellation, background tasks can pile up and slow down the system. Properly handling cancellation ensures the application doesn’t get overloaded with unnecessary tasks.
+Graceful Shutdown Handling
+When an application is shutting down, background tasks should stop gracefully instead of being forcefully terminated. Cancellation tokens provide a structured way to do this.
+Example: Using Cancellation Tokens in an API
+When working with ASP.NET Core, the framework automatically provides a cancellation token for API endpoints. You should always pass it down to async methods to ensure proper request termination.
+
+Bad Example (Ignoring Cancellation)
+
+[HttpGet("long-task")]
+public async Task<IActionResult> LongRunningTask()
+{
+    await Task.Delay(5000); // Simulating long task
+    return Ok("Task Completed");
+}
+
+Here, if the user cancels the request, the server still processes the full 5-second delay, wasting resources. In real world scenarios, this could be even a very costly database query.
+
+Better Example (Using Cancellation Tokens)
+
+[HttpGet("long-task")]
+public async Task<IActionResult> LongRunningTask(CancellationToken cancellationToken)
+{
+    try
+    {
+        await Task.Delay(5000, cancellationToken); // Task can be canceled
+        return Ok("Task Completed");
+    }
+    catch (TaskCanceledException)
+    {
+        return StatusCode(499, "Client closed request"); // 499 is a common status for client cancellations
+    }
+}
+
+Here, if the client cancels the request, the Task.Delay throws a TaskCanceledException, and the operation stops immediately.
+
+Example: Passing Cancellation Token to Database Queries
+If you’re executing database queries using Entity Framework Core, always pass the cancellation token:
+
+var users = await _context.Users
+    .Where(u => u.IsActive)
+    .ToListAsync(cancellationToken);
+
+This ensures that if the request is canceled, the database query also stops execution, preventing unnecessary load on the database.
+
+Handling Cancellation in Background Tasks
+When running background tasks in worker services or hosted services, cancellation tokens ensure they stop gracefully when the application shuts down.
+
+protected override async Task ExecuteAsync(CancellationToken stoppingToken)
+{
+    while (!stoppingToken.IsCancellationRequested)
+    {
+        await DoWorkAsync(stoppingToken);
+        await Task.Delay(1000, stoppingToken);
+    }
+}
+
+Here, the loop checks stoppingToken.IsCancellationRequested to exit gracefully instead of continuing indefinitely.
+
+Proper use of cancellation tokens leads to better performance, improved user experience, and more efficient resource management in .NET applications.
+
+8. Optimize Database for Performance (Using Dapper)
+Optimizing database performance goes beyond just writing efficient queries - it involves designing indexes, structuring data correctly, and minimizing bottlenecks. While Dapper is a micro-ORM that offers better control over SQL queries, database optimization is still crucial to achieving high performance.
+
+Use Proper Indexing
+Indexes speed up data retrieval by reducing the number of rows scanned in a query. Without indexes, queries perform full table scans, which can be extremely slow for large tables.
+
+Example: Creating an Index on a Frequently Queried Column
+
+CREATE INDEX IX_Users_Email ON Users (Email);
+
+This index improves the performance of queries that filter users by email:
+
+var user = await connection.QueryFirstOrDefaultAsync<User>(
+    "SELECT * FROM Users WHERE Email = @Email", new { Email = email });
+
+However, avoid over-indexing, as each index adds overhead for INSERT, UPDATE, and DELETE operations.
+
+Avoid Unnecessary Queries with Caching
+If data doesn’t change frequently, reduce database calls by caching results. Use Redis or in-memory caching for frequently accessed data.
+
+Example: Fetch from Cache Before Querying Database
+
+var cachedUsers = memoryCache.Get<List<User>>("users");
+
+if (cachedUsers == null)
+{
+    cachedUsers = (await connection.QueryAsync<User>("SELECT * FROM Users")).ToList();
+    memoryCache.Set("users", cachedUsers, TimeSpan.FromMinutes(10));
+}
+
+This reduces redundant queries and improves response time.
+
+Database optimization is just as important as writing efficient code. Even with Dapper’s lightweight approach, poorly designed queries can still slow down an application. A well-optimized database ensures faster performance, lower resource usage, and better scalability.
+
+9. Learn RESTful API Best Practices
+Building well-structured, efficient, and maintainable APIs is a critical skill for .NET developers. A poorly designed API can lead to performance issues, security vulnerabilities, and a frustrating developer experience.
+
+I’ve already covered 13+ RESTful API best practices in a previous article, where I discussed topics like proper endpoint design, authentication, versioning, and response handling. If you haven’t checked it out yet, it’s a must-read.
+
+Beyond those fundamentals, here are a few additional best practices to keep in mind:
+
+Optimize for Performance – Use caching, compression, and pagination to prevent overloading your API and improve response times.
+Implement Rate Limiting – Protect your API from abuse by enforcing rate limits to prevent excessive requests from a single client.
+Ensure Security – Use HTTPS, validate all inputs, and never expose sensitive information in error messages.
+Use ProblemDetails for Error Responses – Instead of generic error messages, provide structured error responses using the ProblemDetails format for better debugging.
+Monitor and Log API Calls – Capture key metrics, request logs, and failure rates to proactively identify issues and optimize API performance.
+API design is not just about making things work - it’s about making them scalable, secure, and easy to use. Mastering best practices will save you time, reduce technical debt, and create APIs that developers love to work with.
+
+Get the tips that never make it to the blog
+
+Found us via search? Get answers like this every Tuesday. 61% open rate.
+
+you@example.com
+Subscribe Free
+Tuesday's issue drops in 4 days
+
+10. Handle Exceptions Gracefully
+Exception handling is more than just wrapping code in a try-catch block. A well-structured approach ensures your application remains stable, provides meaningful error messages, and doesn’t expose sensitive details. Poor exception handling can lead to unhandled crashes, performance issues, and security risks.
+
+One of the biggest mistakes developers make is catching all exceptions without proper handling:
+
+Bad Example (Swallowing Exceptions)
+
+try
+{
+    var result = await _repository.GetDataAsync();
+}
+catch (Exception ex)
+{
+    // Silent failure, nothing logged
+}
+
+Here, if something goes wrong, the error is ignored, making debugging impossible.
+
+Better Approach (Logging and Throwing Meaningful Errors)
+
+try
+{
+    var result = await _repository.GetDataAsync();
+}
+catch (Exception ex)
+{
+    _logger.LogError(ex, "Error while fetching data");
+    throw new ApplicationException("An unexpected error occurred, please try again later.");
+}
+
+This approach ensures errors are logged for debugging while returning a generic message to the caller instead of exposing raw exceptions.
+
+Use Global Exception Handling
+Instead of handling exceptions in every controller, set up global exception handling using middleware. I have written a super detailed guide about Global Exception Handling in ASP.NET Core with IExceptionHandler (updated for .NET 10). It’s highly recommended that you read this article.
+
+Use ProblemDetails for Consistent Error Responses
+Instead of returning generic 500 Internal Server Error messages, use ProblemDetails to provide structured error responses:
+
+var problem = new ProblemDetails
+{
+    Status = StatusCodes.Status500InternalServerError,
+    Title = "An unexpected error occurred",
+    Detail = "Please contact support with the error ID: 12345"
+};
+
+return StatusCode(problem.Status.Value, problem);
+
+A well-implemented exception handling strategy improves debugging, security, and user experience, making your application more robust and maintainable.
+
+11. Write Unit & Integration Tests
+Testing is essential for building reliable and maintainable applications. Unit tests focus on testing individual components, while integration tests verify that multiple parts of the system work together as expected.
+
+Trust me, I have avoided writing test cases for a very long time, and regretted it later!
+
+Unit Tests
+Unit tests should be fast and independent. Instead of using a mocking framework, create handwritten fakes or stubs to isolate dependencies.
+
+Example: Testing a Service Without a Mocking Library
+
+public class FakeUserRepository : IUserRepository
+{
+    public Task<User> GetUser(int id) => Task.FromResult(new User { Id = id, Name = "John" });
+}
+
+[Fact]
+public async Task GetUser_ReturnsValidUser()
+{
+    var repository = new FakeUserRepository();
+    var service = new UserService(repository);
+
+    var user = await service.GetUser(1);
+
+    Assert.NotNull(user);
+    Assert.Equal("John", user.Name);
+}
+
+Integration Tests
+Integration tests ensure that components work together, such as API endpoints interacting with databases. ASP.NET Core’s WebApplicationFactory makes it easy to test APIs without a running server.
+
+var client = _factory.CreateClient();
+var response = await client.GetAsync("/api/users/1");
+
+Assert.Equal(HttpStatusCode.OK, response.StatusCode);
+
+Key Takeaways
+Unit tests should be isolated and fast, using handwritten fakes instead of mocking libraries
+Integration tests verify how different components interact
+Automate tests in CI/CD pipelines to catch issues early
+Testing ensures code reliability, easier debugging, and long-term maintainability.
+
+12. Use Background Services for Long-Running Tasks
+For long-running or scheduled tasks, ASP.NET Core provides Hosted Services, while Hangfire and Quartz.NET offer advanced job scheduling capabilities. Choosing the right tool depends on your use case.
+
+Built-in Hosted Services (BackgroundService)
+For simple background tasks, implement BackgroundService in ASP.NET Core.
+
+public class DataSyncService : BackgroundService
+{
+    protected override async Task ExecuteAsync(CancellationToken stoppingToken)
+    {
+        while (!stoppingToken.IsCancellationRequested)
+        {
+            await SyncDataAsync();
+            await Task.Delay(TimeSpan.FromMinutes(5), stoppingToken);
+        }
+    }
+}
+
+Register it in Program.cs:
+
+builder.Services.AddHostedService<DataSyncService>();
+
+Hangfire (Persistent Background Jobs)
+Hangfire is great for fire-and-forget, delayed, and recurring tasks with persistent storage. It provides a dashboard for job monitoring.
+
+RecurringJob.AddOrUpdate(() => Console.WriteLine("Running task..."), Cron.Hourly);
+
+Quartz.NET (Advanced Scheduling)
+Quartz.NET is a powerful cron-based job scheduler that supports complex schedules, dependencies, and clustering.
+
+ITrigger trigger = TriggerBuilder.Create()
+    .WithSchedule(CronScheduleBuilder.DailyAtHourAndMinute(10, 0))
+    .Build();
+
+Which Background Processing Tool Should You Use?
+BackgroundService → Simple, lightweight, continuous tasks
+Hangfire → Persistent jobs, retry mechanisms, and monitoring
+Quartz.NET → Complex job scheduling with dependencies
+My take: In real-world projects, I almost always start with BackgroundService for simple periodic tasks like cache warming or health checks. The moment I need job persistence (surviving app restarts), retry logic, or a dashboard for operations teams, I switch to Hangfire. I’ve used Quartz.NET on exactly one project that needed complex job dependency chains - for most teams, Hangfire covers 95% of use cases with less configuration overhead. The key mistake I see developers make is over-engineering this from day one. Start simple with BackgroundService, and graduate to Hangfire only when you actually need persistence or monitoring.
+
+Choosing the right background processing strategy ensures scalability, efficiency, and reliability in your applications.
+
+13. Secure Your Applications
+Security is a critical aspect of application development. Ignoring best practices can lead to vulnerabilities, data breaches, and unauthorized access. Implementing proper authentication, protecting sensitive data, and enforcing security controls should be a top priority.
+
+Never Hardcode Secrets
+Hardcoding API keys, database credentials, or tokens in your code is a major security risk. Instead, use secure storage solutions:
+
+Environment Variables (for local development)
+Azure Key Vault or AWS Secrets Manager (for cloud-based secret management)
+User-Secrets in .NET for local development (dotnet user-secrets)
+Example: Using Environment Variables for Connection Strings
+
+var connectionString = Environment.GetEnvironmentVariable("DB_CONNECTION_STRING");
+
+Implement Proper Authentication & Authorization
+Use OAuth 2.0 / OpenID Connect for authentication (e.g., IdentityServer, Keycloak, Azure AD)
+Use JSON Web Tokens (JWT) for secure API authentication - I have a full guide on JWT Authentication in ASP.NET Core
+Apply Role-Based Access Control (RBAC) to restrict user actions
+Example: Protecting an API Endpoint with Authorization
+
+[Authorize(Roles = "Admin")]
+[HttpGet("secure-data")]
+public IActionResult GetSecureData() => Ok("Access Granted");
+
+Configure CORS Properly
+Incorrect Cross-Origin Resource Sharing (CORS) settings can expose your API to unauthorized requests. Restrict origins instead of allowing *.
+
+Bad Example (Too Open)
+
+app.UseCors(builder => builder.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
+
+Better Approach (Restrict to Trusted Domains)
+
+app.UseCors(builder => builder.WithOrigins("https://trustedsite.com")
+    .AllowMethods("GET", "POST")
+    .AllowHeaders("Content-Type"));
+
+Key Takeaways
+Never hardcode secrets - use environment variables or secret managers
+Use OAuth, JWT, and RBAC for secure authentication & authorization
+Restrict CORS to prevent unauthorized cross-origin requests
+Securing applications from the start prevents data leaks, unauthorized access, and compliance issues. Always follow security best practices to keep your application and users safe.
+
+14. Learn Caching Strategies
+Caching is one of the most effective ways to improve application performance, reduce database load, and enhance scalability. By storing frequently accessed data in memory or a distributed cache, you can significantly speed up response times and optimize resource usage.
+
+I have already covered how to implement caching using MemoryCache, Redis, and CDN caching in a previous article, where I also explained when to use each approach. If you haven’t read it yet, I highly recommend checking it out.
+
+Read them here:
+
+InMemory Caching
+Redis Distributed Caching
+To summarize:
+
+MemoryCache is best for single-instance applications that require fast, in-memory data storage.
+Distributed Cache (Redis, SQL Server Cache) is essential for multi-instance applications where data consistency across servers is needed.
+CDN Caching is ideal for serving static content and API responses globally, reducing latency for users.
+.NET 10 introduces HybridCache, which combines the best of both MemoryCache and distributed caching into a single API. In my load tests, adding a simple MemoryCache layer in front of a frequently queried endpoint reduced average response time from 45ms to 2ms and cut database queries by 95% under 500 concurrent requests. The recommended approach for caching in .NET 10 is to use HybridCache - it provides a unified L1/L2 caching layer with built-in stampede protection (preventing multiple concurrent cache misses from overwhelming your database). If you’re starting a new .NET 10 project, HybridCache should be your default caching strategy.
+
+My take: I’ve seen too many teams jump straight to Redis without measuring whether they actually need distributed caching. Start with MemoryCache for single-instance apps, graduate to HybridCache in .NET 10 for multi-instance scenarios, and only reach for a standalone Redis cluster when you need shared state across multiple services. The best cache is the one closest to your application - don’t add network hops unless you have to.
+
+Choosing the right caching strategy depends on your application’s architecture and performance requirements. Implementing caching effectively ensures faster response times, lower database load, and a better user experience.
+
+15. Avoid Overusing Reflection & Dynamic Code
+Reflection allows inspecting and manipulating types at runtime, making it a powerful tool in .NET. However, excessive use of reflection can lead to performance issues, reduced maintainability, and increased complexity.
+
+Reflection is significantly slower than direct method calls because it bypasses compile-time optimizations. It also makes debugging harder since errors may only surface at runtime.
+
+Dynamic code, such as dynamic types in C#, can introduce similar risks by bypassing static type checking, leading to unexpected runtime errors.
+
+When Should You Use Reflection or Dynamic Code?
+When working with plugins or extensibility where types are not known at compile time.
+When serializing or mapping objects dynamically (though libraries like AutoMapper often provide better solutions).
+When interacting with legacy code or external assemblies that require reflection-based access.
+When Should You Avoid It?
+In performance-critical code where method calls happen frequently.
+When strong typing can be used instead, ensuring compile-time safety.
+When alternatives like generics, interfaces, or dependency injection can achieve the same result without reflection.
+Reflection is a tool best used sparingly. If you find yourself relying on it often, consider refactoring your approach for better performance and maintainability.
+
+My take: In .NET 10, source generators have eliminated most of the cases where developers previously reached for reflection - JSON serialization, dependency registration, and mapping can all be done at compile time now. The only place I still use reflection in production is for plugin loading scenarios where assemblies are discovered at runtime. If you’re writing typeof() or GetType() in application code, stop and ask yourself if there’s a generic or interface-based approach first.
+
+16. Use Polly for Resilience & Retry Policies
+Building resilient applications is crucial, especially when dealing with external services, databases, or APIs that may fail intermittently. Microsoft Resilience (Polly) provides an easy way to handle transient failures with retry policies, circuit breakers, and timeouts.
+
+With .NET 10, resilience is easier to integrate than ever. Microsoft.Extensions.Resilience and Microsoft.Extensions.Http.Resilience, built on top of Polly, provide a seamless way to implement retry policies, circuit breakers, and timeouts. The recommended approach for resilience in .NET 10 is using these built-in extensions rather than configuring Polly directly - they integrate with the DI container and provide standardized telemetry out of the box.
+
+Retry Policies help automatically retry failed operations due to temporary issues like network timeouts.
+Circuit Breakers prevent excessive retries when a system is unresponsive, allowing it to recover before retrying.
+Timeout Policies ensure that slow operations don’t block application performance.
+Bulkhead Isolation limits the number of concurrent requests to prevent system overload.
+Microsoft Resilience makes your applications more fault-tolerant, stable, and capable of handling real-world failures without affecting the user experience.
+
+My take: Resilience policies are essential for any service that calls external APIs, but I’ve seen teams over-engineer this for internal service-to-service calls on the same network. If your services are on the same cluster with sub-millisecond latency and you’re already handling transient database errors at the connection level, adding retry policies on every internal HTTP call adds complexity without meaningful benefit. Reserve the full Polly treatment (retries + circuit breakers + timeouts) for calls that cross network boundaries - external payment gateways, third-party APIs, cloud storage services. For internal calls, a simple timeout policy is usually enough.
+
+17. Automate Deployment with CI/CD
+Manual deployments are inefficient and error-prone. Continuous Integration and Continuous Deployment (CI/CD) streamlines the process by automating builds, tests, and releases, ensuring consistency and reliability.
+
+I have already covered how to set up Continuous Integration and Continuous Deployment (CI/CD) using GitHub Actions in a previous article. If you haven’t automated your deployment workflow yet, now is the time to do it.
+
+To summarize:
+
+CI (Continuous Integration) ensures that every code change is built and tested automatically.
+CD (Continuous Deployment) enables seamless releases with minimal manual intervention.
+GitHub Actions provides an easy and flexible way to automate workflows directly from your repository.
+Automated testing and security checks help catch issues early, improving software quality.
+A properly configured CI/CD pipeline saves time, reduces risks, and accelerates delivery, making deployments smooth and hassle-free.
+
+18. Keep Up with .NET Updates
+.NET evolves rapidly. Stay updated with the latest improvements, performance enhancements, and security patches. .NET 10 is now GA and brings significant improvements - HybridCache, named query filters in Entity Framework Core (EF Core) 10, improved Minimal API tooling, and better AOT compilation support. Meanwhile, .NET 11 previews are already rolling out. And I know for sure that there are many organizations who are yet to migrate to .NET 8 or even .NET 6. Over time this leads to larger tech debt and maintaining outdated frameworks becomes a real challenge. The longer you delay upgrades, the harder it gets to keep up with modern development practices, security fixes, and performance improvements.
+
+Upgrading to the latest .NET versions ensures that you benefit from faster execution, reduced memory usage, and new language features that make development more efficient. Even if your organization isn’t ready for .NET 10, staying on a supported LTS version like .NET 8 is crucial to avoid security vulnerabilities and compatibility issues. .NET 6 has already reached end-of-support - if you’re still on it, that migration should be your top priority.
+
+To stay ahead:
+
+Regularly follow Microsoft’s .NET blog and release notes
+Experiment with preview versions in non-production environments
+Plan upgrades incrementally to avoid last-minute migrations
+Use tools like dotnet-outdated and the .NET Upgrade Assistant to streamline migrations
+Adopting new versions early helps you future-proof applications, reduce tech debt, and take full advantage of .NET’s evolving ecosystem.
+
+19. Use Feature Flags for Safer Releases
+Feature flags allow you to enable, disable, or roll out new features gradually without redeploying your application. This makes releases safer by reducing risks and enabling controlled experimentation.
+
+Instead of relying on long-lived branches or risky full deployments, you can wrap new functionality in a feature flag and enable it selectively for specific users or environments. This approach helps in:
+
+Gradual rollouts – Test new features with a small user group before a full release.
+Instant rollbacks – Disable a faulty feature without redeploying.
+A/B testing – Compare different feature versions to optimize user experience.
+In .NET, tools like Microsoft.FeatureManagement make it easy to integrate feature flags into your application. Implementing this strategy ensures safer, controlled deployments while minimizing disruption to users.
+
+My take: Feature flags are a must-have for any team deploying to production more than once a week. I started using them after a Friday deploy broke checkout for 2 hours - with a feature flag, that would have been a 30-second toggle instead of an emergency rollback. That said, don’t let flags accumulate. I’ve seen codebases with 50+ stale feature flags that nobody dares to remove. Set a rule: every flag gets a cleanup ticket with a 30-day expiry. If the feature is stable, remove the flag.
+
+20. Never Stop Learning
+.NET is constantly evolving, and staying ahead requires continuous learning. New frameworks, performance optimizations, and best practices emerge regularly, making it essential to keep refining your skills.
+
+Reading blogs, watching conference talks, and experimenting with new .NET features will help you stay relevant. Contributing to open source projects not only deepens your understanding but also connects you with the community. Engaging in discussions on GitHub, Stack Overflow, and LinkedIn exposes you to real-world challenges and solutions.
+
+If you’re serious about mastering .NET, make sure to follow me on LinkedIn, where I regularly share insights, best practices, and deep dives into .NET development. Also, check out my free course, “.NET Web API Zero to Hero”, designed to help developers build production-ready APIs from scratch.
+
+The best developers are those who never stop learning - stay curious, stay engaged, and keep building.
+
+Recommended Reading (Official Microsoft Docs)
+For further reference, here are the official Microsoft Learn resources that cover these topics in depth:
+
+Dependency Injection in .NET - the definitive guide to DI service lifetimes and registration patterns
+Asynchronous Programming Best Practices - async/await patterns and common pitfalls
+EF Core Performance Best Practices - official guidance on query optimization, tracking, and indexing
+ASP.NET Core Security Overview - authentication, authorization, and data protection
+HybridCache in .NET - the new unified caching API in .NET 10
+Frequently Asked Questions
+Troubleshooting Common .NET Issues
+Here are five common issues that trip up .NET developers - and how to fix them.
+
+Deadlocks from Blocking Async Code (.Result / .Wait())
+Symptom: Your API endpoint hangs indefinitely or throws a TaskCanceledException after the timeout period.
+
+Cause: Calling .Result or .Wait() on an async method blocks the current thread while the awaited task tries to resume on the same synchronization context, creating a deadlock.
+
+Fix: Make the entire call chain async. Replace .Result with await and change the method signature to async Task:
+
+// Deadlock-prone
+var data = GetDataAsync().Result;
+
+// Correct
+var data = await GetDataAsync();
+
+If you absolutely must call async from sync (rare), use Task.Run(() => GetDataAsync()).GetAwaiter().GetResult() as a last resort - but fix the root cause instead.
+
+N+1 Query Problem with EF Core Lazy Loading
+Symptom: A page that loads a list of items is extremely slow, and SQL Profiler shows hundreds of individual queries.
+
+Cause: Lazy loading triggers a separate database query for each navigation property access inside a loop.
+
+Fix: Use eager loading with .Include() to fetch related data in a single query:
+
+// N+1 problem
+var orders = await _context.Orders.ToListAsync();
+// Each order.Customer access triggers a separate query
+
+// Fixed with eager loading
+var orders = await _context.Orders
+    .Include(o => o.Customer)
+    .ToListAsync();
+
+Memory Leaks from Missing CancellationToken Handling
+Symptom: Application memory usage grows over time, especially under heavy traffic or when clients disconnect frequently.
+
+Cause: Long-running operations continue executing even after the client disconnects because CancellationToken is not passed through the call chain.
+
+Fix: Accept CancellationToken in your controller actions and pass it to every async method:
+
+[HttpGet("data")]
+public async Task<IActionResult> GetData(CancellationToken cancellationToken)
+{
+    var data = await _repository.GetAllAsync(cancellationToken);
+    return Ok(data);
+}
+
+DI Scope Issues (Scoped Inside Singleton)
+Symptom: You get an InvalidOperationException at startup or data bleeds between requests.
+
+Cause: Injecting a Scoped service into a Singleton service means the Scoped service lives for the entire application lifetime, not per-request.
+
+Fix: Use IServiceScopeFactory to create a scope inside the Singleton:
+
+public class MySingletonService
+{
+    private readonly IServiceScopeFactory _scopeFactory;
+
+    public MySingletonService(IServiceScopeFactory scopeFactory)
+    {
+        _scopeFactory = scopeFactory;
+    }
+
+    public async Task DoWork()
+    {
+        using var scope = _scopeFactory.CreateScope();
+        var dbContext = scope.ServiceProvider.GetRequiredService<AppDbContext>();
+        // Use dbContext safely within this scope
+    }
+}
+
+CORS Errors in API Development
+Symptom: Your frontend gets Access-Control-Allow-Origin errors when calling your API, even though the API works fine in Postman.
+
+Cause: CORS middleware is either missing, misconfigured, or placed after UseAuthorization() in the middleware pipeline.
+
+Fix: Configure CORS before authorization and specify explicit origins:
+
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowFrontend", policy =>
+        policy.WithOrigins("https://yourfrontend.com")
+              .AllowAnyMethod()
+              .AllowAnyHeader());
+});
+
+// In middleware pipeline - order matters!
+app.UseCors("AllowFrontend");
+app.UseAuthentication();
+app.UseAuthorization();
+
+Key Takeaways
+Dependency injection and async/await are the two highest-impact skills - they shape your entire architecture and scalability story. Get these right first.
+EF Core is powerful but needs guardrails - always use AsNoTracking() for reads, .Include() to avoid N+1 queries, and pagination for large datasets. Consider Dapper for performance-critical read paths.
+Cancellation tokens are the most underrated tip - easy to implement, prevent resource waste at scale, and most codebases still ignore them.
+HybridCache is the recommended caching strategy in .NET 10 - it unifies in-memory and distributed caching with built-in stampede protection.
+Resilience policies (Polly) belong on external boundaries - don’t over-engineer internal service calls. Reserve retries + circuit breakers for third-party APIs.
+Feature flags and CI/CD turn risky deploys into safe ones - but clean up stale flags within 30 days.
+Never stop upgrading - .NET 10 is GA, .NET 6 is end-of-life. The longer you wait, the harder migration gets.
+Wrapping Up
+These 20+ tips come from years of hands-on experience with .NET, and applying them will help you write cleaner, more efficient, and scalable .NET 10 applications. But this is just the beginning.
+
+This article is part of my .NET Web API Zero to Hero course, where I take you through everything you need to build production-ready APIs - from fundamentals to advanced techniques. If you found these insights valuable, don’t stop here.
+
+Enroll in the course now and level up your .NET skills!
+
+Happy Coding :)
+
+Level Up Your .NET Skills
+
+6,500+ developers subscribed
+This Week's Take
+
+My verdict on the week's hottest .NET topic
+
+Quick Wins
+
+3-5 actionable tips you can use right away
+
+Exclusive Bonus
+
+Production-tested patterns and benchmarks
+
+Read by developers at Microsoft, AWS, and JetBrains · 61% open rate (4x industry avg)
+
+you@example.com
+
+Get This Week's Issue
+Every Tuesday. No spam ever. Unsubscribe anytime.
+
+Support My Work
+☕
+If you've enjoyed my content and found it helpful, consider buying me a coffee. It keeps me caffeinated and creating!
+
+Buy me a coffee
+Share this Article
+Help others discover this content
+
+
+Copy
+Continue Reading
+Handpicked articles you might enjoy
+
+View all
+Options Pattern in ASP.NET Core .NET 10 - The Complete Guide
+dotnet
+Options Pattern in ASP.NET Core .NET 10 - The Complete Guide
+Oct 10, 2023
+Read
+Soft Deletes in EF Core 10 - Interceptors, Named Filters & Cascade Delete
+dotnet
+Soft Deletes in EF Core 10 - Interceptors, Named Filters & Cascade Delete
+Mar 11, 2026
+Read
+Global Query Filters in EF Core - Soft Delete, Multi-Tenancy & Named Filters in .NET 10
+dotnet
+Global Query Filters in EF Core - Soft Delete, Multi-Tenancy & Named Filters in .NET 10
+Mar 10, 2026
+Read
+What's your Feedback?
+Do let me know your thoughts around this article.
+Popular Articles
+1
+The Ultimate .NET Developer Roadmap 2026 - AI, Backend, Blazor...
+2
+Essential AWS Services Every .NET Developer Should Master!
+3
+Claude Code Tutorial for Beginners - Complete 2026 Guide to...
+4
+GitHub Actions CI/CD Pipeline for Deploying .NET Web API to...
+5
+Choosing the Best AWS Compute Service for your .NET Solution...
+View all articles
+6,500+ devs read this every Tuesday
+This Week: .NET Production Tips
+
+1
+This Week's Take — my verdict on the hottest .NET topic
+
+2
+Quick Wins — 3-5 tips you can use right away
+
+3
+Bonus — Performance benchmarks from real projects
+
+61% open rate
+|
+4x industry avg
+you@example.com
+Get This Week's Issue
+Tuesday's issue drops in 4 days
+
+On This Page
+6
+/
+26
+·
+24%
+01
+My Top 5 High-Impact Tips (Decision Matrix)
+02
+1. Master the Fundamentals
+03
+2. Follow Clean Code Principles
+04
+3. Understand Dependency Injection - IMPORTANT!
+05
+4. Use Asynchronous Programming Wisely
+Avoid Async Overhead When Not Needed
+Use ConfigureAwait(false) in Libraries
+06
+5. Log Everything That Matters
+07
+6. Embrace Entity Framework Core, But Use It Smartly
+Paginate Large Datasets
+Be Mindful of Change Tracking
+Use Indexes for Faster Lookups
+When Should You Use EF Core vs Dapper?
+08
+7. Cancellation Tokens are IMPORTANT
+Why Should You Care About Cancellation Tokens?
+Example: Using Cancellation Tokens in an API
+Example: Passing Cancellation Token to Database Queries
+Handling Cancellation in Background Tasks
+09
+8. Optimize Database for Performance (Using Dapper)
+Use Proper Indexing
+10
+9. Learn RESTful API Best Practices
+11
+10. Handle Exceptions Gracefully
+Use Global Exception Handling
+Use ProblemDetails for Consistent Error Responses
+12
+11. Write Unit & Integration Tests
+Unit Tests
+Integration Tests
+Key Takeaways
+13
+12. Use Background Services for Long-Running Tasks
+Which Background Processing Tool Should You Use?
+14
+13. Secure Your Applications
+Key Takeaways
+15
+14. Learn Caching Strategies
+16
+15. Avoid Overusing Reflection & Dynamic Code
+When Should You Use Reflection or Dynamic Code?
+When Should You Avoid It?
+17
+16. Use Polly for Resilience & Retry Policies
+18
+17. Automate Deployment with CI/CD
+19
+18. Keep Up with .NET Updates
+20
+19. Use Feature Flags for Safer Releases
+21
+20. Never Stop Learning
+22
+Recommended Reading (Official Microsoft Docs)
+23
+Frequently Asked Questions
+24
+Troubleshooting Common .NET Issues
+Deadlocks from Blocking Async Code (.Result / .Wait())
+N+1 Query Problem with EF Core Lazy Loading
+Memory Leaks from Missing CancellationToken Handling
+DI Scope Issues (Scoped Inside Singleton)
+CORS Errors in API Development
+25
+Key Takeaways
+26
+Wrapping Up
+Top
+Bottom
+Free weekly newsletter
+Stay ahead in .NET
+Tutorials
+Architecture
+DevOps
+AI
+Once-weekly email. Best insights. No fluff.
+
+Your Email Address
+Subscribe
+Join 6,500+ developers · Delivered every Tuesday
+codewithmukesh
+.NET, Cloud & AI — simplified for developers.
+
+Home
+Blog
+Courses
+Resources
+Sponsor
+About
+Contact
+Resources
+
+Newsletter
+Courses
+Contact
+© 2026 Mukesh Murugan. All rights reserved.
+
+Subscribe to the newsletter

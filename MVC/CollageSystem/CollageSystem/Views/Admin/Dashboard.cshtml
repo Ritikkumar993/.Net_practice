@@ -1,0 +1,159 @@
+@model List<Student>
+@{
+    ViewData["Title"] = "Admin Dashboard";
+    var allStudents = ViewBag.AllStudents as List<Student> ?? new List<Student>();
+    var pending = allStudents.Count(s => s.Status == StudentStatus.Pending);
+    var approved = allStudents.Count(s => s.Status == StudentStatus.Approved);
+    var rejected = allStudents.Count(s => s.Status == StudentStatus.Rejected);
+}
+
+<div class="page-container">
+    <!-- ── Stats ── -->
+    <div class="stats-grid fade-in">
+        <div class="card stat-card">
+            <div class="stat-icon primary">📊</div>
+            <div class="stat-info">
+                <h3>@allStudents.Count</h3>
+                <p>Total Applications</p>
+            </div>
+        </div>
+        <div class="card stat-card">
+            <div class="stat-icon warning">⏳</div>
+            <div class="stat-info">
+                <h3>@pending</h3>
+                <p>Pending Approval</p>
+            </div>
+        </div>
+        <div class="card stat-card">
+            <div class="stat-icon success">✅</div>
+            <div class="stat-info">
+                <h3>@approved</h3>
+                <p>Approved</p>
+            </div>
+        </div>
+        <div class="card stat-card">
+            <div class="stat-icon error">❌</div>
+            <div class="stat-info">
+                <h3>@rejected</h3>
+                <p>Rejected</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- ── Tabs ── -->
+    <div class="tabs-wrapper">
+        <div class="tabs">
+            <button class="tab-btn active" data-tab="tab-pending">⏳ Pending (@pending)</button>
+            <button class="tab-btn" data-tab="tab-all">📋 All Students (@allStudents.Count)</button>
+        </div>
+
+        <!-- ── Pending Tab ── -->
+        <div id="tab-pending" class="tab-content active fade-in">
+            @if (Model.Any())
+            {
+                <div class="table-container">
+                    <table class="table-portal">
+                        <thead>
+                            <tr>
+                                <th>Name</th>
+                                <th>Email</th>
+                                <th>Phone</th>
+                                <th>Degree</th>
+                                <th>Applied On</th>
+                                <th>Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var student in Model)
+                            {
+                                <tr>
+                                    <td><strong>@student.FirstName @student.LastName</strong></td>
+                                    <td>@student.Email</td>
+                                    <td>@student.PhoneNumber</td>
+                                    <td>@student.Degree.Name</td>
+                                    <td>@student.AppliedOn.ToString("dd MMM yyyy")</td>
+                                    <td>
+                                        <div class="action-buttons">
+                                            <form asp-action="Approve" asp-route-id="@student.Id" method="post"
+                                                style="display:inline;">
+                                                @Html.AntiForgeryToken()
+                                                <button type="submit" class="btn btn-success btn-sm">✅ Approve</button>
+                                            </form>
+                                            <form asp-action="Reject" asp-route-id="@student.Id" method="post"
+                                                style="display:inline;">
+                                                @Html.AntiForgeryToken()
+                                                <button type="submit" class="btn btn-danger btn-sm">❌ Reject</button>
+                                            </form>
+                                        </div>
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            }
+            else
+            {
+                <div class="card" style="text-align:center; padding: var(--space-2xl);">
+                    <p style="font-size: 2rem; margin-bottom: var(--space-sm);">🎉</p>
+                    <h4>No Pending Applications</h4>
+                    <p>All applications have been reviewed.</p>
+                </div>
+            }
+        </div>
+
+        <!-- ── All Students Tab ── -->
+        <div id="tab-all" class="tab-content">
+            @if (allStudents.Any())
+            {
+                <div class="table-container">
+                    <table class="table-portal">
+                        <thead>
+                            <tr>
+                                <th>Name</th>
+                                <th>Email</th>
+                                <th>Degree</th>
+                                <th>Reg. Number</th>
+                                <th>Status</th>
+                                <th>Applied On</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var student in allStudents)
+                            {
+                                <tr>
+                                    <td><strong>@student.FirstName @student.LastName</strong></td>
+                                    <td>@student.Email</td>
+                                    <td>@student.Degree.Name</td>
+                                    <td>@(student.RegistrationNumber ?? "—")</td>
+                                    <td>
+                                        @if (student.Status == StudentStatus.Pending)
+                                        {
+                                            <span class="badge badge-pending">Pending</span>
+                                        }
+                                        else if (student.Status == StudentStatus.Approved)
+                                        {
+                                            <span class="badge badge-approved">Approved</span>
+                                        }
+                                        else
+                                        {
+                                            <span class="badge badge-rejected">Rejected</span>
+                                        }
+                                    </td>
+                                    <td>@student.AppliedOn.ToString("dd MMM yyyy")</td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            }
+            else
+            {
+                <div class="card" style="text-align:center; padding: var(--space-2xl);">
+                    <h4>No Students Yet</h4>
+                    <p>No applications have been received.</p>
+                </div>
+            }
+        </div>
+    </div>
+</div>

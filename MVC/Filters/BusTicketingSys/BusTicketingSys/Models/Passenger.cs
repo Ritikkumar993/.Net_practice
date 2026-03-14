@@ -1,0 +1,15 @@
+﻿namespace BusTicketingSys.Models
+{
+    public class Passenger
+    {
+        public int PassengerId { get; set; }
+
+        public string Name { get; set; }
+
+        public string Email { get; set; }
+
+        public string Phone { get; set; }
+
+        public ICollection<Ticket> Tickets { get; set; }
+    }
+}

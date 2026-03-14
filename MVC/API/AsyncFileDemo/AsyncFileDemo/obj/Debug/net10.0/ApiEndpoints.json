@@ -1,0 +1,42 @@
+[
+  {
+    "ContainingType": "AsyncFileDemo.Controllers.FileController",
+    "Method": "ReadAsync",
+    "RelativePath": "api/File/read-async",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "AsyncFileDemo.Controllers.FileController",
+    "Method": "ReadSync",
+    "RelativePath": "api/File/read-sync",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]

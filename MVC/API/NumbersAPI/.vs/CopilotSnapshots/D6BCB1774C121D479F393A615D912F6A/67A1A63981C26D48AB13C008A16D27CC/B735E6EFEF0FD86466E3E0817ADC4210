@@ -1,0 +1,32 @@
+﻿using Microsoft.AspNetCore.Mvc;
+using NumbersAPI.Services;
+
+namespace NumbersAPI.Controllers
+{
+    public class NumbersController : Controller
+    {
+        private readonly INumbersServices _numsOP;
+
+        public NumbersController(INumbersServices numsOP)
+        {
+            _numsOP = numsOP;
+        }
+
+        public IActionResult Index()
+        {
+            return Content("Numbers API - Use /Numbers/evens or /Numbers/odds");
+        }
+
+        public IActionResult evens()
+        {
+            var nums = _numsOP.EVENs();
+            return Content(string.Join(", ", nums));
+        }
+
+        public IActionResult odds()
+        {
+            var nums = _numsOP.ODDs();
+            return Content(string.Join(", ", nums));
+        }
+    }
+}

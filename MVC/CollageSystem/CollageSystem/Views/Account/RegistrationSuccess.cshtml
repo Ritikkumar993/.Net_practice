@@ -1,0 +1,28 @@
+@{
+    ViewData["Title"] = "Application Submitted";
+}
+
+<div class="success-container fade-in">
+    <div class="card" style="padding: var(--space-2xl);">
+        <div class="success-icon">✅</div>
+        <h2>Application Submitted!</h2>
+        <p style="margin: var(--space-md) 0 var(--space-xl); font-size: 1.05rem;">
+            @(TempData["SuccessMessage"] ?? "Your registration has been submitted successfully. Please wait for admin approval before logging in.")
+        </p>
+
+        <div style="background: var(--bg-input); border-radius: var(--radius-md); padding: var(--space-lg); margin-bottom: var(--space-xl); text-align: left;">
+            <h4 style="margin-bottom: var(--space-sm);">📌 What happens next?</h4>
+            <ul style="list-style: none; padding: 0; color: var(--text-secondary); font-size: 0.95rem;">
+                <li style="padding: var(--space-xs) 0;">1️⃣ An admin will review your application</li>
+                <li style="padding: var(--space-xs) 0;">2️⃣ Upon approval, you'll receive a Registration Number</li>
+                <li style="padding: var(--space-xs) 0;">3️⃣ Your default password will be: <strong style="color: var(--primary-light);">[Last 4 digits of phone]@@[Your First Name]</strong></li>
+                <li style="padding: var(--space-xs) 0;">4️⃣ Use these credentials to log in to the Student Portal</li>
+            </ul>
+        </div>
+
+        <div style="display: flex; gap: var(--space-md); justify-content: center; flex-wrap: wrap;">
+            <a class="btn btn-primary" asp-controller="Home" asp-action="Index">🏠 Back to Home</a>
+            <a class="btn btn-outline" asp-controller="Account" asp-action="Login">🔑 Go to Login</a>
+        </div>
+    </div>
+</div>

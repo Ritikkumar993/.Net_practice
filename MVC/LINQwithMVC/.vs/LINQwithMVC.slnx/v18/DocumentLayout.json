@@ -1,0 +1,157 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "K:\\csharp\\dot_net\\MVC\\LINQwithMVC\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C0B85196-8706-29CB-A619-C41EC14DC689}|LINQwithMVC\\LINQwithMVC.csproj|k:\\csharp\\dot_net\\mvc\\linqwithmvc\\linqwithmvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C0B85196-8706-29CB-A619-C41EC14DC689}|LINQwithMVC\\LINQwithMVC.csproj|solutionrelative:linqwithmvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0B85196-8706-29CB-A619-C41EC14DC689}|LINQwithMVC\\LINQwithMVC.csproj|k:\\csharp\\dot_net\\mvc\\linqwithmvc\\linqwithmvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0B85196-8706-29CB-A619-C41EC14DC689}|LINQwithMVC\\LINQwithMVC.csproj|solutionrelative:linqwithmvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0B85196-8706-29CB-A619-C41EC14DC689}|LINQwithMVC\\LINQwithMVC.csproj|k:\\csharp\\dot_net\\mvc\\linqwithmvc\\linqwithmvc\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0B85196-8706-29CB-A619-C41EC14DC689}|LINQwithMVC\\LINQwithMVC.csproj|solutionrelative:linqwithmvc\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0B85196-8706-29CB-A619-C41EC14DC689}|LINQwithMVC\\LINQwithMVC.csproj|k:\\csharp\\dot_net\\mvc\\linqwithmvc\\linqwithmvc\\data\\employeerepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0B85196-8706-29CB-A619-C41EC14DC689}|LINQwithMVC\\LINQwithMVC.csproj|solutionrelative:linqwithmvc\\data\\employeerepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0B85196-8706-29CB-A619-C41EC14DC689}|LINQwithMVC\\LINQwithMVC.csproj|k:\\csharp\\dot_net\\mvc\\linqwithmvc\\linqwithmvc\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0B85196-8706-29CB-A619-C41EC14DC689}|LINQwithMVC\\LINQwithMVC.csproj|solutionrelative:linqwithmvc\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0B85196-8706-29CB-A619-C41EC14DC689}|LINQwithMVC\\LINQwithMVC.csproj|k:\\csharp\\dot_net\\mvc\\linqwithmvc\\linqwithmvc\\views\\employee\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C0B85196-8706-29CB-A619-C41EC14DC689}|LINQwithMVC\\LINQwithMVC.csproj|solutionrelative:linqwithmvc\\views\\employee\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 25,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{c6f34f0d-7ae5-4f3a-be61-fe0c21ae9eb8}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "K:\\csharp\\dot_net\\MVC\\LINQwithMVC\\LINQwithMVC\\appsettings.json",
+              "RelativeDocumentMoniker": "LINQwithMVC\\appsettings.json",
+              "ToolTip": "K:\\csharp\\dot_net\\MVC\\LINQwithMVC\\LINQwithMVC\\appsettings.json",
+              "RelativeToolTip": "LINQwithMVC\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-02-25T04:07:35.672Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "K:\\csharp\\dot_net\\MVC\\LINQwithMVC\\LINQwithMVC\\Views\\Employee\\Index.cshtml",
+              "RelativeDocumentMoniker": "LINQwithMVC\\Views\\Employee\\Index.cshtml",
+              "ToolTip": "K:\\csharp\\dot_net\\MVC\\LINQwithMVC\\LINQwithMVC\\Views\\Employee\\Index.cshtml",
+              "RelativeToolTip": "LINQwithMVC\\Views\\Employee\\Index.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-24T07:16:23.884Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "K:\\csharp\\dot_net\\MVC\\LINQwithMVC\\LINQwithMVC\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "LINQwithMVC\\Controllers\\EmployeeController.cs",
+              "ToolTip": "K:\\csharp\\dot_net\\MVC\\LINQwithMVC\\LINQwithMVC\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "LINQwithMVC\\Controllers\\EmployeeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T07:16:06.001Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EmployeeRepo.cs",
+              "DocumentMoniker": "K:\\csharp\\dot_net\\MVC\\LINQwithMVC\\LINQwithMVC\\Data\\EmployeeRepo.cs",
+              "RelativeDocumentMoniker": "LINQwithMVC\\Data\\EmployeeRepo.cs",
+              "ToolTip": "K:\\csharp\\dot_net\\MVC\\LINQwithMVC\\LINQwithMVC\\Data\\EmployeeRepo.cs",
+              "RelativeToolTip": "LINQwithMVC\\Data\\EmployeeRepo.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T09:07:02.497Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "K:\\csharp\\dot_net\\MVC\\LINQwithMVC\\LINQwithMVC\\Models\\Employee.cs",
+              "RelativeDocumentMoniker": "LINQwithMVC\\Models\\Employee.cs",
+              "ToolTip": "K:\\csharp\\dot_net\\MVC\\LINQwithMVC\\LINQwithMVC\\Models\\Employee.cs",
+              "RelativeToolTip": "LINQwithMVC\\Models\\Employee.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T09:20:10.879Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "K:\\csharp\\dot_net\\MVC\\LINQwithMVC\\LINQwithMVC\\Program.cs",
+              "RelativeDocumentMoniker": "LINQwithMVC\\Program.cs",
+              "ToolTip": "K:\\csharp\\dot_net\\MVC\\LINQwithMVC\\LINQwithMVC\\Program.cs",
+              "RelativeToolTip": "LINQwithMVC\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T09:14:45.697Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedHeight": 126,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 375,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:4:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

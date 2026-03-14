@@ -1,0 +1,81 @@
+﻿@{
+    ViewData["Title"] = "Welcome";
+}
+
+<!-- ── Hero ── -->
+<section class="hero">
+    <div class="hero-content fade-in">
+        <h1>Your Future Starts Here</h1>
+        <p>
+            Apply for your dream degree, get approved by the administration,
+            and begin your academic journey — all from one streamlined portal.
+        </p>
+        <div class="hero-actions">
+            <a class="btn btn-primary btn-lg" asp-controller="Account" asp-action="Register">
+                📝 Apply Now
+            </a>
+            <a class="btn btn-outline btn-lg" asp-controller="Account" asp-action="Login">
+                🔑 Student Login
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- ── Features ── -->
+<section class="features">
+    <div class="features-heading fade-in">
+        <h2>How It Works</h2>
+        <p>A simple three-step process to get started</p>
+    </div>
+    <div class="features-grid">
+        <div class="card feature-card fade-in fade-in-delay-1">
+            <div class="feature-icon">📋</div>
+            <h4>1. Submit Application</h4>
+            <p>Fill in your personal details and choose the degree program you want to pursue.</p>
+        </div>
+        <div class="card feature-card fade-in fade-in-delay-2">
+            <div class="feature-icon">✅</div>
+            <h4>2. Admin Approval</h4>
+            <p>Our administration reviews your application and approves your enrollment.</p>
+        </div>
+        <div class="card feature-card fade-in fade-in-delay-3">
+            <div class="feature-icon">🎓</div>
+            <h4>3. Access Portal</h4>
+            <p>Receive your unique registration number and log in to your student dashboard.</p>
+        </div>
+    </div>
+</section>
+
+<!-- ── Stats Highlight ── -->
+<section class="features" style="padding-top: 0;">
+    <div class="features-grid" style="grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));">
+        <div class="card stat-card fade-in">
+            <div class="stat-icon primary">🏫</div>
+            <div class="stat-info">
+                <h3>9+</h3>
+                <p>Degree Programs</p>
+            </div>
+        </div>
+        <div class="card stat-card fade-in fade-in-delay-1">
+            <div class="stat-icon success">👨‍🎓</div>
+            <div class="stat-info">
+                <h3>24/7</h3>
+                <p>Online Access</p>
+            </div>
+        </div>
+        <div class="card stat-card fade-in fade-in-delay-2">
+            <div class="stat-icon warning">⚡</div>
+            <div class="stat-info">
+                <h3>Fast</h3>
+                <p>Approval Process</p>
+            </div>
+        </div>
+        <div class="card stat-card fade-in fade-in-delay-3">
+            <div class="stat-icon error">🔒</div>
+            <div class="stat-info">
+                <h3>Secure</h3>
+                <p>Data Protection</p>
+            </div>
+        </div>
+    </div>
+</section>

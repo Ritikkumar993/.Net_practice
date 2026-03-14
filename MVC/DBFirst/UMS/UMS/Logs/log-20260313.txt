@@ -1,0 +1,13 @@
+2026-03-13 12:16:29.890 +05:30 [INF] HTTP GET / responded 200 in 670.9992 ms
+2026-03-13 12:17:04.843 +05:30 [INF] HTTP GET /api/Student/all-students responded 401 in 87.3836 ms
+2026-03-13 12:18:00.593 +05:30 [INF] HTTP POST /api/Auth/login responded 200 in 304.0503 ms
+2026-03-13 12:19:38.121 +05:30 [INF] Students Data is Fetched Successfully!
+2026-03-13 12:19:38.132 +05:30 [INF] HTTP GET /api/Student/all-students responded 200 in 4299.7616 ms
+2026-03-13 15:18:38.764 +05:30 [INF] HTTP GET / responded 200 in 3600.9048 ms
+2026-03-13 15:18:39.658 +05:30 [INF] HTTP GET /UMS.styles.css responded 304 in 431.8415 ms
+2026-03-13 15:27:17.689 +05:30 [INF] HTTP GET / responded 200 in 8922.5997 ms
+2026-03-13 15:27:50.758 +05:30 [INF] HTTP GET /api/Student/all-students responded 401 in 223.1133 ms
+2026-03-13 15:28:14.279 +05:30 [INF] HTTP POST /api/Auth/login responded 200 in 976.4798 ms
+2026-03-13 15:29:02.814 +05:30 [INF] Students Data is Fetched Successfully!
+2026-03-13 15:29:02.826 +05:30 [INF] HTTP GET /api/Student/all-students responded 200 in 8394.1401 ms
+2026-03-13 15:29:36.057 +05:30 [INF] HTTP GET /api/Student/hostel-students responded 200 in 492.1173 ms

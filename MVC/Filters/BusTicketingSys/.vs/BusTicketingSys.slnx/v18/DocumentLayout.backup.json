@@ -1,0 +1,372 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "K:\\csharp\\dot_net\\MVC\\Filters\\BusTicketingSys\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D43CD2AA-A167-44A0-80A1-6C3728439934}|BusTicketingSys\\BusTicketingSys.csproj|k:\\csharp\\dot_net\\mvc\\filters\\busticketingsys\\busticketingsys\\models\\seat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D43CD2AA-A167-44A0-80A1-6C3728439934}|BusTicketingSys\\BusTicketingSys.csproj|solutionrelative:busticketingsys\\models\\seat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D43CD2AA-A167-44A0-80A1-6C3728439934}|BusTicketingSys\\BusTicketingSys.csproj|k:\\csharp\\dot_net\\mvc\\filters\\busticketingsys\\busticketingsys\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D43CD2AA-A167-44A0-80A1-6C3728439934}|BusTicketingSys\\BusTicketingSys.csproj|solutionrelative:busticketingsys\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D43CD2AA-A167-44A0-80A1-6C3728439934}|BusTicketingSys\\BusTicketingSys.csproj|k:\\csharp\\dot_net\\mvc\\filters\\busticketingsys\\busticketingsys\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D43CD2AA-A167-44A0-80A1-6C3728439934}|BusTicketingSys\\BusTicketingSys.csproj|solutionrelative:busticketingsys\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D43CD2AA-A167-44A0-80A1-6C3728439934}|BusTicketingSys\\BusTicketingSys.csproj|k:\\csharp\\dot_net\\mvc\\filters\\busticketingsys\\busticketingsys\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D43CD2AA-A167-44A0-80A1-6C3728439934}|BusTicketingSys\\BusTicketingSys.csproj|solutionrelative:busticketingsys\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D43CD2AA-A167-44A0-80A1-6C3728439934}|BusTicketingSys\\BusTicketingSys.csproj|k:\\csharp\\dot_net\\mvc\\filters\\busticketingsys\\busticketingsys\\models\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D43CD2AA-A167-44A0-80A1-6C3728439934}|BusTicketingSys\\BusTicketingSys.csproj|solutionrelative:busticketingsys\\models\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D43CD2AA-A167-44A0-80A1-6C3728439934}|BusTicketingSys\\BusTicketingSys.csproj|k:\\csharp\\dot_net\\mvc\\filters\\busticketingsys\\busticketingsys\\models\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D43CD2AA-A167-44A0-80A1-6C3728439934}|BusTicketingSys\\BusTicketingSys.csproj|solutionrelative:busticketingsys\\models\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D43CD2AA-A167-44A0-80A1-6C3728439934}|BusTicketingSys\\BusTicketingSys.csproj|k:\\csharp\\dot_net\\mvc\\filters\\busticketingsys\\busticketingsys\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D43CD2AA-A167-44A0-80A1-6C3728439934}|BusTicketingSys\\BusTicketingSys.csproj|solutionrelative:busticketingsys\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D43CD2AA-A167-44A0-80A1-6C3728439934}|BusTicketingSys\\BusTicketingSys.csproj|k:\\csharp\\dot_net\\mvc\\filters\\busticketingsys\\busticketingsys\\models\\trip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D43CD2AA-A167-44A0-80A1-6C3728439934}|BusTicketingSys\\BusTicketingSys.csproj|solutionrelative:busticketingsys\\models\\trip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D43CD2AA-A167-44A0-80A1-6C3728439934}|BusTicketingSys\\BusTicketingSys.csproj|k:\\csharp\\dot_net\\mvc\\filters\\busticketingsys\\busticketingsys\\models\\passenger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D43CD2AA-A167-44A0-80A1-6C3728439934}|BusTicketingSys\\BusTicketingSys.csproj|solutionrelative:busticketingsys\\models\\passenger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D43CD2AA-A167-44A0-80A1-6C3728439934}|BusTicketingSys\\BusTicketingSys.csproj|k:\\csharp\\dot_net\\mvc\\filters\\busticketingsys\\busticketingsys\\busticketingsys.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D43CD2AA-A167-44A0-80A1-6C3728439934}|BusTicketingSys\\BusTicketingSys.csproj|solutionrelative:busticketingsys\\busticketingsys.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D43CD2AA-A167-44A0-80A1-6C3728439934}|BusTicketingSys\\BusTicketingSys.csproj|k:\\csharp\\dot_net\\mvc\\filters\\busticketingsys\\busticketingsys\\filters\\bookinglogfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D43CD2AA-A167-44A0-80A1-6C3728439934}|BusTicketingSys\\BusTicketingSys.csproj|solutionrelative:busticketingsys\\filters\\bookinglogfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D43CD2AA-A167-44A0-80A1-6C3728439934}|BusTicketingSys\\BusTicketingSys.csproj|k:\\csharp\\dot_net\\mvc\\filters\\busticketingsys\\busticketingsys\\controllers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D43CD2AA-A167-44A0-80A1-6C3728439934}|BusTicketingSys\\BusTicketingSys.csproj|solutionrelative:busticketingsys\\controllers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D43CD2AA-A167-44A0-80A1-6C3728439934}|BusTicketingSys\\BusTicketingSys.csproj|k:\\csharp\\dot_net\\mvc\\filters\\busticketingsys\\busticketingsys\\filters\\responsewrapperfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D43CD2AA-A167-44A0-80A1-6C3728439934}|BusTicketingSys\\BusTicketingSys.csproj|solutionrelative:busticketingsys\\filters\\responsewrapperfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D43CD2AA-A167-44A0-80A1-6C3728439934}|BusTicketingSys\\BusTicketingSys.csproj|k:\\csharp\\dot_net\\mvc\\filters\\busticketingsys\\busticketingsys\\filters\\globalexceptionfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D43CD2AA-A167-44A0-80A1-6C3728439934}|BusTicketingSys\\BusTicketingSys.csproj|solutionrelative:busticketingsys\\filters\\globalexceptionfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D43CD2AA-A167-44A0-80A1-6C3728439934}|BusTicketingSys\\BusTicketingSys.csproj|k:\\csharp\\dot_net\\mvc\\filters\\busticketingsys\\busticketingsys\\filters\\performancefilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D43CD2AA-A167-44A0-80A1-6C3728439934}|BusTicketingSys\\BusTicketingSys.csproj|solutionrelative:busticketingsys\\filters\\performancefilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D43CD2AA-A167-44A0-80A1-6C3728439934}|BusTicketingSys\\BusTicketingSys.csproj|k:\\csharp\\dot_net\\mvc\\filters\\busticketingsys\\busticketingsys\\filters\\authfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D43CD2AA-A167-44A0-80A1-6C3728439934}|BusTicketingSys\\BusTicketingSys.csproj|solutionrelative:busticketingsys\\filters\\authfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D43CD2AA-A167-44A0-80A1-6C3728439934}|BusTicketingSys\\BusTicketingSys.csproj|k:\\csharp\\dot_net\\mvc\\filters\\busticketingsys\\busticketingsys\\models\\bus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D43CD2AA-A167-44A0-80A1-6C3728439934}|BusTicketingSys\\BusTicketingSys.csproj|solutionrelative:busticketingsys\\models\\bus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D43CD2AA-A167-44A0-80A1-6C3728439934}|BusTicketingSys\\BusTicketingSys.csproj|k:\\csharp\\dot_net\\mvc\\filters\\busticketingsys\\busticketingsys\\services\\bookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D43CD2AA-A167-44A0-80A1-6C3728439934}|BusTicketingSys\\BusTicketingSys.csproj|solutionrelative:busticketingsys\\services\\bookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 25,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Payment.cs",
+              "DocumentMoniker": "K:\\csharp\\dot_net\\MVC\\Filters\\BusTicketingSys\\BusTicketingSys\\Models\\Payment.cs",
+              "RelativeDocumentMoniker": "BusTicketingSys\\Models\\Payment.cs",
+              "ToolTip": "K:\\csharp\\dot_net\\MVC\\Filters\\BusTicketingSys\\BusTicketingSys\\Models\\Payment.cs",
+              "RelativeToolTip": "BusTicketingSys\\Models\\Payment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T10:28:10.157Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "K:\\csharp\\dot_net\\MVC\\Filters\\BusTicketingSys\\BusTicketingSys\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "BusTicketingSys\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "K:\\csharp\\dot_net\\MVC\\Filters\\BusTicketingSys\\BusTicketingSys\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "BusTicketingSys\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAKCBwCMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T10:25:52.557Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Ticket.cs",
+              "DocumentMoniker": "K:\\csharp\\dot_net\\MVC\\Filters\\BusTicketingSys\\BusTicketingSys\\Models\\Ticket.cs",
+              "RelativeDocumentMoniker": "BusTicketingSys\\Models\\Ticket.cs",
+              "ToolTip": "K:\\csharp\\dot_net\\MVC\\Filters\\BusTicketingSys\\BusTicketingSys\\Models\\Ticket.cs",
+              "RelativeToolTip": "BusTicketingSys\\Models\\Ticket.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T04:53:14.248Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "K:\\csharp\\dot_net\\MVC\\Filters\\BusTicketingSys\\BusTicketingSys\\appsettings.json",
+              "RelativeDocumentMoniker": "BusTicketingSys\\appsettings.json",
+              "ToolTip": "K:\\csharp\\dot_net\\MVC\\Filters\\BusTicketingSys\\BusTicketingSys\\appsettings.json",
+              "RelativeToolTip": "BusTicketingSys\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-12T09:45:56.984Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "K:\\csharp\\dot_net\\MVC\\Filters\\BusTicketingSys\\BusTicketingSys\\Program.cs",
+              "RelativeDocumentMoniker": "BusTicketingSys\\Program.cs",
+              "ToolTip": "K:\\csharp\\dot_net\\MVC\\Filters\\BusTicketingSys\\BusTicketingSys\\Program.cs",
+              "RelativeToolTip": "BusTicketingSys\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T09:21:24.607Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Seat.cs",
+              "DocumentMoniker": "K:\\csharp\\dot_net\\MVC\\Filters\\BusTicketingSys\\BusTicketingSys\\Models\\Seat.cs",
+              "RelativeDocumentMoniker": "BusTicketingSys\\Models\\Seat.cs",
+              "ToolTip": "K:\\csharp\\dot_net\\MVC\\Filters\\BusTicketingSys\\BusTicketingSys\\Models\\Seat.cs",
+              "RelativeToolTip": "BusTicketingSys\\Models\\Seat.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T04:52:48.979Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "K:\\csharp\\dot_net\\MVC\\Filters\\BusTicketingSys\\BusTicketingSys\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "BusTicketingSys\\Controllers\\HomeController.cs",
+              "ToolTip": "K:\\csharp\\dot_net\\MVC\\Filters\\BusTicketingSys\\BusTicketingSys\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "BusTicketingSys\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T09:25:05.143Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Trip.cs",
+              "DocumentMoniker": "K:\\csharp\\dot_net\\MVC\\Filters\\BusTicketingSys\\BusTicketingSys\\Models\\Trip.cs",
+              "RelativeDocumentMoniker": "BusTicketingSys\\Models\\Trip.cs",
+              "ToolTip": "K:\\csharp\\dot_net\\MVC\\Filters\\BusTicketingSys\\BusTicketingSys\\Models\\Trip.cs",
+              "RelativeToolTip": "BusTicketingSys\\Models\\Trip.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T10:27:23.821Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Passenger.cs",
+              "DocumentMoniker": "K:\\csharp\\dot_net\\MVC\\Filters\\BusTicketingSys\\BusTicketingSys\\Models\\Passenger.cs",
+              "RelativeDocumentMoniker": "BusTicketingSys\\Models\\Passenger.cs",
+              "ToolTip": "K:\\csharp\\dot_net\\MVC\\Filters\\BusTicketingSys\\BusTicketingSys\\Models\\Passenger.cs",
+              "RelativeToolTip": "BusTicketingSys\\Models\\Passenger.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T10:27:03.679Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "BusTicketingSys",
+              "DocumentMoniker": "K:\\csharp\\dot_net\\MVC\\Filters\\BusTicketingSys\\BusTicketingSys\\BusTicketingSys.csproj",
+              "RelativeDocumentMoniker": "BusTicketingSys\\BusTicketingSys.csproj",
+              "ToolTip": "K:\\csharp\\dot_net\\MVC\\Filters\\BusTicketingSys\\BusTicketingSys\\BusTicketingSys.csproj",
+              "RelativeToolTip": "BusTicketingSys\\BusTicketingSys.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-03-12T09:08:46.888Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "BookingController.cs",
+              "DocumentMoniker": "K:\\csharp\\dot_net\\MVC\\Filters\\BusTicketingSys\\BusTicketingSys\\Controllers\\BookingController.cs",
+              "RelativeDocumentMoniker": "BusTicketingSys\\Controllers\\BookingController.cs",
+              "ToolTip": "K:\\csharp\\dot_net\\MVC\\Filters\\BusTicketingSys\\BusTicketingSys\\Controllers\\BookingController.cs",
+              "RelativeToolTip": "BusTicketingSys\\Controllers\\BookingController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T04:52:09.124Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "BookingLogFilter.cs",
+              "DocumentMoniker": "K:\\csharp\\dot_net\\MVC\\Filters\\BusTicketingSys\\BusTicketingSys\\Filters\\BookingLogFilter.cs",
+              "RelativeDocumentMoniker": "BusTicketingSys\\Filters\\BookingLogFilter.cs",
+              "ToolTip": "K:\\csharp\\dot_net\\MVC\\Filters\\BusTicketingSys\\BusTicketingSys\\Filters\\BookingLogFilter.cs",
+              "RelativeToolTip": "BusTicketingSys\\Filters\\BookingLogFilter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T09:10:21.25Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ResponseWrapperFilter.cs",
+              "DocumentMoniker": "K:\\csharp\\dot_net\\MVC\\Filters\\BusTicketingSys\\BusTicketingSys\\Filters\\ResponseWrapperFilter.cs",
+              "RelativeDocumentMoniker": "BusTicketingSys\\Filters\\ResponseWrapperFilter.cs",
+              "ToolTip": "K:\\csharp\\dot_net\\MVC\\Filters\\BusTicketingSys\\BusTicketingSys\\Filters\\ResponseWrapperFilter.cs",
+              "RelativeToolTip": "BusTicketingSys\\Filters\\ResponseWrapperFilter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T09:11:10.974Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "GlobalExceptionFilter.cs",
+              "DocumentMoniker": "K:\\csharp\\dot_net\\MVC\\Filters\\BusTicketingSys\\BusTicketingSys\\Filters\\GlobalExceptionFilter.cs",
+              "RelativeDocumentMoniker": "BusTicketingSys\\Filters\\GlobalExceptionFilter.cs",
+              "ToolTip": "K:\\csharp\\dot_net\\MVC\\Filters\\BusTicketingSys\\BusTicketingSys\\Filters\\GlobalExceptionFilter.cs",
+              "RelativeToolTip": "BusTicketingSys\\Filters\\GlobalExceptionFilter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T09:10:42.124Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "PerformanceFilter.cs",
+              "DocumentMoniker": "K:\\csharp\\dot_net\\MVC\\Filters\\BusTicketingSys\\BusTicketingSys\\Filters\\PerformanceFilter.cs",
+              "RelativeDocumentMoniker": "BusTicketingSys\\Filters\\PerformanceFilter.cs",
+              "ToolTip": "K:\\csharp\\dot_net\\MVC\\Filters\\BusTicketingSys\\BusTicketingSys\\Filters\\PerformanceFilter.cs",
+              "RelativeToolTip": "BusTicketingSys\\Filters\\PerformanceFilter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T09:10:13.235Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AuthFilter.cs",
+              "DocumentMoniker": "K:\\csharp\\dot_net\\MVC\\Filters\\BusTicketingSys\\BusTicketingSys\\Filters\\AuthFilter.cs",
+              "RelativeDocumentMoniker": "BusTicketingSys\\Filters\\AuthFilter.cs",
+              "ToolTip": "K:\\csharp\\dot_net\\MVC\\Filters\\BusTicketingSys\\BusTicketingSys\\Filters\\AuthFilter.cs",
+              "RelativeToolTip": "BusTicketingSys\\Filters\\AuthFilter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T09:09:59.495Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Bus.cs",
+              "DocumentMoniker": "K:\\csharp\\dot_net\\MVC\\Filters\\BusTicketingSys\\BusTicketingSys\\Models\\Bus.cs",
+              "RelativeDocumentMoniker": "BusTicketingSys\\Models\\Bus.cs",
+              "ToolTip": "K:\\csharp\\dot_net\\MVC\\Filters\\BusTicketingSys\\BusTicketingSys\\Models\\Bus.cs",
+              "RelativeToolTip": "BusTicketingSys\\Models\\Bus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T04:52:37.391Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "BookingService.cs",
+              "DocumentMoniker": "K:\\csharp\\dot_net\\MVC\\Filters\\BusTicketingSys\\BusTicketingSys\\Services\\BookingService.cs",
+              "RelativeDocumentMoniker": "BusTicketingSys\\Services\\BookingService.cs",
+              "ToolTip": "K:\\csharp\\dot_net\\MVC\\Filters\\BusTicketingSys\\BusTicketingSys\\Services\\BookingService.cs",
+              "RelativeToolTip": "BusTicketingSys\\Services\\BookingService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T09:12:08.006Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{c6f34f0d-7ae5-4f3a-be61-fe0c21ae9eb8}"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 25,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 126,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 375,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

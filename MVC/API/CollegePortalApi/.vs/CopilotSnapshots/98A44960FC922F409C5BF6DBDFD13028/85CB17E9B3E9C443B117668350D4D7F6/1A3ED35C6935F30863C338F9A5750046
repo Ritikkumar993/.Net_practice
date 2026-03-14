@@ -1,0 +1,72 @@
+﻿using CollegePortalApi.DTO;
+using CollegePortalApi.Models;
+using Microsoft.AspNetCore.Mvc;
+
+namespace CollegePortalApi.Controllers
+{
+    [ApiController]
+    [Route("api/[controller]")]
+    public class StudentController : Controller
+    {
+        private static List<Student> students = new List<Student>();
+        // POST: api/student
+        [HttpPost]
+        public IActionResult CreateStudent(StudentCreateDTO request)
+        {
+            Student student = new Student
+            {
+                Id = students.Count + 1,
+                Name = request.Name,
+                Age = request.Age,
+             
+            };
+
+            students.Add(student);
+
+            return Ok(student.Id);
+        }
+
+        // GET: api/student/
+        [HttpGet]
+        public ActionResult<StudentReportDTO> GetStudents(int id)
+        {
+            var result = students.Select(s => new StudentReportDTO
+            {
+                Id = s.Id,
+                Name = s.Name,
+                M1= s.M1,
+                M2= s.M2,
+                Total = s.Total,
+                Grade = s.Grade
+
+            }).ToList();
+
+            return Ok(result);
+        }
+
+        // GET: api/student/UpdateStudent
+        [HttpPost]
+        public ActionResult UpdateStudent(int id,int m1, int m2)
+        {
+            if (students.Any(s => s.Id== id))
+            {
+                students.FirstOrDefault(s => s.Id == id).M1 = m1;
+                students.FirstOrDefault(s => s.Id == id).M2 = m2;
+                students.FirstOrDefault(s => s.Id == id).Total = m1 + m2;
+                int percent = (m1 + m2) / 2;
+                string grade="";
+                if (percent > 90) grade = "O";
+                else if (percent > 80) grade = "A+";
+                else if (percent > 70) grade = "A";
+                else if (percent > 60) grade = "B+";
+                else if (percent > 50) grade = "B";
+                else if (percent > 40) grade = "C";
+                else if (percent > 30) grade = "D";
+                else grade = "F";
+                
+                students.FirstOrDefault(s => s.Id == id).Grade = grade;
+            }
+            return Ok();
+        }
+    }
+}

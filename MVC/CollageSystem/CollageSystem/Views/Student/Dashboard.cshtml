@@ -1,0 +1,52 @@
+@model Student
+@{
+    ViewData["Title"] = "My Dashboard";
+}
+
+<div class="page-container">
+    <!-- ── Profile Header ── -->
+    <div class="card profile-header fade-in">
+        <div class="profile-avatar">
+            @Model.FirstName[0]@Model.LastName[0]
+        </div>
+        <div class="profile-info">
+            <h2>@Model.FirstName @Model.LastName</h2>
+            <p style="margin-bottom: 4px;">
+                <span class="badge badge-approved">Approved Student</span>
+            </p>
+            <p style="color: var(--text-muted); font-size: 0.85rem;">
+                Member since @Model.AppliedOn.ToString("MMMM dd, yyyy")
+            </p>
+        </div>
+    </div>
+
+    <!-- ── Details Grid ── -->
+    <div class="profile-details">
+        <div class="card detail-item fade-in fade-in-delay-1">
+            <label>Registration Number</label>
+            <span style="color: var(--primary-light); font-weight: 700; font-size: 1.15rem;">
+                @Model.RegistrationNumber
+            </span>
+        </div>
+        <div class="card detail-item fade-in fade-in-delay-1">
+            <label>Degree Program</label>
+            <span>@Model.Degree.Name (@Model.Degree.Code)</span>
+        </div>
+        <div class="card detail-item fade-in fade-in-delay-2">
+            <label>Email Address</label>
+            <span>@Model.Email</span>
+        </div>
+        <div class="card detail-item fade-in fade-in-delay-2">
+            <label>Phone Number</label>
+            <span>@Model.PhoneNumber</span>
+        </div>
+        <div class="card detail-item fade-in fade-in-delay-3">
+            <label>Full Name</label>
+            <span>@Model.FirstName @Model.LastName</span>
+        </div>
+        <div class="card detail-item fade-in fade-in-delay-3">
+            <label>Account Status</label>
+            <span class="badge badge-approved">Active</span>
+        </div>
+    </div>
+</div>

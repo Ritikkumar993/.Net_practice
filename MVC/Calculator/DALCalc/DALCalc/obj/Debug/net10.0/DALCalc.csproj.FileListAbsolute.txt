@@ -1,0 +1,12 @@
+K:\csharp\dot_net\MVC\Calculator\DALCalc\DALCalc\bin\Debug\net10.0\DALCalc.deps.json
+K:\csharp\dot_net\MVC\Calculator\DALCalc\DALCalc\bin\Debug\net10.0\DALCalc.dll
+K:\csharp\dot_net\MVC\Calculator\DALCalc\DALCalc\bin\Debug\net10.0\DALCalc.pdb
+K:\csharp\dot_net\MVC\Calculator\DALCalc\DALCalc\obj\Debug\net10.0\DALCalc.GeneratedMSBuildEditorConfig.editorconfig
+K:\csharp\dot_net\MVC\Calculator\DALCalc\DALCalc\obj\Debug\net10.0\DALCalc.AssemblyInfoInputs.cache
+K:\csharp\dot_net\MVC\Calculator\DALCalc\DALCalc\obj\Debug\net10.0\DALCalc.AssemblyInfo.cs
+K:\csharp\dot_net\MVC\Calculator\DALCalc\DALCalc\obj\Debug\net10.0\DALCalc.csproj.CoreCompileInputs.cache
+K:\csharp\dot_net\MVC\Calculator\DALCalc\DALCalc\obj\Debug\net10.0\DALCalc.sourcelink.json
+K:\csharp\dot_net\MVC\Calculator\DALCalc\DALCalc\obj\Debug\net10.0\DALCalc.dll
+K:\csharp\dot_net\MVC\Calculator\DALCalc\DALCalc\obj\Debug\net10.0\refint\DALCalc.dll
+K:\csharp\dot_net\MVC\Calculator\DALCalc\DALCalc\obj\Debug\net10.0\DALCalc.pdb
+K:\csharp\dot_net\MVC\Calculator\DALCalc\DALCalc\obj\Debug\net10.0\ref\DALCalc.dll

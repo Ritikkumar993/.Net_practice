@@ -1,0 +1,18 @@
+[
+  {
+    "ContainingType": "TrimMiddlewareDemo.Controllers.StudentController",
+    "Method": "Post",
+    "RelativePath": "api/student",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "student",
+        "Type": "TrimMiddlewareDemo.Student",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

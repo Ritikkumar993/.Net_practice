@@ -1,0 +1,68 @@
+﻿@{
+    ViewData["Title"] = "Home";
+}
+
+<!-- ── Hero Section ── -->
+<section class="hero-section">
+    <div class="hero-content">
+        <div class="hero-badge">
+            <span>🎓</span>
+            <span>2025 Admissions Open</span>
+        </div>
+        <h1 class="hero-title">Start Your College<br/>Journey Today</h1>
+        <p class="hero-subtitle">A fast, simple platform to submit and manage college admission applications. Track your status, update details, or explore enrolled courses.</p>
+        <div class="hero-ctas">
+            <a asp-controller="Applicant" asp-action="Create" class="btn-hero-primary">
+                📝 Apply Now
+            </a>
+            <a asp-controller="Applicant" asp-action="Index" class="btn-hero-secondary">
+                View All Applications →
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- ── Main content ── -->
+<div class="ca-container">
+
+    <!-- Stats Row -->
+    <div class="stats-row">
+        <div class="stat-card">
+            <div class="stat-icon">🎓</div>
+            <div class="stat-number">500+</div>
+            <div class="stat-label">Total Applicants Registered</div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-icon">📚</div>
+            <div class="stat-number">12</div>
+            <div class="stat-label">Courses Available</div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-icon">📅</div>
+            <div class="stat-number">2025</div>
+            <div class="stat-label">Admission Year Open</div>
+        </div>
+    </div>
+
+    <!-- Quick Actions -->
+    <div class="section-title">Quick Actions</div>
+    <div class="quick-grid">
+        <a asp-controller="Applicant" asp-action="Create" class="quick-card quick-card-primary">
+            <div class="quick-icon quick-icon-primary">📝</div>
+            <div>
+                <div class="quick-title">Register New Applicant</div>
+                <div class="quick-desc">Fill out the application form and submit for a registration number instantly.</div>
+            </div>
+            <span class="quick-arrow">→</span>
+        </a>
+        <a asp-controller="Applicant" asp-action="Index" class="quick-card quick-card-accent">
+            <div class="quick-icon quick-icon-accent">📋</div>
+            <div>
+                <div class="quick-title">Browse All Applicants</div>
+                <div class="quick-desc">View, edit, or remove existing applications. Search and filter by course or gender.</div>
+            </div>
+            <span class="quick-arrow">→</span>
+        </a>
+    </div>
+
+</div>

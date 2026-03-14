@@ -1,0 +1,54 @@
+[
+  {
+    "ContainingType": "FromBodyDemo.Controllers.EmployeeController",
+    "Method": "AddEmployee",
+    "RelativePath": "api/Employee/addemp",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "employees",
+        "Type": "System.Collections.Generic.List\u00601[[FromBodyDemo.Models.Employee, FromBodyDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FromBodyDemo.Controllers.EmployeeController",
+    "Method": "GetAllEmployees",
+    "RelativePath": "api/Employee/Employees",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FromBodyDemo.Controllers.EmployeeController",
+    "Method": "GetTotalSalaryofAll",
+    "RelativePath": "api/Employee/TotalSalary",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FromBodyDemo.Controllers.StudentController",
+    "Method": "AddStudent",
+    "RelativePath": "api/Student/add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "student",
+        "Type": "FromBodyDemo.Models.Student",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

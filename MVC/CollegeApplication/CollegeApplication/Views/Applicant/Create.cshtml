@@ -1,0 +1,192 @@
+﻿@model CollegeApplication.Models.Applicant
+@{
+    ViewData["Title"] = "New Application";
+}
+
+<div class="ca-container">
+    <div>
+        <div class="breadcrumb-ca">
+            <a asp-controller="Home" asp-action="Index">Home</a>
+            <span class="sep">/</span>
+            <a asp-controller="Applicant" asp-action="Index">Applicants</a>
+            <span class="sep">/</span>
+            New Application
+        </div>
+        <div class="page-header">
+            <h1 class="page-title">Register New Applicant</h1>
+        </div>
+    </div>
+
+    <div class="ca-card form-card-accent" style="max-width: 780px; margin: 0 auto;">
+        <div class="ca-card-body">
+
+            <!-- Validation Summary -->
+            @if (!ViewData.ModelState.IsValid)
+            {
+                <div class="validation-summary-ca">
+                    <strong>⚠ Please fix the following errors:</strong>
+                    <div asp-validation-summary="All"></div>
+                </div>
+            }
+
+            <form asp-action="Create" method="post" enctype="multipart/form-data" id="createForm">
+                <div class="form-grid-2">
+
+                    <!-- Full Name (full width) -->
+                    <div class="form-group-ca form-grid-full">
+                        <label asp-for="FullName" class="form-label-ca">Full Name</label>
+                        <input asp-for="FullName" class="form-input-ca" placeholder="e.g. Rahul Sharma" />
+                        <span asp-validation-for="FullName" class="field-error"></span>
+                    </div>
+
+                    <!-- Email -->
+                    <div class="form-group-ca">
+                        <label asp-for="Email" class="form-label-ca">Email Address</label>
+                        <input asp-for="Email" type="email" class="form-input-ca" placeholder="you@email.com" />
+                        <span asp-validation-for="Email" class="field-error"></span>
+                    </div>
+
+                    <!-- Phone -->
+                    <div class="form-group-ca">
+                        <label asp-for="PhoneNo" class="form-label-ca">Phone Number</label>
+                        <input asp-for="PhoneNo" class="form-input-ca" placeholder="10-digit number starting with 6–9" />
+                        <span asp-validation-for="PhoneNo" class="field-error"></span>
+                    </div>
+
+                    <!-- Date of Birth -->
+                    <div class="form-group-ca">
+                        <label asp-for="DateOfBirth" class="form-label-ca">Date of Birth</label>
+                        <input asp-for="DateOfBirth" type="date" class="form-input-ca" />
+                        <span asp-validation-for="DateOfBirth" class="field-error"></span>
+                        <span class="text-muted-ca" style="margin-top:4px; display:block;">Must be ≥ 14 years old</span>
+                    </div>
+
+                    <!-- Gender -->
+                    <div class="form-group-ca">
+                        <label asp-for="Gender" class="form-label-ca">Gender</label>
+                        <select asp-for="Gender" class="form-input-ca">
+                            <option value="">— Select Gender —</option>
+                            <option value="Male">Male</option>
+                            <option value="Female">Female</option>
+                            <option value="Other">Other</option>
+                        </select>
+                        <span asp-validation-for="Gender" class="field-error"></span>
+                    </div>
+
+                    <!-- Course (full width) -->
+                    <div class="form-group-ca form-grid-full">
+                        <label asp-for="Course" class="form-label-ca">Course</label>
+                        <select asp-for="Course" class="form-input-ca">
+                            <option value="">— Select Course —</option>
+                            <option value="Engineering">Engineering</option>
+                            <option value="Medicine">Medicine</option>
+                            <option value="Arts">Arts</option>
+                            <option value="Commerce">Commerce</option>
+                            <option value="Science">Science</option>
+                            <option value="Law">Law</option>
+                            <option value="Management">Management</option>
+                            <option value="Agriculture">Agriculture</option>
+                            <option value="Architecture">Architecture</option>
+                            <option value="Design">Design</option>
+                            <option value="Education">Education</option>
+                            <option value="Pharmacy">Pharmacy</option>
+                        </select>
+                        <span asp-validation-for="Course" class="field-error"></span>
+                    </div>
+
+                    <!-- Address (full width) -->
+                    <div class="form-group-ca form-grid-full">
+                        <label asp-for="Address" class="form-label-ca">Address</label>
+                        <textarea asp-for="Address" class="form-input-ca" rows="3" placeholder="Full residential address…"></textarea>
+                        <span asp-validation-for="Address" class="field-error"></span>
+                    </div>
+
+                    <!-- Photo Upload (full width) -->
+                    <div class="form-group-ca form-grid-full">
+                        <label class="form-label-ca">Profile Photo <span class="text-muted-ca">(Optional)</span></label>
+                        <div class="photo-upload-zone" id="uploadZone">
+                            <input asp-for="PhotoFile" type="file" accept=".jpg,.jpeg,.png" id="photoInput" />
+                            <div class="upload-icon">📷</div>
+                            <div class="upload-title">Click to upload or drag & drop</div>
+                            <div class="upload-subtitle">JPG, JPEG or PNG</div>
+                            <div class="upload-hint">Maximum file size: 2 MB</div>
+                        </div>
+                        <div id="photo-preview">
+                            <img src="" alt="Preview" id="previewImg" />
+                            <div class="preview-info">
+                                <div class="preview-name" id="previewName"></div>
+                                <div class="preview-size" id="previewSz"></div>
+                            </div>
+                        </div>
+                        <span asp-validation-for="PhotoFile" class="field-error"></span>
+                    </div>
+
+                </div>
+
+                <!-- Form Footer -->
+                <div style="display:flex; justify-content:flex-end; gap: var(--space-3); margin-top: var(--space-6); padding-top: var(--space-6); border-top: 1px solid var(--color-border);">
+                    <a asp-action="Index" class="btn-secondary-ca">Cancel</a>
+                    <button type="submit" class="btn-primary-ca" id="submitBtn" onclick="this.classList.add('btn-submitting')">
+                        <span class="spinner"></span>
+                        <span class="btn-text">📨 Submit Application</span>
+                    </button>
+                </div>
+            </form>
+
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{ await Html.RenderPartialAsync("_ValidationScriptsPartial"); }
+    <script>
+        // ── Photo upload preview ──
+        var photoInput = document.getElementById('photoInput');
+        var previewBox = document.getElementById('photo-preview');
+        var previewImg = document.getElementById('previewImg');
+        var previewName = document.getElementById('previewName');
+        var previewSz = document.getElementById('previewSz');
+        var uploadZone = document.getElementById('uploadZone');
+
+        photoInput?.addEventListener('change', function () {
+            var file = this.files[0];
+            if (!file) return;
+
+            var allowed = ['image/jpeg', 'image/png'];
+            if (!allowed.includes(file.type)) {
+                alert('Only JPG and PNG files are allowed.');
+                this.value = '';
+                return;
+            }
+            if (file.size > 2 * 1024 * 1024) {
+                alert('File must be smaller than 2 MB.');
+                this.value = '';
+                return;
+            }
+
+            var reader = new FileReader();
+            reader.onload = function (e) {
+                previewImg.src = e.target.result;
+                previewName.textContent = file.name;
+                previewSz.textContent = (file.size / 1024).toFixed(1) + ' KB';
+                previewBox.style.display = 'flex';
+            };
+            reader.readAsDataURL(file);
+        });
+
+        // Drag & drop highlight
+        uploadZone?.addEventListener('dragover', function (e) {
+            e.preventDefault(); this.classList.add('drag-over');
+        });
+        uploadZone?.addEventListener('dragleave', function () {
+            this.classList.remove('drag-over');
+        });
+        uploadZone?.addEventListener('drop', function (e) {
+            e.preventDefault(); this.classList.remove('drag-over');
+            if (e.dataTransfer.files.length) {
+                photoInput.files = e.dataTransfer.files;
+                photoInput.dispatchEvent(new Event('change'));
+            }
+        });
+    </script>
+}

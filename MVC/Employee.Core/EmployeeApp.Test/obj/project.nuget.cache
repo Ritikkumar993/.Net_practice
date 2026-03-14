@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "dgSpecHash": "AWoH7Xh7L1Q=",
+  "success": true,
+  "projectFilePath": "K:\\csharp\\dot_net\\MVC\\Employee.Core\\EmployeeApp.Test\\EmployeeApp.Test.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Ritik kumar\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",
+    "C:\\Users\\Ritik kumar\\.nuget\\packages\\microsoft.applicationinsights\\2.23.0\\microsoft.applicationinsights.2.23.0.nupkg.sha512",
+    "C:\\Users\\Ritik kumar\\.nuget\\packages\\microsoft.testing.extensions.telemetry\\2.0.2\\microsoft.testing.extensions.telemetry.2.0.2.nupkg.sha512",
+    "C:\\Users\\Ritik kumar\\.nuget\\packages\\microsoft.testing.extensions.trxreport.abstractions\\2.0.2\\microsoft.testing.extensions.trxreport.abstractions.2.0.2.nupkg.sha512",
+    "C:\\Users\\Ritik kumar\\.nuget\\packages\\microsoft.testing.extensions.vstestbridge\\2.0.2\\microsoft.testing.extensions.vstestbridge.2.0.2.nupkg.sha512",
+    "C:\\Users\\Ritik kumar\\.nuget\\packages\\microsoft.testing.platform\\2.0.2\\microsoft.testing.platform.2.0.2.nupkg.sha512",
+    "C:\\Users\\Ritik kumar\\.nuget\\packages\\microsoft.testing.platform.msbuild\\2.0.2\\microsoft.testing.platform.msbuild.2.0.2.nupkg.sha512",
+    "C:\\Users\\Ritik kumar\\.nuget\\packages\\microsoft.testplatform.adapterutilities\\18.0.1\\microsoft.testplatform.adapterutilities.18.0.1.nupkg.sha512",
+    "C:\\Users\\Ritik kumar\\.nuget\\packages\\microsoft.testplatform.objectmodel\\18.0.1\\microsoft.testplatform.objectmodel.18.0.1.nupkg.sha512",
+    "C:\\Users\\Ritik kumar\\.nuget\\packages\\moq\\4.20.72\\moq.4.20.72.nupkg.sha512",
+    "C:\\Users\\Ritik kumar\\.nuget\\packages\\nunit\\4.5.0\\nunit.4.5.0.nupkg.sha512",
+    "C:\\Users\\Ritik kumar\\.nuget\\packages\\nunit3testadapter\\6.1.0\\nunit3testadapter.6.1.0.nupkg.sha512",
+    "C:\\Users\\Ritik kumar\\.nuget\\packages\\system.diagnostics.eventlog\\6.0.0\\system.diagnostics.eventlog.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

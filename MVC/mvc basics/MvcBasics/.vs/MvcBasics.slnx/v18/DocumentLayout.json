@@ -1,0 +1,145 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "K:\\csharp\\dot_net\\MVC\\mvc basics\\MvcBasics\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D4BA0F46-ED58-FC42-B41C-D5D377B664FF}|MvcBasics\\MvcBasics.csproj|k:\\csharp\\dot_net\\mvc\\mvc basics\\mvcbasics\\mvcbasics\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4BA0F46-ED58-FC42-B41C-D5D377B664FF}|MvcBasics\\MvcBasics.csproj|solutionrelative:mvcbasics\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4BA0F46-ED58-FC42-B41C-D5D377B664FF}|MvcBasics\\MvcBasics.csproj|k:\\csharp\\dot_net\\mvc\\mvc basics\\mvcbasics\\mvcbasics\\data\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4BA0F46-ED58-FC42-B41C-D5D377B664FF}|MvcBasics\\MvcBasics.csproj|solutionrelative:mvcbasics\\data\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4BA0F46-ED58-FC42-B41C-D5D377B664FF}|MvcBasics\\MvcBasics.csproj|k:\\csharp\\dot_net\\mvc\\mvc basics\\mvcbasics\\mvcbasics\\views\\student\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D4BA0F46-ED58-FC42-B41C-D5D377B664FF}|MvcBasics\\MvcBasics.csproj|solutionrelative:mvcbasics\\views\\student\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4BA0F46-ED58-FC42-B41C-D5D377B664FF}|MvcBasics\\MvcBasics.csproj|k:\\csharp\\dot_net\\mvc\\mvc basics\\mvcbasics\\mvcbasics\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4BA0F46-ED58-FC42-B41C-D5D377B664FF}|MvcBasics\\MvcBasics.csproj|solutionrelative:mvcbasics\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4BA0F46-ED58-FC42-B41C-D5D377B664FF}|MvcBasics\\MvcBasics.csproj|k:\\csharp\\dot_net\\mvc\\mvc basics\\mvcbasics\\mvcbasics\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4BA0F46-ED58-FC42-B41C-D5D377B664FF}|MvcBasics\\MvcBasics.csproj|solutionrelative:mvcbasics\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 221,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 304,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{c6f34f0d-7ae5-4f3a-be61-fe0c21ae9eb8}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StudentRepository.cs",
+              "DocumentMoniker": "K:\\csharp\\dot_net\\MVC\\mvc basics\\MvcBasics\\MvcBasics\\Data\\StudentRepository.cs",
+              "RelativeDocumentMoniker": "MvcBasics\\Data\\StudentRepository.cs",
+              "ToolTip": "K:\\csharp\\dot_net\\MVC\\mvc basics\\MvcBasics\\MvcBasics\\Data\\StudentRepository.cs",
+              "RelativeToolTip": "MvcBasics\\Data\\StudentRepository.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBUAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-20T06:38:38.286Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "K:\\csharp\\dot_net\\MVC\\mvc basics\\MvcBasics\\MvcBasics\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "MvcBasics\\Controllers\\StudentController.cs",
+              "ToolTip": "K:\\csharp\\dot_net\\MVC\\mvc basics\\MvcBasics\\MvcBasics\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "MvcBasics\\Controllers\\StudentController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-20T06:22:25.731Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "K:\\csharp\\dot_net\\MVC\\mvc basics\\MvcBasics\\MvcBasics\\Views\\Student\\Index.cshtml",
+              "RelativeDocumentMoniker": "MvcBasics\\Views\\Student\\Index.cshtml",
+              "ToolTip": "K:\\csharp\\dot_net\\MVC\\mvc basics\\MvcBasics\\MvcBasics\\Views\\Student\\Index.cshtml",
+              "RelativeToolTip": "MvcBasics\\Views\\Student\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-20T07:09:39.94Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "K:\\csharp\\dot_net\\MVC\\mvc basics\\MvcBasics\\MvcBasics\\Program.cs",
+              "RelativeDocumentMoniker": "MvcBasics\\Program.cs",
+              "ToolTip": "K:\\csharp\\dot_net\\MVC\\mvc basics\\MvcBasics\\MvcBasics\\Program.cs",
+              "RelativeToolTip": "MvcBasics\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T09:52:36.48Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Student.cs",
+              "DocumentMoniker": "K:\\csharp\\dot_net\\MVC\\mvc basics\\MvcBasics\\MvcBasics\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "MvcBasics\\Models\\Student.cs",
+              "ToolTip": "K:\\csharp\\dot_net\\MVC\\mvc basics\\MvcBasics\\MvcBasics\\Models\\Student.cs",
+              "RelativeToolTip": "MvcBasics\\Models\\Student.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-20T06:43:24.563Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedHeight": 126,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 96,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:4:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

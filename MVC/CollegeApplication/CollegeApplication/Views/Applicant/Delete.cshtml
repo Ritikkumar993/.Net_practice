@@ -1,0 +1,69 @@
+﻿@model CollegeApplication.Models.Applicant
+@{
+    ViewData["Title"] = "Delete Application";
+}
+
+<div class="ca-container" style="display: flex; align-items: flex-start; justify-content: center; min-height: 60vh; padding-top: var(--space-12);">
+    <div class="ca-card delete-card" style="width: 100%;">
+        <div class="ca-card-body" style="padding: var(--space-10); text-align: center;">
+
+            <!-- Warning Icon -->
+            <div class="delete-icon-wrap">
+                <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="#DC2626" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="3 6 5 6 21 6"/>
+                    <path d="M19 6l-1 14a2 2 0 01-2 2H8a2 2 0 01-2-2L5 6"/>
+                    <path d="M10 11v6M14 11v6"/>
+                    <path d="M9 6V4a1 1 0 011-1h4a1 1 0 011 1v2"/>
+                </svg>
+            </div>
+
+            <h1 style="font-size: var(--text-2xl); font-weight: 700; margin-bottom: var(--space-3); color: var(--color-text-primary);">
+                Delete Application?
+            </h1>
+
+            <p style="font-size: var(--text-base); color: var(--color-text-secondary); line-height: 1.6; margin-bottom: 0;">
+                You are about to permanently delete the application for<br/>
+                <strong style="color: var(--color-text-primary);">@Model.FullName</strong>
+                <span class="reg-no" style="margin-left: var(--space-2);">REG-@Model.RegistrationNo.ToString("D5")</span>.
+            </p>
+            <p style="font-size: var(--text-sm); color: var(--color-danger); margin-top: var(--space-2); font-weight: 600;">
+                ⚠ This action cannot be undone.
+            </p>
+
+            <!-- Applicant Summary Strip -->
+            <div class="applicant-summary-strip">
+                <div class="summary-chip">
+                    <span class="chip-label">👤</span>
+                    <span class="chip-value">@Model.FullName</span>
+                </div>
+                <div class="summary-chip">
+                    <span class="chip-label">✉</span>
+                    <span class="chip-value">@Model.Email</span>
+                </div>
+                <div class="summary-chip">
+                    <span class="chip-label">📚</span>
+                    <span class="chip-value">@Model.Course</span>
+                </div>
+                <div class="summary-chip">
+                    <span class="chip-label">📞</span>
+                    <span class="chip-value font-mono">@Model.PhoneNo</span>
+                </div>
+            </div>
+
+            <!-- Action Buttons -->
+            <form asp-action="Delete" method="post">
+                <input type="hidden" asp-for="RegistrationNo" />
+                <div style="display: flex; flex-direction: column; gap: var(--space-3); margin-top: var(--space-6);">
+                    <button type="submit" class="btn-danger-ca btn-full"
+                            onclick="this.disabled=true; this.innerHTML='🗑 Deleting…'; this.form.submit();">
+                        🗑 Yes, Delete Permanently
+                    </button>
+                    <a asp-action="Index" class="btn-secondary-ca btn-full">
+                        ← Cancel, Keep Record
+                    </a>
+                </div>
+            </form>
+
+        </div>
+    </div>
+</div>

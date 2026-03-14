@@ -1,0 +1,156 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "K:\\csharp\\dot_net\\MVC\\CRUDwithMVC\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7310F9A8-A137-4616-BD62-C3E34AB0A5B8}|CRUDwithMVC\\CRUDwithMVC.csproj|k:\\csharp\\dot_net\\mvc\\crudwithmvc\\crudwithmvc\\views\\student\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7310F9A8-A137-4616-BD62-C3E34AB0A5B8}|CRUDwithMVC\\CRUDwithMVC.csproj|solutionrelative:crudwithmvc\\views\\student\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7310F9A8-A137-4616-BD62-C3E34AB0A5B8}|CRUDwithMVC\\CRUDwithMVC.csproj|k:\\csharp\\dot_net\\mvc\\crudwithmvc\\crudwithmvc\\views\\student\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7310F9A8-A137-4616-BD62-C3E34AB0A5B8}|CRUDwithMVC\\CRUDwithMVC.csproj|solutionrelative:crudwithmvc\\views\\student\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7310F9A8-A137-4616-BD62-C3E34AB0A5B8}|CRUDwithMVC\\CRUDwithMVC.csproj|k:\\csharp\\dot_net\\mvc\\crudwithmvc\\crudwithmvc\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7310F9A8-A137-4616-BD62-C3E34AB0A5B8}|CRUDwithMVC\\CRUDwithMVC.csproj|solutionrelative:crudwithmvc\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7310F9A8-A137-4616-BD62-C3E34AB0A5B8}|CRUDwithMVC\\CRUDwithMVC.csproj|k:\\csharp\\dot_net\\mvc\\crudwithmvc\\crudwithmvc\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7310F9A8-A137-4616-BD62-C3E34AB0A5B8}|CRUDwithMVC\\CRUDwithMVC.csproj|solutionrelative:crudwithmvc\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7310F9A8-A137-4616-BD62-C3E34AB0A5B8}|CRUDwithMVC\\CRUDwithMVC.csproj|k:\\csharp\\dot_net\\mvc\\crudwithmvc\\crudwithmvc\\views\\student\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7310F9A8-A137-4616-BD62-C3E34AB0A5B8}|CRUDwithMVC\\CRUDwithMVC.csproj|solutionrelative:crudwithmvc\\views\\student\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7310F9A8-A137-4616-BD62-C3E34AB0A5B8}|CRUDwithMVC\\CRUDwithMVC.csproj|k:\\csharp\\dot_net\\mvc\\crudwithmvc\\crudwithmvc\\data\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7310F9A8-A137-4616-BD62-C3E34AB0A5B8}|CRUDwithMVC\\CRUDwithMVC.csproj|solutionrelative:crudwithmvc\\data\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7310F9A8-A137-4616-BD62-C3E34AB0A5B8}|CRUDwithMVC\\CRUDwithMVC.csproj|k:\\csharp\\dot_net\\mvc\\crudwithmvc\\crudwithmvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7310F9A8-A137-4616-BD62-C3E34AB0A5B8}|CRUDwithMVC\\CRUDwithMVC.csproj|solutionrelative:crudwithmvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7310F9A8-A137-4616-BD62-C3E34AB0A5B8}|CRUDwithMVC\\CRUDwithMVC.csproj|k:\\csharp\\dot_net\\mvc\\crudwithmvc\\crudwithmvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7310F9A8-A137-4616-BD62-C3E34AB0A5B8}|CRUDwithMVC\\CRUDwithMVC.csproj|solutionrelative:crudwithmvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 304,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "K:\\csharp\\dot_net\\MVC\\CRUDwithMVC\\CRUDwithMVC\\Views\\Student\\Edit.cshtml",
+              "RelativeDocumentMoniker": "CRUDwithMVC\\Views\\Student\\Edit.cshtml",
+              "ToolTip": "K:\\csharp\\dot_net\\MVC\\CRUDwithMVC\\CRUDwithMVC\\Views\\Student\\Edit.cshtml",
+              "RelativeToolTip": "CRUDwithMVC\\Views\\Student\\Edit.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAowBUAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-23T04:12:01.842Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "K:\\csharp\\dot_net\\MVC\\CRUDwithMVC\\CRUDwithMVC\\Views\\Student\\Create.cshtml",
+              "RelativeDocumentMoniker": "CRUDwithMVC\\Views\\Student\\Create.cshtml",
+              "ToolTip": "K:\\csharp\\dot_net\\MVC\\CRUDwithMVC\\CRUDwithMVC\\Views\\Student\\Create.cshtml",
+              "RelativeToolTip": "CRUDwithMVC\\Views\\Student\\Create.cshtml",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAowBMAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-23T04:11:27.261Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "K:\\csharp\\dot_net\\MVC\\CRUDwithMVC\\CRUDwithMVC\\Views\\Student\\Index.cshtml",
+              "RelativeDocumentMoniker": "CRUDwithMVC\\Views\\Student\\Index.cshtml",
+              "ToolTip": "K:\\csharp\\dot_net\\MVC\\CRUDwithMVC\\CRUDwithMVC\\Views\\Student\\Index.cshtml",
+              "RelativeToolTip": "CRUDwithMVC\\Views\\Student\\Index.cshtml",
+              "ViewState": "AgIAABEAAAAAAAAAAAAowCkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-23T04:11:02.649Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "K:\\csharp\\dot_net\\MVC\\CRUDwithMVC\\CRUDwithMVC\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "CRUDwithMVC\\Controllers\\StudentController.cs",
+              "ToolTip": "K:\\csharp\\dot_net\\MVC\\CRUDwithMVC\\CRUDwithMVC\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "CRUDwithMVC\\Controllers\\StudentController.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAA7wDEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-23T04:09:59.383Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "K:\\csharp\\dot_net\\MVC\\CRUDwithMVC\\CRUDwithMVC\\Program.cs",
+              "RelativeDocumentMoniker": "CRUDwithMVC\\Program.cs",
+              "ToolTip": "K:\\csharp\\dot_net\\MVC\\CRUDwithMVC\\CRUDwithMVC\\Program.cs",
+              "RelativeToolTip": "CRUDwithMVC\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-23T04:08:51.504Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "StudentRepository.cs",
+              "DocumentMoniker": "K:\\csharp\\dot_net\\MVC\\CRUDwithMVC\\CRUDwithMVC\\Data\\StudentRepository.cs",
+              "RelativeDocumentMoniker": "CRUDwithMVC\\Data\\StudentRepository.cs",
+              "ToolTip": "K:\\csharp\\dot_net\\MVC\\CRUDwithMVC\\CRUDwithMVC\\Data\\StudentRepository.cs",
+              "RelativeToolTip": "CRUDwithMVC\\Data\\StudentRepository.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAYwEgAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-23T04:06:46.241Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Student.cs",
+              "DocumentMoniker": "K:\\csharp\\dot_net\\MVC\\CRUDwithMVC\\CRUDwithMVC\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "CRUDwithMVC\\Models\\Student.cs",
+              "ToolTip": "K:\\csharp\\dot_net\\MVC\\CRUDwithMVC\\CRUDwithMVC\\Models\\Student.cs",
+              "RelativeToolTip": "CRUDwithMVC\\Models\\Student.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAQwAwAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-23T04:03:05.891Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "K:\\csharp\\dot_net\\MVC\\CRUDwithMVC\\CRUDwithMVC\\appsettings.json",
+              "RelativeDocumentMoniker": "CRUDwithMVC\\appsettings.json",
+              "ToolTip": "K:\\csharp\\dot_net\\MVC\\CRUDwithMVC\\CRUDwithMVC\\appsettings.json",
+              "RelativeToolTip": "CRUDwithMVC\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-02-23T03:57:44.299Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

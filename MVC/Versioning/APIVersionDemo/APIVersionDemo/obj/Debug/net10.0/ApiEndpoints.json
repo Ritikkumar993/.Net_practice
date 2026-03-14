@@ -1,0 +1,44 @@
+[
+  {
+    "ContainingType": "APIVersionDemo.Controllers.ConsoleController",
+    "Method": "GetStudents",
+    "RelativePath": "api/students",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "APIVersionDemo.Controllers.StudentController",
+    "Method": "GetStudents",
+    "RelativePath": "api/v{version}/students",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "APIVersionDemo.Controllers.StudentV2Controller",
+    "Method": "GetStudents",
+    "RelativePath": "api/v{version}/students",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

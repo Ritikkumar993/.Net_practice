@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "d171wNWd8wM=",
+  "success": true,
+  "projectFilePath": "K:\\csharp\\dot_net\\MVC\\Versioning\\APIVersionDemo\\APIVersionDemo\\APIVersionDemo.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Ritik kumar\\.nuget\\packages\\microsoft.aspnetcore.mvc.versioning\\5.1.0\\microsoft.aspnetcore.mvc.versioning.5.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}

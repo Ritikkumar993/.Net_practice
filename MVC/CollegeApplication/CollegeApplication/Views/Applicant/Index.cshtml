@@ -1,0 +1,156 @@
+﻿@model IEnumerable<CollegeApplication.Models.Applicant>
+@{
+    ViewData["Title"] = "All Applicants";
+    var searchName   = Context.Request.Query["searchName"].ToString();
+    var filterCourse = Context.Request.Query["filterCourse"].ToString();
+    var filterGender = Context.Request.Query["filterGender"].ToString();
+
+    var filtered = Model.AsEnumerable();
+    if (!string.IsNullOrWhiteSpace(searchName))
+        filtered = filtered.Where(a => a.FullName.Contains(searchName, StringComparison.OrdinalIgnoreCase)
+                                    || a.Email.Contains(searchName, StringComparison.OrdinalIgnoreCase));
+    if (!string.IsNullOrWhiteSpace(filterCourse))
+        filtered = filtered.Where(a => a.Course.Equals(filterCourse, StringComparison.OrdinalIgnoreCase));
+    if (!string.IsNullOrWhiteSpace(filterGender))
+        filtered = filtered.Where(a => a.Gender.Equals(filterGender, StringComparison.OrdinalIgnoreCase));
+
+    var displayList = filtered.ToList();
+    var courses = Model.Select(a => a.Course).Distinct().OrderBy(c => c).ToList();
+}
+
+<div class="ca-container">
+    <!-- Page Header -->
+    <div>
+        <div class="breadcrumb-ca">
+            <a asp-controller="Home" asp-action="Index">Home</a>
+            <span class="sep">/</span>
+            Applicants
+        </div>
+        <div class="page-header">
+            <h1 class="page-title">All Applicants</h1>
+            <a asp-action="Create" class="btn-primary-ca">＋ New Application</a>
+        </div>
+    </div>
+
+    <!-- Filter Bar -->
+    <form method="get" asp-action="Index" class="filter-bar">
+        <div class="filter-field">
+            <label class="form-label-ca">Search</label>
+            <input type="text" name="searchName" value="@searchName"
+                   class="form-input-ca" placeholder="Search by name or email…" />
+        </div>
+        <div class="filter-field">
+            <label class="form-label-ca">Course</label>
+            <select name="filterCourse" class="form-input-ca">
+                <option value="">All Courses</option>
+                @foreach (var c in courses)
+                {
+                    <option value="@c" selected="@(filterCourse == c)">@c</option>
+                }
+            </select>
+        </div>
+        <div class="filter-field">
+            <label class="form-label-ca">Gender</label>
+            <select name="filterGender" class="form-input-ca">
+                <option value="">All Genders</option>
+                <option value="Male"   selected="@(filterGender=="Male")">Male</option>
+                <option value="Female" selected="@(filterGender=="Female")">Female</option>
+                <option value="Other"  selected="@(filterGender=="Other")">Other</option>
+            </select>
+        </div>
+        <div class="filter-actions">
+            <button type="submit" class="btn-primary-ca">🔍 Search</button>
+            <a asp-action="Index" class="btn-secondary-ca">Reset</a>
+        </div>
+    </form>
+
+    <!-- Table Card -->
+    <div class="ca-card">
+        @if (!displayList.Any())
+        {
+            <div class="empty-state">
+                <div class="empty-state-icon">📂</div>
+                <div class="empty-state-title">No applicants found</div>
+                <p class="empty-state-sub">
+                    @if (!string.IsNullOrWhiteSpace(searchName) || !string.IsNullOrWhiteSpace(filterCourse) || !string.IsNullOrWhiteSpace(filterGender))
+                    {
+                        <span>Try adjusting your search filters.</span>
+                    }
+                    else
+                    {
+                        <span>No applications have been submitted yet.</span>
+                    }
+                </p>
+                <a asp-action="Create" class="btn-primary-ca">＋ Add First Applicant</a>
+            </div>
+        }
+        else
+        {
+            <div class="table-wrapper">
+                <table class="applicant-table">
+                    <thead>
+                        <tr>
+                            <th>Reg No</th>
+                            <th>Applicant</th>
+                            <th>Course</th>
+                            <th>Gender</th>
+                            <th>DOB</th>
+                            <th>Phone</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in displayList)
+                        {
+                            <tr>
+                                <td>
+                                    <span class="reg-no">REG-@item.RegistrationNo.ToString("D5")</span>
+                                </td>
+                                <td>
+                                    <div class="name-cell">
+                                        @if (!string.IsNullOrEmpty(item.ProfilePhoto))
+                                        {
+                                            <img src="@item.ProfilePhoto" class="table-avatar" alt="@item.FullName" />
+                                        }
+                                        else
+                                        {
+                                            <div class="avatar-placeholder">@item.FullName.Substring(0, 1).ToUpper()</div>
+                                        }
+                                        <div>
+                                            <div class="name-text">@item.FullName</div>
+                                            <div class="email-text">@item.Email</div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td><span class="badge-ca badge-course">@item.Course</span></td>
+                                <td>
+                                    @{
+                                        var genderClass = item.Gender?.ToLower() switch {
+                                            "male"   => "badge-male",
+                                            "female" => "badge-female",
+                                            _        => "badge-other"
+                                        };
+                                    }
+                                    <span class="badge-ca @genderClass">@item.Gender</span>
+                                </td>
+                                <td>@item.DateOfBirth.ToString("dd MMM yyyy")</td>
+                                <td class="font-mono">@item.PhoneNo</td>
+                                <td>
+                                    <div class="action-btns">
+                                        <a asp-action="Edit" asp-route-id="@item.RegistrationNo"
+                                           class="btn-primary-ca btn-sm-ca">✏️ Edit</a>
+                                        <a asp-action="Delete" asp-route-id="@item.RegistrationNo"
+                                           class="btn-danger-ca btn-sm-ca">🗑 Delete</a>
+                                    </div>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+            <div style="padding: 12px 16px; border-top: 1px solid var(--color-border); font-size: var(--text-sm); color: var(--color-text-muted);">
+                Showing <strong>@displayList.Count</strong> applicant@(displayList.Count != 1 ? "s" : "")
+            </div>
+        }
+    </div>
+</div>

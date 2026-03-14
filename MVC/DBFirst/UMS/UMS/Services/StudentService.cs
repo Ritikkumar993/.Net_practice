@@ -1,0 +1,91 @@
+﻿using UMS.DTO;
+using UMS.Models;
+
+namespace UMS.Services
+{
+    public class StudentService : IStudentService
+    {
+        private readonly CollegeDBContext _context;
+
+        public StudentService(CollegeDBContext context)
+        {
+            _context = context;
+        }
+
+        public async Task CreateStudent(StudentHostelDTO dto)
+        {
+            var student = new Student
+            {
+                Name = dto.Name,
+                Department = dto.Department
+            };
+
+            _context.Students.Add(student);
+            await _context.SaveChangesAsync();
+
+            var hostel = new Hostel
+            {
+                RoomNo = dto.RoomNo,
+                StudentId = student.StudentId
+            };
+
+            _context.Hostels.Add(hostel);
+            await _context.SaveChangesAsync();
+        }
+
+        public async Task UpdateRoom(int studentId, int roomNo)
+        {
+            var hostel = _context.Hostels.FirstOrDefault(x => x.StudentId == studentId);
+
+            if (hostel != null)
+            {
+                hostel.RoomNo = roomNo;
+                await _context.SaveChangesAsync();
+            }
+        }
+
+        public async Task DeleteStudent(int id)
+        {
+            var hostel = _context.Hostels.FirstOrDefault(h => h.StudentId == id);
+
+            if (hostel != null)
+            {
+                _context.Hostels.Remove(hostel);
+            }
+
+            var student = await _context.Students.FindAsync(id);
+
+            if (student != null)
+            {
+                _context.Students.Remove(student);
+            }
+
+            await _context.SaveChangesAsync();
+        }
+
+        public async Task<List<StudentHostelDTO>> GetStudentsInHostel()
+        {
+            var result = from s in _context.Students
+                         join h in _context.Hostels
+                         on s.StudentId equals h.StudentId
+                         select new StudentHostelDTO
+                         {
+                             Name = s.Name,
+                             Department = s.Department,
+                             RoomNo = (int)h.RoomNo
+                         };
+
+            return await Task.FromResult(result.ToList());
+        }
+
+        public async Task<List<StudentDTO>> GetAllStudents()
+        {
+            return await Task.FromResult(_context.Students.Select(s => new StudentDTO
+            {
+                StudentId = s.StudentId,
+                Name = s.Name,
+                Department = s.Department
+            }).ToList());
+        }
+    }
+}

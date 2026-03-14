@@ -1,0 +1,192 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "K:\\csharp\\dot_net\\MVC\\mvc basics\\mvcStudentProj\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3093DDA1-7CB5-D787-1C6B-E390B6717D3B}|mvcStudentProj\\mvcStudentProj.csproj|k:\\csharp\\dot_net\\mvc\\mvc basics\\mvcstudentproj\\mvcstudentproj\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3093DDA1-7CB5-D787-1C6B-E390B6717D3B}|mvcStudentProj\\mvcStudentProj.csproj|solutionrelative:mvcstudentproj\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3093DDA1-7CB5-D787-1C6B-E390B6717D3B}|mvcStudentProj\\mvcStudentProj.csproj|k:\\csharp\\dot_net\\mvc\\mvc basics\\mvcstudentproj\\mvcstudentproj\\data\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3093DDA1-7CB5-D787-1C6B-E390B6717D3B}|mvcStudentProj\\mvcStudentProj.csproj|solutionrelative:mvcstudentproj\\data\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3093DDA1-7CB5-D787-1C6B-E390B6717D3B}|mvcStudentProj\\mvcStudentProj.csproj|k:\\csharp\\dot_net\\mvc\\mvc basics\\mvcstudentproj\\mvcstudentproj\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3093DDA1-7CB5-D787-1C6B-E390B6717D3B}|mvcStudentProj\\mvcStudentProj.csproj|solutionrelative:mvcstudentproj\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3093DDA1-7CB5-D787-1C6B-E390B6717D3B}|mvcStudentProj\\mvcStudentProj.csproj|k:\\csharp\\dot_net\\mvc\\mvc basics\\mvcstudentproj\\mvcstudentproj\\filter\\inputfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3093DDA1-7CB5-D787-1C6B-E390B6717D3B}|mvcStudentProj\\mvcStudentProj.csproj|solutionrelative:mvcstudentproj\\filter\\inputfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3093DDA1-7CB5-D787-1C6B-E390B6717D3B}|mvcStudentProj\\mvcStudentProj.csproj|k:\\csharp\\dot_net\\mvc\\mvc basics\\mvcstudentproj\\mvcstudentproj\\views\\student\\shared.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3093DDA1-7CB5-D787-1C6B-E390B6717D3B}|mvcStudentProj\\mvcStudentProj.csproj|solutionrelative:mvcstudentproj\\views\\student\\shared.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3093DDA1-7CB5-D787-1C6B-E390B6717D3B}|mvcStudentProj\\mvcStudentProj.csproj|k:\\csharp\\dot_net\\mvc\\mvc basics\\mvcstudentproj\\mvcstudentproj\\models\\studentdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3093DDA1-7CB5-D787-1C6B-E390B6717D3B}|mvcStudentProj\\mvcStudentProj.csproj|solutionrelative:mvcstudentproj\\models\\studentdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3093DDA1-7CB5-D787-1C6B-E390B6717D3B}|mvcStudentProj\\mvcStudentProj.csproj|k:\\csharp\\dot_net\\mvc\\mvc basics\\mvcstudentproj\\mvcstudentproj\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3093DDA1-7CB5-D787-1C6B-E390B6717D3B}|mvcStudentProj\\mvcStudentProj.csproj|solutionrelative:mvcstudentproj\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3093DDA1-7CB5-D787-1C6B-E390B6717D3B}|mvcStudentProj\\mvcStudentProj.csproj|k:\\csharp\\dot_net\\mvc\\mvc basics\\mvcstudentproj\\mvcstudentproj\\views\\student\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3093DDA1-7CB5-D787-1C6B-E390B6717D3B}|mvcStudentProj\\mvcStudentProj.csproj|solutionrelative:mvcstudentproj\\views\\student\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 304,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{c6f34f0d-7ae5-4f3a-be61-fe0c21ae9eb8}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "inputFilter.cs",
+              "DocumentMoniker": "K:\\csharp\\dot_net\\MVC\\mvc basics\\mvcStudentProj\\mvcStudentProj\\Filter\\inputFilter.cs",
+              "RelativeDocumentMoniker": "mvcStudentProj\\Filter\\inputFilter.cs",
+              "ToolTip": "K:\\csharp\\dot_net\\MVC\\mvc basics\\mvcStudentProj\\mvcStudentProj\\Filter\\inputFilter.cs",
+              "RelativeToolTip": "mvcStudentProj\\Filter\\inputFilter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-21T10:24:45.512Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Shared.cshtml",
+              "DocumentMoniker": "K:\\csharp\\dot_net\\MVC\\mvc basics\\mvcStudentProj\\mvcStudentProj\\Views\\Student\\Shared.cshtml",
+              "RelativeDocumentMoniker": "mvcStudentProj\\Views\\Student\\Shared.cshtml",
+              "ToolTip": "K:\\csharp\\dot_net\\MVC\\mvc basics\\mvcStudentProj\\mvcStudentProj\\Views\\Student\\Shared.cshtml",
+              "RelativeToolTip": "mvcStudentProj\\Views\\Student\\Shared.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-21T09:35:38.49Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "StudentDetails.cs",
+              "DocumentMoniker": "K:\\csharp\\dot_net\\MVC\\mvc basics\\mvcStudentProj\\mvcStudentProj\\Models\\StudentDetails.cs",
+              "RelativeDocumentMoniker": "mvcStudentProj\\Models\\StudentDetails.cs",
+              "ToolTip": "K:\\csharp\\dot_net\\MVC\\mvc basics\\mvcStudentProj\\mvcStudentProj\\Models\\StudentDetails.cs",
+              "RelativeToolTip": "mvcStudentProj\\Models\\StudentDetails.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-21T05:07:50.432Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StudentRepository.cs",
+              "DocumentMoniker": "K:\\csharp\\dot_net\\MVC\\mvc basics\\mvcStudentProj\\mvcStudentProj\\Data\\StudentRepository.cs",
+              "RelativeDocumentMoniker": "mvcStudentProj\\Data\\StudentRepository.cs",
+              "ToolTip": "K:\\csharp\\dot_net\\MVC\\mvc basics\\mvcStudentProj\\mvcStudentProj\\Data\\StudentRepository.cs",
+              "RelativeToolTip": "mvcStudentProj\\Data\\StudentRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-21T04:52:03.23Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Student.cs",
+              "DocumentMoniker": "K:\\csharp\\dot_net\\MVC\\mvc basics\\mvcStudentProj\\mvcStudentProj\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "mvcStudentProj\\Models\\Student.cs",
+              "ToolTip": "K:\\csharp\\dot_net\\MVC\\mvc basics\\mvcStudentProj\\mvcStudentProj\\Models\\Student.cs",
+              "RelativeToolTip": "mvcStudentProj\\Models\\Student.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-21T04:48:15.038Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "K:\\csharp\\dot_net\\MVC\\mvc basics\\mvcStudentProj\\mvcStudentProj\\Views\\Student\\Index.cshtml",
+              "RelativeDocumentMoniker": "mvcStudentProj\\Views\\Student\\Index.cshtml",
+              "ToolTip": "K:\\csharp\\dot_net\\MVC\\mvc basics\\mvcStudentProj\\mvcStudentProj\\Views\\Student\\Index.cshtml",
+              "RelativeToolTip": "mvcStudentProj\\Views\\Student\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-21T04:47:00.971Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "K:\\csharp\\dot_net\\MVC\\mvc basics\\mvcStudentProj\\mvcStudentProj\\Program.cs",
+              "RelativeDocumentMoniker": "mvcStudentProj\\Program.cs",
+              "ToolTip": "K:\\csharp\\dot_net\\MVC\\mvc basics\\mvcStudentProj\\mvcStudentProj\\Program.cs",
+              "RelativeToolTip": "mvcStudentProj\\Program.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAUwAYAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-21T04:46:38.731Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "K:\\csharp\\dot_net\\MVC\\mvc basics\\mvcStudentProj\\mvcStudentProj\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "mvcStudentProj\\Controllers\\StudentController.cs",
+              "ToolTip": "K:\\csharp\\dot_net\\MVC\\mvc basics\\mvcStudentProj\\mvcStudentProj\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "mvcStudentProj\\Controllers\\StudentController.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAcwCoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-21T04:44:55.141Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedHeight": 126,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 96,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:4:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
