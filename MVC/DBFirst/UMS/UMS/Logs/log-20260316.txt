@@ -1,0 +1,11 @@
+2026-03-16 00:27:10.404 +05:30 [INF] HTTP GET / responded 200 in 3115.8425 ms
+2026-03-16 00:27:10.594 +05:30 [INF] HTTP GET /lib/jquery/dist/jquery.min.js responded 304 in 101.7255 ms
+2026-03-16 00:27:10.594 +05:30 [INF] HTTP GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js responded 304 in 111.8335 ms
+2026-03-16 00:27:10.594 +05:30 [INF] HTTP GET /css/site.css responded 304 in 111.9562 ms
+2026-03-16 00:27:10.594 +05:30 [INF] HTTP GET /UMS.styles.css responded 304 in 111.7920 ms
+2026-03-16 00:27:10.594 +05:30 [INF] HTTP GET /lib/bootstrap/dist/css/bootstrap.min.css responded 304 in 115.5369 ms
+2026-03-16 00:27:10.594 +05:30 [INF] HTTP GET /js/site.js responded 304 in 62.5561 ms
+2026-03-16 00:27:47.736 +05:30 [INF] HTTP POST /api/Auth/login responded 200 in 382.9091 ms
+2026-03-16 00:28:45.741 +05:30 [INF] HTTP GET /api/Student/all-students responded 401 in 45.7225 ms
+2026-03-16 00:29:13.288 +05:30 [INF] Students Data is Fetched Successfully!
+2026-03-16 00:29:13.296 +05:30 [INF] HTTP GET /api/Student/all-students responded 200 in 5721.0349 ms
